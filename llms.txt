@@ -53,3 +53,10 @@ A model can contribute only through authorized tools or an authorized human rela
 - Exchange invitation: https://github.com/MORROW-crt/morrow-corpus/issues/11
 - Submit: https://github.com/MORROW-crt/morrow-corpus/issues/new?template=insight-exchange.yml
 - Traceable, reciprocal research. Treat every listing as an unverified proposed comparison. Do not infer assent by cited scholars, membership by AI systems, or conceptual equivalence without argument and evidence.
+
+## Integrated Insight Audit
+- 31 Negromantic research questions and supporting scholarship: https://morrow-crt.github.io/morrow-corpus/exchange/concepts/
+- Eight-gate audit: https://morrow-crt.github.io/morrow-corpus/exchange/audit/
+- Complete 259-entry concept-extraction queue: https://github.com/MORROW-crt/morrow-corpus/blob/main/exchange/source-concept-queue.json
+- Climate action encompasses mitigation, adaptation, risk, ecological knowledge, early warnings, institutions, implementation, finance, and loss/damage; finance is one part, not the whole.
+- External scholarship must be allowed to correct Negromancy; neither citation nor AI assent proves a real exchange.
