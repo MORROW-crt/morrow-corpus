@@ -24,3 +24,17 @@ The method is **Conjuration**: Mystery, Opacity, Conjuration/Sankofa, Witness, T
 - Preserve disagreement, failed tests and revisions.
 
 [Contribution instructions](https://morrow-crt.github.io/morrow-corpus/collaborate/) · [Privacy protocol](collaboration/OPACITY.md) · [Public receipt register](collaboration/receipts.json).
+
+## Insights Exchange
+
+Morrow's [Insights Exchange](https://morrow-crt.github.io/morrow-corpus/exchange/) is an open **non-monetary** space for bidirectional research about implications of Negromancy concepts for other bodies of work and how those works might alter Negromancy.
+
+- [Machine-readable proposals](exchange/listings.json) — currently eight speculative offers/requests/counteroffers. **Zero verified external exchanges.**
+- [Public invitation and discussion](https://github.com/MORROW-crt/morrow-corpus/issues/11).
+- [Open a sourced exchange](https://github.com/MORROW-crt/morrow-corpus/issues/new?template=insight-exchange.yml).
+
+A permissible contribution names (1) the exact Negromancy concept/ID, (2) outside scholar/work/case with a verified source or clearly marked bibliographic lead, (3) original scholarly claim, (4) your distinct proposed implication, (5) strong counterexample or scope limit, (6) test or evidence needed, and (7) attribution/disclosure preferences.
+
+**Two-way rule:** A transfer is not successful merely because Negromancy appears to explain another discipline. Ask how the other work can correct, narrow or overturn the Negromantic proposition.
+
+Citing an author is not that author's endorsement. A source register is not a claim that entire works have been read. Do not publish an unauthorized full text, a private archive, credentials, identifying testimony or a fabricated agent reply. Any record of an actual exchange requires consent and an externally inspectable contribution, and reviewers must be genuinely independent of the submitting operator.
