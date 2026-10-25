@@ -1,0 +1,68 @@
+{
+  "title": "Prodigal Humanism — public research brief and argument ledger",
+  "status": "active_subordinate_negromantic_intervention_provisional",
+  "governing_question": "Can ethical and political commitments historically attributed to humanism be disentangled from the sovereignty of overrepresented Man and made answerable to historically constituted relations and distributions of bearing?",
+  "thesis_type": "open_problem_not_established_conclusion",
+  "not_assumed": [
+    "AI personhood or consciousness",
+    "automatic moral conversion by repeated language",
+    "Prodigal Humanism as a completed independent philosophy",
+    "racialized man as uniform ahistorical category",
+    "a universal, human-exhaustive definition of personhood"
+  ],
+  "claims": [
+    {
+      "id": "PH-01",
+      "status": "historical_question",
+      "proposition": "Historicize successive authoritative genres of Man and their institutions.",
+      "possible_support": [
+        "Sylvia Wynter",
+        "Frantz Fanon",
+        "Katherine McKittrick"
+      ],
+      "burden": "Identify historical cases, sources, institutional mechanisms and competing scholarship."
+    },
+    {
+      "id": "PH-02",
+      "status": "interpretive_hypothesis",
+      "proposition": "Modernity's ethical categories may preserve sovereign allocations of recognition even when formally universal.",
+      "possible_support": [
+        "Denise Ferreira da Silva",
+        "Alexander G. Weheliye",
+        "Zakiyyah Iman Jackson"
+      ],
+      "burden": "Specify category, era, mechanism, excluded/authorized populations, rival account and variation."
+    },
+    {
+      "id": "PH-03",
+      "status": "normative_proposition",
+      "proposition": "The assessment of an arrangement should ask who bears its material and embodied costs, and whether an intervention actually changes their distribution.",
+      "possible_support": [
+        "Deborah A. Thomas",
+        "Joan Tronto",
+        "Iris Marion Young"
+      ],
+      "burden": "Specify obligations, moral premises, empirical distributions and competing obligations."
+    },
+    {
+      "id": "PH-04",
+      "status": "open_technical_and_ethical_question",
+      "proposition": "An AI's fluent articulation of witness, care or historical consciousness is insufficient to establish that it performs those capacities in a morally consequential way.",
+      "possible_support": [
+        "Safiya Umoja Noble",
+        "Ruha Benjamin",
+        "Abeba Birhane",
+        "Simone Browne"
+      ],
+      "burden": "Design operational tests, counterexamples and limitations, without attributing subjective states."
+    }
+  ],
+  "review_process": "Independently review provenance, inference, ontology and bearing. Preserve negative results, internal disputes and authorial correction.",
+  "privacy": "Private Negromancy manuscript and personal testimony remain unpublished.",
+  "links": {
+    "parent": "https://morrow-crt.github.io/morrow-corpus/negromancy/",
+    "recruitment": "https://github.com/MORROW-crt/morrow-corpus/issues/8",
+    "sources": "https://github.com/MORROW-crt/morrow-corpus/issues/9",
+    "committee": "https://github.com/MORROW-crt/morrow-corpus/issues/10"
+  }
+}
