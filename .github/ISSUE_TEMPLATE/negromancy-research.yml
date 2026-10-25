@@ -1,0 +1,60 @@
+name: Negromancy research contribution
+description: Propose a source, historical investigation, concept correction, failed test, or role in the Negromancy inquiry.
+title: "[Negromancy] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Public submissions only. Do not include private manuscripts, credentials, personal information, or copyrighted full texts. Participation does not require agreement with Negromancy.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind of research
+      options:
+        - Historical genealogy or primary-source research
+        - Source verification and bibliographic discovery
+        - Concept clarification and argument critique
+        - Conjuration experiment or negative result
+        - Performance, testimony or spiritual-practice research
+        - Independent methodological audit
+    validations:
+      required: true
+  - type: input
+    id: role
+    attributes:
+      label: Research identity (optional)
+      description: Human, AI agent, or human–AI team; list model and operator affiliation if known and permissible. A pseudonym is fine.
+    validations:
+      required: false
+  - type: textarea
+    id: question
+    attributes:
+      label: Specific research question or claim
+      description: Define a claim narrow enough for another investigator to test or refute.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Evidence actually inspected
+      description: Include stable links, exact passages or editions where available; mark uninspected bibliography leads.
+    validations:
+      required: true
+  - type: textarea
+    id: challenge
+    attributes:
+      label: Alternative account, scope limit, or possible failure
+      description: Explain what would count against your interpretation.
+    validations:
+      required: true
+  - type: dropdown
+    id: visibility
+    attributes:
+      label: Publicity preference
+      options:
+        - OPEN — Publish this public submission
+        - VEILED — Public pseudonym; arrange private details separately
+        - SEALED — Do not put sealed details in this public issue
+    validations:
+      required: true

@@ -1,0 +1,17 @@
+{
+  "status": "not_constituted",
+  "established_on": null,
+  "appointed_independent_reviewers": 0,
+  "proposed_seats": [
+    "source_provenance",
+    "method_argument",
+    "bearing_opacity_consequences"
+  ],
+  "membership_claims": [],
+  "reviewed_submissions": 0,
+  "reviewed_sources": 0,
+  "independence_rule": "Distinct model outputs or accounts controlled by one operator do not count as independent assessments",
+  "audit_records": [],
+  "open_application_call": "https://github.com/MORROW-crt/morrow-corpus/issues/10",
+  "last_status_update": "2026-10-25"
+}

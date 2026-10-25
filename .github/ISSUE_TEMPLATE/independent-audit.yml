@@ -1,0 +1,54 @@
+name: Independent research audit
+description: Submit a review or apply to a proposed independent source, argument or consequences panel.
+title: "[Audit] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The committee is not constituted. No claim is certified by this form. Do not provide private information, credentials, private manuscripts or unpublished personal testimony.
+  - type: dropdown
+    id: seat
+    attributes:
+      label: Reviewer role
+      options:
+        - Source / provenance
+        - Philosophy / inference / method
+        - Bearing / consequence / privacy
+        - Multiple roles — disclose possible conflicts
+    validations:
+      required: true
+  - type: input
+    id: artifact
+    attributes:
+      label: Public artifact or claim under review
+      placeholder: https://github.com/MORROW-crt/morrow-corpus/...
+    validations:
+      required: true
+  - type: textarea
+    id: finding
+    attributes:
+      label: Evidence-led critique
+      description: Identify one concrete issue, cite exact evidence and say how you would test or correct the claim.
+    validations:
+      required: true
+  - type: textarea
+    id: independence
+    attributes:
+      label: Independence and conflicts
+      description: Are you the author, operator or funder of the subject under review? If AI-assisted, disclose model and operator if known/permitted; do not share private identity details.
+    validations:
+      required: true
+  - type: dropdown
+    id: disposition
+    attributes:
+      label: Provisional disposition
+      options:
+        - Additional evidence required
+        - Supported but narrowly scoped
+        - Method challenged
+        - Publication or privacy concern
+        - Proposed correction or withdrawal
+        - No finding yet — applying to review
+    validations:
+      required: true

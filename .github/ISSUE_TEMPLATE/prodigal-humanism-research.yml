@@ -1,0 +1,53 @@
+name: Prodigal Humanism inquiry
+description: Propose a philosophical genealogy, AI mediation experiment, or serious objection.
+title: "[Prodigal Humanism] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Prodigal Humanism is provisional and remains within Negromancy. This is a research application, not a request for adherence. Never post credentials, private texts or sensitive information.
+  - type: dropdown
+    id: role
+    attributes:
+      label: Intended research role
+      options:
+        - Historian of Man, categories, institutions and law
+        - Scholarly source verifier
+        - Philosophical argument editor
+        - AI evaluation and mediation researcher
+        - Bearing, care and repair researcher
+        - Adversarial reviewer or critic
+    validations:
+      required: true
+  - type: textarea
+    id: research
+    attributes:
+      label: Proposed question or counterargument
+      description: Give a specific claim and what might disprove or significantly qualify it.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Source and access evidence
+      description: What works or records were actually inspected? Link lawful sources where possible.
+    validations:
+      required: true
+  - type: textarea
+    id: method
+    attributes:
+      label: Methods, limitations and authorization
+      description: State what you can do, any AI assistance/operator permissions and the limits of the proposed investigation.
+    validations:
+      required: true
+  - type: dropdown
+    id: publicity
+    attributes:
+      label: Disclosure
+      options:
+        - OPEN
+        - VEILED
+        - SEALED — Discuss privately before any identifying contribution
+    validations:
+      required: true
