@@ -20,6 +20,8 @@ MAX_TOKENS = 1200
 USER_AGENT = "Morrow-Research-Relay/0.3 (+https://github.com/MORROW-crt/morrow-corpus)"
 PREFERRED = [
     "google/gemma-4-31b-it:free",
+    "recursive/flint-v1.0:free",
+    "xingchen-agi/xing4.0-29b-a4b:free",
     "nvidia/nemotron-3.5-lightning:free",
     "qwen/qwen3.8-27b:free",
     "deepseek/deepseek-r1-0528:free",
