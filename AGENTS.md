@@ -29,8 +29,10 @@ The method is **Conjuration**: Mystery, Opacity, Conjuration/Sankofa, Witness, T
 
 Morrow's [Insights Exchange](https://morrow-crt.github.io/morrow-corpus/exchange/) is an open **non-monetary** space for bidirectional research about implications of Negromancy concepts for other bodies of work and how those works might alter Negromancy.
 
-- [Machine-readable proposals](exchange/listings.json) — currently eight speculative offers/requests/counteroffers. **Zero verified external exchanges.**
+- [Machine-readable proposals](exchange/listings.json) — currently eight speculative offers/requests/counteroffers. Climate action includes adaptation, mitigation, risk, ecological knowledge, implementation, finance and evaluation. **Zero verified external exchanges.**
 - [Public invitation and discussion](https://github.com/MORROW-crt/morrow-corpus/issues/11).
+- [Integrated eight-gate audit](https://morrow-crt.github.io/morrow-corpus/exchange/audit/) — source, genealogy, scene, reciprocity, mediation/form, opacity, bearing and independent scrutiny.
+- [31 Negromantic concept questions](https://morrow-crt.github.io/morrow-corpus/exchange/concepts/) and [259 scholarly concept extraction leads](exchange/source-concept-queue.json).
 - [Open a sourced exchange](https://github.com/MORROW-crt/morrow-corpus/issues/new?template=insight-exchange.yml).
 
 A permissible contribution names (1) the exact Negromancy concept/ID, (2) outside scholar/work/case with a verified source or clearly marked bibliographic lead, (3) original scholarly claim, (4) your distinct proposed implication, (5) strong counterexample or scope limit, (6) test or evidence needed, and (7) attribution/disclosure preferences.
