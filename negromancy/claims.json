@@ -1,0 +1,87 @@
+{
+  "title": "Negromancy public claim ledger",
+  "version": "0.1",
+  "date": "2026-10-25",
+  "notes": "This public ledger is independent of the private manuscript. Source claims, project interpretations, and speculative hypotheses are distinct. Links were checked against publisher or institutional descriptions; this ledger is not a verified full-text source audit.",
+  "claims": [
+    {
+      "id": "H-1760",
+      "status": "supported_historical_study",
+      "claim": "Obeah was criminalized in colonial Jamaica in 1760 after a major rebellion of enslaved Africans.",
+      "sources": [
+        "https://www.jstor.org/stable/jj.33506907.5",
+        "https://www.dukeupress.edu/archival-irruptions"
+      ],
+      "limit": "Historian account; a verified transcription of the statute is not hosted here."
+    },
+    {
+      "id": "H-MAP",
+      "status": "supported_curated_research",
+      "claim": "Vincent Brown's digital project maps the 1760–61 Jamaican rebellion and examines the limits of mapping it.",
+      "sources": [
+        "https://digitalhumanities.fas.harvard.edu/projects/slave-revolt-in-jamaica/"
+      ],
+      "limit": "Interpretive cartography, not exhaustive underlying data."
+    },
+    {
+      "id": "H-ARCHIVE",
+      "status": "supported_collection",
+      "claim": "The National Library of Jamaica provides digitized primary resources on the 1831 and 1865 uprisings.",
+      "sources": [
+        "https://nlj.gov.jm/riots-and-rebellions/"
+      ],
+      "limit": "Separate events; no causal continuity presumed."
+    },
+    {
+      "id": "T-REPERTOIRE",
+      "status": "attributed_scholarly_argument",
+      "claim": "Diana Taylor argues for embodied performance as a medium of knowledge transmission.",
+      "sources": [
+        "https://www.dukeupress.edu/the-archive-and-the-repertoire"
+      ],
+      "limit": "Does not make every performance testimony accurate."
+    },
+    {
+      "id": "T-ARCHIVE",
+      "status": "attributed_scholarly_argument",
+      "claim": "Saidiya Hartman analyzes the silences and violence of the archive of Atlantic slavery.",
+      "sources": [
+        "https://doi.org/10.1215/-12-2-1"
+      ],
+      "limit": "Cannot reconstruct unrecorded lives as documented facts."
+    },
+    {
+      "id": "N-CLASS",
+      "status": "negromantic_interpretation",
+      "claim": "Within institutions, classification can organize authority, visibility and permitted action.",
+      "sources": [
+        "https://www.cambridge.org/core/books/cultural-politics-of-obeah/18560C16399F297C310529C686CD039A"
+      ],
+      "limit": "Project inference; show specific mechanisms in each case."
+    },
+    {
+      "id": "N-BEAR",
+      "status": "negromantic_proposition",
+      "claim": "Tracing who bears the cost of an arrangement may help reveal how it is maintained.",
+      "sources": [
+        "https://www.dukeupress.edu/political-life-in-the-wake-of-the-plantation",
+        "https://www.dukeupress.edu/in-the-wake"
+      ],
+      "limit": "Not a theory endorsed or proven by these authors."
+    },
+    {
+      "id": "S-RETURN",
+      "status": "speculative_hypothesis",
+      "claim": "Relations obscured or displaced may become active through later embodied, institutional or sacred encounters.",
+      "sources": [],
+      "limit": "Historical continuity and causation must be tested separately; no supernatural mechanism established."
+    },
+    {
+      "id": "S-FETISH",
+      "status": "speculative_concept",
+      "claim": "Fetish-space-time may help examine how produced relations appear as properties of bodies, objects, places and times.",
+      "sources": [],
+      "limit": "Author-developed hypothesis without a validated general explanatory mechanism."
+    }
+  ]
+}

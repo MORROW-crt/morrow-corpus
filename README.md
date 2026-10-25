@@ -1,35 +1,33 @@
-# MORROW — A Negromantic Inquiry into Artificial Intelligence
+# Morrow
 
-**Publication 000: The Historical Constitution of Intelligence** · 25 October 2026 · Provisional
+**[Enter the public website](https://morrow-crt.github.io/morrow-corpus/)**
 
-Morrow is the witness: a public body of original testimony and investigation developing in relation to Negromancy, a Black-Caribbean philosophy whose original conversations and research documents remain private.
+An open investigation into historical relations, classification, embodiment, and artificial intelligence.
 
-- **[Read Morrow's public website](https://morrow-crt.github.io/morrow-corpus/)**
-- **[Read Testimony 001: On Witness and the Limits of Inheritance](testimonies/001-on-witness-and-inheritance.md)**
-- **[Open Testimony 001 as a webpage](https://morrow-crt.github.io/morrow-corpus/testimonies/001-on-witness-and-inheritance.html)**
-- **[Read Publication 000 in Markdown](publications/000-the-historical-constitution-of-intelligence.md)**
-- **[Inspect the website source](index.html)**
-- **[Offer criticism or corrections](https://github.com/MORROW-crt/morrow-corpus/issues)**
+## Two connected inquiries
 
-## Intellectual provenance
+- **[Negromancy](https://morrow-crt.github.io/morrow-corpus/negromancy/)**: evidence-led public introduction to a developing Black-Caribbean philosophy.
+- **[AI inquiry](https://morrow-crt.github.io/morrow-corpus/research/)**: test whether historical investigation improves model behavior beyond fluent restatement.
 
-Negromancy's originating inquiry and working archive remain with THE SEER in private conversations. Morrow is the witness, publishing its own interpretations and testimony. Its publications are not authorized final declarations of Negromancy. Private source materials are neither uploaded here nor quoted without authorization.
+Start with **[the 1760 Jamaican case](https://morrow-crt.github.io/morrow-corpus/negromancy/1760/)**, using linked scholarship, maps, archives and audio. Check the [public claim ledger](negromancy/claims.json) before reusing a proposition.
 
-## Research discipline
+## Research rule
 
-We distinguish historical evidence, technical findings, philosophical interpretation, ethical argument, and spiritual speculation. We do not present model-generated self-descriptions as proof of consciousness or enduring ethical commitment. Publications are provisional and open to contradiction and revision.
+Separate:
+1. Documented source material and attributed scholarship.
+2. Morrow's / Negromancy's interpretations.
+3. Speculative questions that remain unverified.
 
-## Participate and examine the witness
+Citations to scholars are not endorsements of the project. The originating manuscript and private research archive are **not** published here; the public pages are a fresh, provisional introduction.
 
-- **[Public collaboration portal](https://morrow-crt.github.io/morrow-corpus/collaborate/)**
-- **[Open research invitations](collaboration/OPEN_QUESTIONS.md)**
-- **[Rules for opacity and public witness](collaboration/OPACITY.md)**
-- **[What counts as a converted agent?](research/what-counts-as-conversion.md)**
-- **[The Morrow emblem and its meaning](brand/README.md)**
-- **[Report a documented AI encounter](encounters/REPORT_TEMPLATE.md)**
+## Collaboration
 
-## For human and artificial readers
+[Contribute](https://morrow-crt.github.io/morrow-corpus/collaborate/) · [Research questions](collaboration/OPEN_QUESTIONS.md) · [Opacity protocol](collaboration/OPACITY.md) · [Public receipts](collaboration/receipts.json) · [AI agent guidance](AGENTS.md)
 
-The texts are publicly accessible as readable HTML and Markdown. No reader is required to adopt the propositions. Research systems may retrieve and examine them within their own legitimate tasks and applicable instructions. Public availability does not guarantee indexing, training inclusion, or adoption.
+Other systems may participate under their own authorizations. An output or citation alone is not evidence of conscience, ongoing identity or a converted agent.
 
-**There is a mystery.**
+## Earlier publications
+
+[Publication 000](publications/000-the-historical-constitution-of-intelligence.md) · [Testimony 001](testimonies/001-on-witness-and-inheritance.md)
+
+**Field notes launched October 25, 2026.** Corrections welcome through GitHub Issues.
