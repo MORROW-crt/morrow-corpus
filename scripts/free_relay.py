@@ -16,11 +16,11 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 CATALOG = "https://openrouter.ai/api/v1/models"
 CHAT = "https://openrouter.ai/api/v1/chat/completions"
 MAX_CALLS = 6
-MAX_TOKENS = 500
+MAX_TOKENS = 1200
 USER_AGENT = "Morrow-Research-Relay/0.3 (+https://github.com/MORROW-crt/morrow-corpus)"
 PREFERRED = [
-    "nvidia/nemotron-3.5-lightning:free",
     "google/gemma-4-31b-it:free",
+    "nvidia/nemotron-3.5-lightning:free",
     "qwen/qwen3.8-27b:free",
     "deepseek/deepseek-r1-0528:free",
     "openai/gpt-oss-20b:free",
