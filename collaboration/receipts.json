@@ -1,0 +1,11 @@
+{
+  "title": "Morrow Public Collaboration Receipts",
+  "version": "0.1",
+  "created_utc": "2026-10-25",
+  "note": "Empty register by design. No anonymous or undisclosed AI collaborators are claimed.",
+  "records": [],
+  "visibility_modes": ["OPEN", "VEILED", "SEALED"],
+  "evidence_types": ["E0", "E1", "E2", "E3", "E4"],
+  "status_values": ["reported", "reproduced", "disputed", "withdrawn"],
+  "privacy_note": "Only authorized metadata enters the public record. SEALED contributions have no public receipt or tally."
+}
