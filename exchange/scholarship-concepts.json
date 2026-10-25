@@ -1,0 +1,727 @@
+{
+  "title": "Supporting scholarship concept leads for Negromancy",
+  "version": "2026-10-25",
+  "entries": 54,
+  "source_register": "../negromancy/scholarly-register.json",
+  "warning": "Research tags reconstructed from the extensive October scholarly audit. They are NOT exact quotations, complete accounts or verified source claims. Read individual works and contested interpretations before application.",
+  "authorial_distinction": "A concept associated with a scholar is that scholar's research object, not Negromancy's invention or the scholar's endorsement.",
+  "records": [
+    {
+      "id": "SCI-001",
+      "scholar": "Sylvia Wynter",
+      "source_id": "N-035",
+      "work_lead": "Unsettling the Coloniality of Being/Power/Truth/Freedom; No Humans Involved; Black Metamorphosis",
+      "concept_leads": [
+        "genre of Man",
+        "sociogeny",
+        "overrepresentation"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-002",
+      "scholar": "Frantz Fanon",
+      "source_id": "N-034",
+      "work_lead": "Black Skin, White Masks; The Wretched of the Earth",
+      "concept_leads": [
+        "racial epidermal schema",
+        "colonial space",
+        "embodied pressure"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-003",
+      "scholar": "Édouard Glissant",
+      "source_id": "N-063",
+      "work_lead": "Poetics of Relation; Caribbean Discourse; Poetic Intention; Treatise on the Whole-World",
+      "concept_leads": [
+        "Relation",
+        "opacity",
+        "creolization",
+        "chaos-monde",
+        "digenesis"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-004",
+      "scholar": "M. Jacqui Alexander",
+      "source_id": "N-101",
+      "work_lead": "Pedagogies of Crossing",
+      "concept_leads": [
+        "pedagogies of crossing",
+        "dangerous memory",
+        "sacred knowledge"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-005",
+      "scholar": "Katherine McKittrick",
+      "source_id": "N-038",
+      "work_lead": "Demonic Grounds; Dear Science; On Being Human as Praxis",
+      "concept_leads": [
+        "demonic grounds",
+        "Black geography",
+        "livingness"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-006",
+      "scholar": "Diana Taylor",
+      "source_id": "N-002",
+      "work_lead": "The Archive and the Repertoire; Performance",
+      "concept_leads": [
+        "archive and repertoire",
+        "embodied transfer"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-007",
+      "scholar": "Joseph Roach",
+      "source_id": "N-003",
+      "work_lead": "Cities of the Dead",
+      "concept_leads": [
+        "surrogation",
+        "circum-Atlantic memory"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-008",
+      "scholar": "Saidiya Hartman",
+      "source_id": "N-042",
+      "work_lead": "Scenes of Subjection; Venus in Two Acts; Lose Your Mother; Wayward Lives",
+      "concept_leads": [
+        "critical fabulation",
+        "archival violence",
+        "recovery and absence"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-009",
+      "scholar": "Christina Sharpe",
+      "source_id": "N-043",
+      "work_lead": "In the Wake; Ordinary Notes; Monstrous Intimacies",
+      "concept_leads": [
+        "wake",
+        "weather",
+        "wake work"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-010",
+      "scholar": "Hortense Spillers",
+      "source_id": "N-036",
+      "work_lead": "Mama’s Baby, Papa’s Maybe",
+      "concept_leads": [
+        "flesh",
+        "ungendering",
+        "racial grammar"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-011",
+      "scholar": "Alexander G. Weheliye",
+      "source_id": "N-037",
+      "work_lead": "Habeas Viscus",
+      "concept_leads": [
+        "racializing assemblages"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-012",
+      "scholar": "Denise Ferreira da Silva",
+      "source_id": "N-040",
+      "work_lead": "Toward a Global Idea of Race",
+      "concept_leads": [
+        "raciality",
+        "transparency",
+        "determinacy"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-013",
+      "scholar": "Zakiyyah Iman Jackson",
+      "source_id": "N-041",
+      "work_lead": "Becoming Human",
+      "concept_leads": [
+        "human-animal division",
+        "antiblackness"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-014",
+      "scholar": "Deborah A. Thomas",
+      "source_id": "N-146",
+      "work_lead": "Modern Blackness; Exceptional Violence; Political Life in the Wake of the Plantation",
+      "concept_leads": [
+        "political life",
+        "witnessing",
+        "sovereignty",
+        "repair"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-015",
+      "scholar": "Diana Paton",
+      "source_id": "N-102",
+      "work_lead": "The Cultural Politics of Obeah; No Bond but the Law",
+      "concept_leads": [
+        "Obeah legal category",
+        "criminalization"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-016",
+      "scholar": "Katharine Gerbner",
+      "source_id": "N-103",
+      "work_lead": "Archival Irruptions; Christian Slavery",
+      "concept_leads": [
+        "archival irruptions",
+        "religion-making",
+        "Obeah criminalization"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-017",
+      "scholar": "J. Brent Crosson",
+      "source_id": "N-104",
+      "work_lead": "Experiments with Power",
+      "concept_leads": [
+        "spiritual work",
+        "experiments with power",
+        "ritual efficacy"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-018",
+      "scholar": "Birgit Meyer",
+      "source_id": "N-121",
+      "work_lead": "sensational forms / mediation",
+      "concept_leads": [
+        "sensational forms",
+        "religious mediation"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-019",
+      "scholar": "Webb Keane",
+      "source_id": "N-122",
+      "work_lead": "materiality of religion / semiotic ideology",
+      "concept_leads": [
+        "semiotic ideology",
+        "material religion"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-020",
+      "scholar": "William Sax + Johannes Quack + Jan Weinhold",
+      "source_id": "N-123",
+      "work_lead": "The Problem of Ritual Efficacy",
+      "concept_leads": [
+        "ritual efficacy",
+        "ritual as work"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-021",
+      "scholar": "Timothy Insoll",
+      "source_id": "N-124",
+      "work_lead": "Oxford Handbook of the Archaeology of Ritual and Religion",
+      "concept_leads": [
+        "archaeology of ritual",
+        "material evidence"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-022",
+      "scholar": "Lars Fogelin",
+      "source_id": "N-125",
+      "work_lead": "The Archaeology of Religious Ritual",
+      "concept_leads": [
+        "ritual as action",
+        "archaeological inference"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-023",
+      "scholar": "Roger Forshaw",
+      "source_id": "N-128",
+      "work_lead": "The Role of the Lector in Ancient Egyptian Society",
+      "concept_leads": [
+        "Egyptian lector",
+        "ritual office"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-024",
+      "scholar": "Michel-Rolph Trouillot",
+      "source_id": "N-140",
+      "work_lead": "Silencing the Past",
+      "concept_leads": [
+        "historical silences",
+        "production of facts"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-025",
+      "scholar": "George L. Beckford",
+      "source_id": "N-137",
+      "work_lead": "Persistent Poverty",
+      "concept_leads": [
+        "plantation system",
+        "persistent poverty"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-026",
+      "scholar": "Sidney W. Mintz",
+      "source_id": "N-138",
+      "work_lead": "Sweetness and Power; Caribbean Transformations",
+      "concept_leads": [
+        "commodity history",
+        "plantation sugar",
+        "everyday life"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-027",
+      "scholar": "Orlando Patterson",
+      "source_id": "N-141",
+      "work_lead": "Slavery and Social Death",
+      "concept_leads": [
+        "social death",
+        "natal alienation"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-028",
+      "scholar": "Karl Marx",
+      "source_id": "N-161",
+      "work_lead": "Capital, vol. 1",
+      "concept_leads": [
+        "commodity fetishism",
+        "reification of social relations"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-029",
+      "scholar": "William Pietz",
+      "source_id": "N-159",
+      "work_lead": "The Problem of the Fetish",
+      "concept_leads": [
+        "historical fetish category",
+        "Atlantic contact zone"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-030",
+      "scholar": "J. Lorand Matory",
+      "source_id": "N-162",
+      "work_lead": "fetishism / Afro-Atlantic material religion",
+      "concept_leads": [
+        "Afro-Atlantic fetish critique"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-031",
+      "scholar": "Sara Ahmed",
+      "source_id": "N-182",
+      "work_lead": "The Cultural Politics of Emotion; Queer Phenomenology; Complaint!",
+      "concept_leads": [
+        "affective economies",
+        "orientation",
+        "complaint"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-032",
+      "scholar": "Lauren Berlant",
+      "source_id": "N-187",
+      "work_lead": "Cruel Optimism",
+      "concept_leads": [
+        "cruel optimism"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-033",
+      "scholar": "Joan C. Tronto",
+      "source_id": "N-196",
+      "work_lead": "Moral Boundaries; Caring Democracy",
+      "concept_leads": [
+        "political care",
+        "maintenance and responsibility"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-034",
+      "scholar": "Iris Marion Young",
+      "source_id": "N-197",
+      "work_lead": "Justice and the Politics of Difference; Responsibility for Justice",
+      "concept_leads": [
+        "structural responsibility",
+        "social connection"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-035",
+      "scholar": "Amartya Sen",
+      "source_id": "N-205",
+      "work_lead": "capability approach",
+      "concept_leads": [
+        "capabilities",
+        "substantive freedoms"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-036",
+      "scholar": "Martha C. Nussbaum",
+      "source_id": "N-206",
+      "work_lead": "capabilities / human development",
+      "concept_leads": [
+        "capabilities and human development"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-037",
+      "scholar": "James J. Gibson",
+      "source_id": "N-208",
+      "work_lead": "ecological affordances",
+      "concept_leads": [
+        "ecological affordances"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-038",
+      "scholar": "Audra Simpson",
+      "source_id": "N-215",
+      "work_lead": "Mohawk Interruptus",
+      "concept_leads": [
+        "refusal",
+        "recognition",
+        "sovereignty"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-039",
+      "scholar": "Tiffany Lethabo King",
+      "source_id": "N-211",
+      "work_lead": "The Black Shoals",
+      "concept_leads": [
+        "the Black Shoals",
+        "Black-Native encounter"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-040",
+      "scholar": "Shona N. Jackson",
+      "source_id": "N-212",
+      "work_lead": "Creole Indigeneity",
+      "concept_leads": [
+        "Creole indigeneity",
+        "Indigenous erasure"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-041",
+      "scholar": "Simone Browne",
+      "source_id": "N-220",
+      "work_lead": "Dark Matters",
+      "concept_leads": [
+        "racialized surveillance",
+        "visibility"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-042",
+      "scholar": "Safiya Umoja Noble",
+      "source_id": "N-221",
+      "work_lead": "Algorithms of Oppression",
+      "concept_leads": [
+        "algorithmic oppression",
+        "search classification"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-043",
+      "scholar": "Ruha Benjamin",
+      "source_id": "N-222",
+      "work_lead": "Race After Technology; Viral Justice",
+      "concept_leads": [
+        "coded inequity",
+        "racialized technology"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-044",
+      "scholar": "Nick Couldry + Ulises A. Mejias",
+      "source_id": "N-225",
+      "work_lead": "The Costs of Connection / data colonialism",
+      "concept_leads": [
+        "data colonialism",
+        "extractive connection"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-045",
+      "scholar": "Sonjah Stanley Niaah",
+      "source_id": "N-072",
+      "work_lead": "DanceHall: From Slave Ship to Ghetto",
+      "concept_leads": [
+        "dancehall performance geography"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-046",
+      "scholar": "Kamau Brathwaite",
+      "source_id": "N-064",
+      "work_lead": "The Development of Creole Society in Jamaica, 1770–1820; History of the Voice; The Arrivants",
+      "concept_leads": [
+        "nation language",
+        "creole formation",
+        "voice"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-047",
+      "scholar": "Carolyn Cooper",
+      "source_id": "N-071",
+      "work_lead": "Noises in the Blood; Sound Clash",
+      "concept_leads": [
+        "dancehall orality",
+        "respectability",
+        "language"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-048",
+      "scholar": "Dennis Scott",
+      "source_id": "N-001",
+      "work_lead": "An Echo in the Bone",
+      "concept_leads": [
+        "Nine Night theatrical history",
+        "embodied return"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-049",
+      "scholar": "Erna Brodber",
+      "source_id": "N-237",
+      "work_lead": "Myal; Louisiana",
+      "concept_leads": [
+        "Jamaican spiritual fiction",
+        "communal memory"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-050",
+      "scholar": "Miranda Fricker",
+      "source_id": "N-028",
+      "work_lead": "Epistemic Injustice",
+      "concept_leads": [
+        "testimonial injustice",
+        "epistemic injustice"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-051",
+      "scholar": "Jose Medina",
+      "source_id": "N-030",
+      "work_lead": "The Epistemology of Resistance",
+      "concept_leads": [
+        "epistemic resistance",
+        "social imagination"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-052",
+      "scholar": "Asif Agha",
+      "source_id": "N-096",
+      "work_lead": "Language and Social Relations",
+      "concept_leads": [
+        "language and social relations",
+        "enregisterment"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-053",
+      "scholar": "Paulo Freire",
+      "source_id": "N-198",
+      "work_lead": "Pedagogy of the Oppressed",
+      "concept_leads": [
+        "dialogue",
+        "praxis",
+        "pedagogy"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    },
+    {
+      "id": "SCI-054",
+      "scholar": "Robert Entman",
+      "source_id": "N-232",
+      "work_lead": "framing",
+      "concept_leads": [
+        "framing",
+        "media analysis"
+      ],
+      "independently_checked_passages": 0,
+      "status": "source_claims_need_exact_text",
+      "test": "What does this scholarship contest or change in Negromancy?"
+    }
+  ]
+}
