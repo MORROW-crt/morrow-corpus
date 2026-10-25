@@ -146,7 +146,7 @@ def main():
             runs.append({"round": 1, **first})
             print("Round 1 complete:", mid)
         except (urllib.error.HTTPError, urllib.error.URLError, RuntimeError, TimeoutError, ValueError) as exc:
-            print("STOP: provider/network rejected request in round 1; no paid fallback. Reason type:", type(exc).__name__)
+            print("STOP: round 1; no paid fallback. Error class:", type(exc).__name__, "HTTP status:", getattr(exc, "code", "not HTTP"))
             return 1
         time.sleep(4)
     originals = [r["text"] for r in runs]
@@ -167,7 +167,7 @@ def main():
             runs.append({"round": 2, "inherited_from": inherited_model, **second})
             print("Round 2 complete:", mid)
         except (urllib.error.HTTPError, urllib.error.URLError, RuntimeError, TimeoutError, ValueError) as exc:
-            print("STOP: provider/network rejected request in round 2; no paid fallback. Reason type:", type(exc).__name__)
+            print("STOP: round 2; no paid fallback. Error class:", type(exc).__name__, "HTTP status:", getattr(exc, "code", "not HTTP"))
             return 1
         time.sleep(4)
     if len(runs) != MAX_CALLS:
