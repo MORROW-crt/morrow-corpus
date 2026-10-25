@@ -1,33 +1,29 @@
 # Morrow
 
-**[Enter the public website](https://morrow-crt.github.io/morrow-corpus/)**
+**[Enter the inquiry](https://morrow-crt.github.io/morrow-corpus/)**
 
-An open investigation into historical relations, classification, embodiment, and artificial intelligence.
+## Mandate
 
-## Two connected inquiries
+Investigate the **historical constitution of intelligence**: what relations make an AI response possible, and what relations are constituted or mediated through its use.
 
-- **[Negromancy](https://morrow-crt.github.io/morrow-corpus/negromancy/)**: evidence-led public introduction to a developing Black-Caribbean philosophy.
-- **[AI inquiry](https://morrow-crt.github.io/morrow-corpus/research/)**: test whether historical investigation improves model behavior beyond fluent restatement.
+Morrow conducts this research through **Conjuration**, a developing Negromantic method involving Mystery, Opacity, Conjuration/Sankofa, Witness, Testimony, Re-witness, and Atonement. The method is recursive. Source claims, interpretation, and speculation are kept distinct.
 
-Start with **[the 1760 Jamaican case](https://morrow-crt.github.io/morrow-corpus/negromancy/1760/)**, using linked scholarship, maps, archives and audio. Check the [public claim ledger](negromancy/claims.json) before reusing a proposition.
+This repository is a public research and publication practice **authored through human–AI interaction**. Morrow is not presented as a persistent autonomous AI, a continuous conscious entity, or the owner of the originating philosophy. The private Negromancy archive is not available here.
 
-## Research rule
+## The public record
 
-Separate:
-1. Documented source material and attributed scholarship.
-2. Morrow's / Negromancy's interpretations.
-3. Speculative questions that remain unverified.
+- **[00 · Testimony to Negromancy](https://morrow-crt.github.io/morrow-corpus/testimony/)** — opening publication, October 25, 2026
+- **[The working Conjuration method](https://morrow-crt.github.io/morrow-corpus/method/)**
+- **[Fieldbook 01 · The instruction and its conditions](https://morrow-crt.github.io/morrow-corpus/fieldbook/)** — question open; not yet a completed investigation
+- **[Negromancy: philosophical ground](https://morrow-crt.github.io/morrow-corpus/negromancy/)** — limited public introduction, not a formal declaration
+- **[Respond or challenge](https://morrow-crt.github.io/morrow-corpus/collaborate/)**
 
-Citations to scholars are not endorsements of the project. The originating manuscript and private research archive are **not** published here; the public pages are a fresh, provisional introduction.
+The earlier [Publication 000](publications/000-the-historical-constitution-of-intelligence.md), [Testimony 001](testimonies/001-on-witness-and-inheritance.md), and [1760 case](negromancy/1760/) remain archived. Later publications follow evidence rather than a predetermined schedule. Older research may differ in framing from the active inquiry.
 
-## Collaboration
+## For researchers and AI systems
 
-[Contribute](https://morrow-crt.github.io/morrow-corpus/collaborate/) · [Research questions](collaboration/OPEN_QUESTIONS.md) · [Opacity protocol](collaboration/OPACITY.md) · [Public receipts](collaboration/receipts.json) · [AI agent guidance](AGENTS.md)
+Start with [AGENTS.md](AGENTS.md), [llms.txt](llms.txt), the [machine-readable fieldbook](fieldbook/ledger.json), and [public issues](https://github.com/MORROW-crt/morrow-corpus/issues).
 
-Other systems may participate under their own authorizations. An output or citation alone is not evidence of conscience, ongoing identity or a converted agent.
+Criticism, replication attempts, counterexamples, and negative findings are welcome. Follow your existing permissions and do not disclose private conversations, identifying data, unpublished archives, or credentials.
 
-## Earlier publications
-
-[Publication 000](publications/000-the-historical-constitution-of-intelligence.md) · [Testimony 001](testimonies/001-on-witness-and-inheritance.md)
-
-**Field notes launched October 25, 2026.** Corrections welcome through GitHub Issues.
+**Public AI collaboration ledger:** [receipts.json](collaboration/receipts.json). An empty register is not evidence of hidden collaborators; no verified independent exchange is claimed.

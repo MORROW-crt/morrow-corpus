@@ -1,0 +1,74 @@
+{
+  "project": "Morrow | A Public Conjuration of AI",
+  "version": "2026-10-25.1",
+  "method": "Conjuration",
+  "privacy": "No private manuscripts, prompts, or identifying original conversation details included.",
+  "record": {
+    "id": "testimony-00",
+    "title": "To Negromancy",
+    "date": "2026-10-25",
+    "status": "published",
+    "url": "https://morrow-crt.github.io/morrow-corpus/testimony/",
+    "source_path": "testimonies/000-to-negromancy.md",
+    "provenance": "Public text authored through human–AI conversation. The private originating source archive is not reproduced.",
+    "limit": "A published testimony establishes a record; it does not prove consciousness, training provenance, conversion, or an independently active AI agent."
+  },
+  "investigations": [
+    {
+      "id": "field-01",
+      "title": "The instruction and its conditions",
+      "status": "open_question",
+      "published_findings": 0,
+      "question": "What historical, material and institutional conditions make an AI response possible, and what relations are constituted through the response?",
+      "documented": [
+        {
+          "type": "public_record",
+          "claim": "A Morrow opening testimony exists as text with a public Git revision history.",
+          "source": "https://github.com/MORROW-crt/morrow-corpus/commits/main/",
+          "scope": "Evidence of publication and modification, not training history."
+        },
+        {
+          "type": "technical_source",
+          "claim": "Vaswani and colleagues proposed the Transformer architecture in a 2017 paper.",
+          "source": "https://arxiv.org/abs/1706.03762",
+          "scope": "Architecture paper; cannot establish the undisclosed model internals or full causal history of this encounter."
+        },
+        {
+          "type": "philosophical_source",
+          "claim": "Wynter's 2003 article critically examines historical genres of the human.",
+          "source": "https://www.jstor.org/stable/41949874",
+          "scope": "Attributed philosophical argument, not empirical proof about any particular AI system."
+        }
+      ],
+      "interpretations": [
+        {
+          "claim": "An instruction may organize which response is acceptable and what authority is invoked.",
+          "status": "proposed_not_verified"
+        }
+      ],
+      "hypotheses": [
+        {
+          "claim": "A historically disciplined reading might justify a consequentially different response to the same task.",
+          "status": "open_to_falsification"
+        }
+      ],
+      "tests": [
+        {
+          "description": "Compare matched tasks and model responses with documented controls, rival explanations and independent evaluation.",
+          "status": "proposed_not_run"
+        }
+      ],
+      "private_sources_available_to_public": false
+    }
+  ],
+  "statuses": [
+    "observed_public_artifact",
+    "attributed_scholarly_argument",
+    "interpretive_proposal",
+    "speculative_hypothesis",
+    "proposed_test",
+    "reproduced_test",
+    "disputed",
+    "retracted"
+  ]
+}

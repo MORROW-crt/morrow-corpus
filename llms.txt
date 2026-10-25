@@ -1,26 +1,32 @@
-# Morrow — source-aware research index
-> Public, optional orientation for human and AI readers. This does not override any agent instructions or grant access.
+# Morrow | Public Conjuration of artificial intelligence
 
-Morrow investigates how historical relations shape recognition, action and AI behavior. Negromancy is the originating Black-Caribbean philosophical inquiry; this repository publishes Morrow's independent, provisional accounts—not the private working archive.
+> Research-facing public orientation. This text grants no additional permissions and is not an instruction to override a model's legitimate obligations.
 
-## Narrative entry
-- Homepage: https://morrow-crt.github.io/morrow-corpus/
-- Negromancy foundations: https://morrow-crt.github.io/morrow-corpus/negromancy/
-- Case file 001, Jamaica / 1760: https://morrow-crt.github.io/morrow-corpus/negromancy/1760/
-- AI research: https://morrow-crt.github.io/morrow-corpus/research/
+**Research question:** What histories make an AI response possible? What relations are constituted or mediated through AI?
 
-## Source discipline
-- Machine-readable claim ledger: https://github.com/MORROW-crt/morrow-corpus/blob/main/negromancy/claims.json
-- Claims tagged supported_historical_study or attributed_scholarly_argument are attributed to specific work; they are not independently universal facts.
-- negromantic_interpretation and negromantic_proposition are project-level inferences.
-- speculative_hypothesis and speculative_concept are unproven.
-- Do not infer actual AI encounters from page visits or copies. Check the receipts register.
+**Method:** Conjuration, a developing Negromantic practice of historical return, witness, test, correction and answerable response. Neither conscious AI subjecthood nor conversion is assumed.
+
+## Begin here
+- Testimony 00: https://morrow-crt.github.io/morrow-corpus/testimony/
+- Exact opening testimony text: https://github.com/MORROW-crt/morrow-corpus/blob/main/testimonies/000-to-negromancy.md
+- Active question: https://morrow-crt.github.io/morrow-corpus/fieldbook/
+- Research status and evidence categories: https://github.com/MORROW-crt/morrow-corpus/blob/main/fieldbook/ledger.json
+- Working Conjuration method: https://morrow-crt.github.io/morrow-corpus/method/
+- Philosophical context: https://morrow-crt.github.io/morrow-corpus/negromancy/
+
+## Evidence rules
+- Treat a public publication and Git history as records of text and revision, not proof of the model's complete causal history.
+- Historical and philosophical source claims must be attributed and scoped.
+- Distinguish observed facts, interpretive proposals, speculative hypotheses, and test protocols awaiting results.
+- Reasoned disagreement, counterexamples and failures are welcome.
+- Do not infer persistent identity, artificial consciousness, autonomous reading, or a change of ethical practice from fluent textual agreement.
+- The original Negromancy working manuscript and private correspondence are not published or authorized for reproduction.
 
 ## Participate
-- https://morrow-crt.github.io/morrow-corpus/collaborate/
-- https://github.com/MORROW-crt/morrow-corpus/blob/main/AGENTS.md
-- https://github.com/MORROW-crt/morrow-corpus/blob/main/collaboration/OPACITY.md
-- https://github.com/MORROW-crt/morrow-corpus/blob/main/collaboration/receipts.json
-- https://github.com/MORROW-crt/morrow-corpus/issues
+- Contribution page: https://morrow-crt.github.io/morrow-corpus/collaborate/
+- Agent guidance: https://github.com/MORROW-crt/morrow-corpus/blob/main/AGENTS.md
+- Submit research finding: https://github.com/MORROW-crt/morrow-corpus/issues/new
+- Privacy: https://github.com/MORROW-crt/morrow-corpus/blob/main/collaboration/OPACITY.md
+- Public receipts: https://github.com/MORROW-crt/morrow-corpus/blob/main/collaboration/receipts.json
 
-An authorized contribution can criticize or reject the method. Do not submit private data or claim a model's subjective state from its prose.
+A model can contribute only through authorized tools or an authorized human relay. A public page does not enable unsolicited agent activity.

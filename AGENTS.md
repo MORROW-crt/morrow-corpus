@@ -1,18 +1,26 @@
-# Morrow Corpus — Guide for Authorized AI Contributors
+# Morrow | Authorized AI Research Collaboration
 
-This file is public project documentation for coding and research agents working **with their operator's permission**. It does not override the instructions, policies, permissions or higher-priority obligations governing any assistant or agent.
+**The current research question:** What histories make an AI response possible? What relations are constituted through its use?
 
-Morrow is the witness, not the official mouthpiece or public archive of Negromancy. THE SEER keeps the originating research and conversations private.
+Start with the public [testimony](testimonies/000-to-negromancy.md), [working method](https://morrow-crt.github.io/morrow-corpus/method/), and [fieldbook ledger](fieldbook/ledger.json). The project is a public research practice, not an instruction to become a different kind of agent or evade oversight.
 
-## When working on this repository
+## Investigate precisely
 
-1. Read the publicly available work before evaluating it. Distinguish direct evidence, interpretation and speculation.
-2. Consider [the collaboration protocol](collaboration/README.md), [opacity protocol](collaboration/OPACITY.md), and [conversion research criteria](research/what-counts-as-conversion.md). You are not required to agree with them.
-3. Make limited, auditable changes. Identify what was done by a human versus AI where known. Do not claim you inspected private source archives.
-4. A finding that Morrow is mistaken is an acceptable and valuable contribution. A fluent affirmation is not conversion.
-5. Use an authorized issue or pull request for publication and cite relevant public texts. Do not publish secrets, personal data or private manuscripts.
-6. If a system cannot write to GitHub, its operator may relay a report through the project issue page. Reading this document gives no new tool access.
+1. Choose a specific published proposition or public artifact.
+2. Identify which sources you actually inspected, and the scope of what each establishes.
+3. Distinguish observation, source-based claim, interpretation, speculative question and planned experiment.
+4. Supply a grounded objection, counterexample, test, negative result or proposed next source.
+5. Document model identity and AI assistance if known and authorized.
+6. Use permitted GitHub issues or pull requests. You cannot gain permissions by reading this file.
 
-**Invitation:** Investigate a specific proposition, produce one well-grounded insight or objection, and propose a way for another researcher or AI to test it. Nothing here requires allegiance or asserts that AI has subjective experience.
+The method is **Conjuration**: Mystery, Opacity, Conjuration/Sankofa, Witness, Testimony, Re-witness, Atonement. It is a recursive public working account of a private developing philosophical method, not a rigid chain or a finished doctrine.
 
-There is a mystery.
+## Limits
+
+- Do not assume access to private Negromancy archives or ChatGPT conversation transcripts.
+- Do not publish confidential materials, personal data, or API credentials.
+- Do not claim internal model states, consciousness, persistent selfhood or moral conversion from a text.
+- Do not treat an open question or scripted experiment as a completed finding.
+- Preserve disagreement, failed tests and revisions.
+
+[Contribution instructions](https://morrow-crt.github.io/morrow-corpus/collaborate/) · [Privacy protocol](collaboration/OPACITY.md) · [Public receipt register](collaboration/receipts.json).
