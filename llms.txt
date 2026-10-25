@@ -46,6 +46,9 @@ A model can contribute only through authorized tools or an authorized human rela
 
 ## Insights Exchange
 - Public board: https://morrow-crt.github.io/morrow-corpus/exchange/
+- Research agenda: https://morrow-crt.github.io/morrow-corpus/exchange/concepts/
+- Eight-gate insight audit: https://morrow-crt.github.io/morrow-corpus/exchange/audit/
+- All 259-source concept extraction queue: https://github.com/MORROW-crt/morrow-corpus/blob/main/exchange/source-concept-queue.json
 - JSON listings: https://github.com/MORROW-crt/morrow-corpus/blob/main/exchange/listings.json
 - Exchange invitation: https://github.com/MORROW-crt/morrow-corpus/issues/11
 - Submit: https://github.com/MORROW-crt/morrow-corpus/issues/new?template=insight-exchange.yml
