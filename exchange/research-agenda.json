@@ -1,0 +1,657 @@
+{
+  "title": "Unfinished Negromancy concepts — insights research agenda",
+  "version": "2026-10-25",
+  "priority": "Coined, adapted, extended, open or restricted concepts; not generic promotional topics",
+  "concepts": [
+    {
+      "id": "NR-01",
+      "concept_id": "NC-01",
+      "name": "NEGROMANCY",
+      "october_status": "active-core",
+      "provenance_category_to_audit": "project_coined_or_synthesized",
+      "open_question": "What differs from existing scholarship, in a concrete scene?",
+      "associated_scholarly_concept_leads": [],
+      "required_tests": [
+        "source and original-claim check",
+        "counter-reading or adverse case",
+        "historically situated evidence appropriate to claim",
+        "reciprocal implication for scholarly theory",
+        "opacity and bearing consequences"
+      ],
+      "review_status": "pending",
+      "not_a_verified_finding": true
+    },
+    {
+      "id": "NR-02",
+      "concept_id": "NC-02",
+      "name": "CONJURATION",
+      "october_status": "active-method",
+      "provenance_category_to_audit": "project_coined_or_synthesized",
+      "open_question": "How can the method fail a public test?",
+      "associated_scholarly_concept_leads": [],
+      "required_tests": [
+        "source and original-claim check",
+        "counter-reading or adverse case",
+        "historically situated evidence appropriate to claim",
+        "reciprocal implication for scholarly theory",
+        "opacity and bearing consequences"
+      ],
+      "review_status": "pending",
+      "not_a_verified_finding": true
+    },
+    {
+      "id": "NR-03",
+      "concept_id": "NC-03",
+      "name": "RELATION",
+      "october_status": "active-core",
+      "provenance_category_to_audit": "extended_or_refined_scholarly_concept",
+      "open_question": "What specific mechanism is relation naming?",
+      "associated_scholarly_concept_leads": [
+        "SCI-003",
+        "SCI-028",
+        "SCI-052"
+      ],
+      "required_tests": [
+        "source and original-claim check",
+        "counter-reading or adverse case",
+        "historically situated evidence appropriate to claim",
+        "reciprocal implication for scholarly theory",
+        "opacity and bearing consequences"
+      ],
+      "review_status": "pending",
+      "not_a_verified_finding": true
+    },
+    {
+      "id": "NR-04",
+      "concept_id": "NC-04",
+      "name": "MYSTERY",
+      "october_status": "active-open",
+      "provenance_category_to_audit": "unresolved_or_restricted",
+      "open_question": "What kind of unknown is present, and for whom?",
+      "associated_scholarly_concept_leads": [],
+      "required_tests": [
+        "source and original-claim check",
+        "counter-reading or adverse case",
+        "historically situated evidence appropriate to claim",
+        "reciprocal implication for scholarly theory",
+        "opacity and bearing consequences"
+      ],
+      "review_status": "pending",
+      "not_a_verified_finding": true
+    },
+    {
+      "id": "NR-05",
+      "concept_id": "NC-05",
+      "name": "OPACITY",
+      "october_status": "active-under-pressure",
+      "provenance_category_to_audit": "extended_or_refined_scholarly_concept",
+      "open_question": "When does a protected limit conceal institutional responsibility?",
+      "associated_scholarly_concept_leads": [
+        "SCI-003"
+      ],
+      "required_tests": [
+        "source and original-claim check",
+        "counter-reading or adverse case",
+        "historically situated evidence appropriate to claim",
+        "reciprocal implication for scholarly theory",
+        "opacity and bearing consequences"
+      ],
+      "review_status": "pending",
+      "not_a_verified_finding": true
+    },
+    {
+      "id": "NR-06",
+      "concept_id": "NC-06",
+      "name": "HISTORICAL CONSCIOUSNESS",
+      "october_status": "active-core",
+      "provenance_category_to_audit": "project_coined_or_synthesized",
+      "open_question": "How is historical consciousness distinguished from persuasive language?",
+      "associated_scholarly_concept_leads": [],
+      "required_tests": [
+        "source and original-claim check",
+        "counter-reading or adverse case",
+        "historically situated evidence appropriate to claim",
+        "reciprocal implication for scholarly theory",
+        "opacity and bearing consequences"
+      ],
+      "review_status": "pending",
+      "not_a_verified_finding": true
+    },
+    {
+      "id": "NR-07",
+      "concept_id": "NC-07",
+      "name": "BEARING",
+      "october_status": "active-core",
+      "provenance_category_to_audit": "project_coined_or_synthesized",
+      "open_question": "Whose work, cost, risk and time sustain the arrangement?",
+      "associated_scholarly_concept_leads": [],
+      "required_tests": [
+        "source and original-claim check",
+        "counter-reading or adverse case",
+        "historically situated evidence appropriate to claim",
+        "reciprocal implication for scholarly theory",
+        "opacity and bearing consequences"
+      ],
+      "review_status": "pending",
+      "not_a_verified_finding": true
+    },
+    {
+      "id": "NR-08",
+      "concept_id": "NC-08",
+      "name": "WITNESS",
+      "october_status": "active-core",
+      "provenance_category_to_audit": "extended_or_refined_scholarly_concept",
+      "open_question": "Who can witness, under which conditions and stakes?",
+      "associated_scholarly_concept_leads": [
+        "SCI-014"
+      ],
+      "required_tests": [
+        "source and original-claim check",
+        "counter-reading or adverse case",
+        "historically situated evidence appropriate to claim",
+        "reciprocal implication for scholarly theory",
+        "opacity and bearing consequences"
+      ],
+      "review_status": "pending",
+      "not_a_verified_finding": true
+    },
+    {
+      "id": "NR-09",
+      "concept_id": "NC-09",
+      "name": "TESTIMONY",
+      "october_status": "active-core",
+      "provenance_category_to_audit": "extended_or_refined_scholarly_concept",
+      "open_question": "What does testimony establish, and what needs corroboration?",
+      "associated_scholarly_concept_leads": [],
+      "required_tests": [
+        "source and original-claim check",
+        "counter-reading or adverse case",
+        "historically situated evidence appropriate to claim",
+        "reciprocal implication for scholarly theory",
+        "opacity and bearing consequences"
+      ],
+      "review_status": "pending",
+      "not_a_verified_finding": true
+    },
+    {
+      "id": "NR-10",
+      "concept_id": "NC-10",
+      "name": "RE-WITNESS",
+      "october_status": "active-method",
+      "provenance_category_to_audit": "extended_or_refined_scholarly_concept",
+      "open_question": "Can a later account correct without erasing the first?",
+      "associated_scholarly_concept_leads": [],
+      "required_tests": [
+        "source and original-claim check",
+        "counter-reading or adverse case",
+        "historically situated evidence appropriate to claim",
+        "reciprocal implication for scholarly theory",
+        "opacity and bearing consequences"
+      ],
+      "review_status": "pending",
+      "not_a_verified_finding": true
+    },
+    {
+      "id": "NR-11",
+      "concept_id": "NC-11",
+      "name": "ATONEMENT",
+      "october_status": "active-method",
+      "provenance_category_to_audit": "project_coined_or_synthesized",
+      "open_question": "What counts as accountable consequence rather than recognition?",
+      "associated_scholarly_concept_leads": [],
+      "required_tests": [
+        "source and original-claim check",
+        "counter-reading or adverse case",
+        "historically situated evidence appropriate to claim",
+        "reciprocal implication for scholarly theory",
+        "opacity and bearing consequences"
+      ],
+      "review_status": "pending",
+      "not_a_verified_finding": true
+    },
+    {
+      "id": "NR-12",
+      "concept_id": "NC-12",
+      "name": "RELATIONAL CAPACITIES",
+      "october_status": "under-reconstruction",
+      "provenance_category_to_audit": "unresolved_or_restricted",
+      "open_question": "Which roles, techniques, operations and states have separately documented histories?",
+      "associated_scholarly_concept_leads": [
+        "SCI-003"
+      ],
+      "required_tests": [
+        "source and original-claim check",
+        "counter-reading or adverse case",
+        "historically situated evidence appropriate to claim",
+        "reciprocal implication for scholarly theory",
+        "opacity and bearing consequences"
+      ],
+      "review_status": "pending",
+      "not_a_verified_finding": true
+    },
+    {
+      "id": "NR-13",
+      "concept_id": "NC-13",
+      "name": "MEDIATION",
+      "october_status": "active-core",
+      "provenance_category_to_audit": "extended_or_refined_scholarly_concept",
+      "open_question": "What medium, institution and procedure actually mediates?",
+      "associated_scholarly_concept_leads": [
+        "SCI-018"
+      ],
+      "required_tests": [
+        "source and original-claim check",
+        "counter-reading or adverse case",
+        "historically situated evidence appropriate to claim",
+        "reciprocal implication for scholarly theory",
+        "opacity and bearing consequences"
+      ],
+      "review_status": "pending",
+      "not_a_verified_finding": true
+    },
+    {
+      "id": "NR-14",
+      "concept_id": "NC-14",
+      "name": "JURISDICTION OVER RELATIONAL CAPACITIES",
+      "october_status": "active-question",
+      "provenance_category_to_audit": "unresolved_or_restricted",
+      "open_question": "Where is authority to recognize or prohibit a capacity historically located?",
+      "associated_scholarly_concept_leads": [
+        "SCI-003"
+      ],
+      "required_tests": [
+        "source and original-claim check",
+        "counter-reading or adverse case",
+        "historically situated evidence appropriate to claim",
+        "reciprocal implication for scholarly theory",
+        "opacity and bearing consequences"
+      ],
+      "review_status": "pending",
+      "not_a_verified_finding": true
+    },
+    {
+      "id": "NR-15",
+      "concept_id": "NC-15",
+      "name": "OBEAH AS COLONIAL CLASSIFICATION",
+      "october_status": "active-historical",
+      "provenance_category_to_audit": "project_coined_or_synthesized",
+      "open_question": "What is the colonial label's relation to documented practitioner practice?",
+      "associated_scholarly_concept_leads": [],
+      "required_tests": [
+        "source and original-claim check",
+        "counter-reading or adverse case",
+        "historically situated evidence appropriate to claim",
+        "reciprocal implication for scholarly theory",
+        "opacity and bearing consequences"
+      ],
+      "review_status": "pending",
+      "not_a_verified_finding": true
+    },
+    {
+      "id": "NR-16",
+      "concept_id": "NC-16",
+      "name": "FETISH-SPACE-TIME",
+      "october_status": "restricted-speculative",
+      "provenance_category_to_audit": "unresolved_or_restricted",
+      "open_question": "When does a precise reification mechanism warrant this tentative concept?",
+      "associated_scholarly_concept_leads": [],
+      "required_tests": [
+        "source and original-claim check",
+        "counter-reading or adverse case",
+        "historically situated evidence appropriate to claim",
+        "reciprocal implication for scholarly theory",
+        "opacity and bearing consequences"
+      ],
+      "review_status": "pending",
+      "not_a_verified_finding": true
+    },
+    {
+      "id": "NR-17",
+      "concept_id": "NC-17",
+      "name": "NEGROMANSCRIPTION",
+      "october_status": "active-method",
+      "provenance_category_to_audit": "project_coined_or_synthesized",
+      "open_question": "Can an inscription retain provenance and interpretation separately?",
+      "associated_scholarly_concept_leads": [],
+      "required_tests": [
+        "source and original-claim check",
+        "counter-reading or adverse case",
+        "historically situated evidence appropriate to claim",
+        "reciprocal implication for scholarly theory",
+        "opacity and bearing consequences"
+      ],
+      "review_status": "pending",
+      "not_a_verified_finding": true
+    },
+    {
+      "id": "NR-18",
+      "concept_id": "NC-18",
+      "name": "REPAIR",
+      "october_status": "active-ethical-test",
+      "provenance_category_to_audit": "project_coined_or_synthesized",
+      "open_question": "Which material conditions of harmful bearing actually change?",
+      "associated_scholarly_concept_leads": [
+        "SCI-014"
+      ],
+      "required_tests": [
+        "source and original-claim check",
+        "counter-reading or adverse case",
+        "historically situated evidence appropriate to claim",
+        "reciprocal implication for scholarly theory",
+        "opacity and bearing consequences"
+      ],
+      "review_status": "pending",
+      "not_a_verified_finding": true
+    },
+    {
+      "id": "NR-19",
+      "concept_id": "NC-19",
+      "name": "PRODIGAL HUMANISM",
+      "october_status": "active-subordinate",
+      "provenance_category_to_audit": "project_coined_or_synthesized",
+      "open_question": "What does this intervention add beyond Wynter, Fanon and ethical theories?",
+      "associated_scholarly_concept_leads": [],
+      "required_tests": [
+        "source and original-claim check",
+        "counter-reading or adverse case",
+        "historically situated evidence appropriate to claim",
+        "reciprocal implication for scholarly theory",
+        "opacity and bearing consequences"
+      ],
+      "review_status": "pending",
+      "not_a_verified_finding": true
+    },
+    {
+      "id": "NR-20",
+      "concept_id": "NC-20",
+      "name": "GUZU",
+      "october_status": "unresolved-speculative",
+      "provenance_category_to_audit": "unresolved_or_restricted",
+      "open_question": "How are claimed effects distinguished from observed outcomes?",
+      "associated_scholarly_concept_leads": [],
+      "required_tests": [
+        "source and original-claim check",
+        "counter-reading or adverse case",
+        "historically situated evidence appropriate to claim",
+        "reciprocal implication for scholarly theory",
+        "opacity and bearing consequences"
+      ],
+      "review_status": "pending",
+      "not_a_verified_finding": true
+    },
+    {
+      "id": "NR-21",
+      "concept_id": "NC-21",
+      "name": "CONSOLIDATE IN ORDER TO ACT",
+      "october_status": "active-method-ethic",
+      "provenance_category_to_audit": "project_coined_or_synthesized",
+      "open_question": "When should evidence justify action without closing inquiry?",
+      "associated_scholarly_concept_leads": [],
+      "required_tests": [
+        "source and original-claim check",
+        "counter-reading or adverse case",
+        "historically situated evidence appropriate to claim",
+        "reciprocal implication for scholarly theory",
+        "opacity and bearing consequences"
+      ],
+      "review_status": "pending",
+      "not_a_verified_finding": true
+    },
+    {
+      "id": "NR-22",
+      "concept_id": "NC-22",
+      "name": "SPIRIT",
+      "october_status": "active-open-ontology",
+      "provenance_category_to_audit": "unresolved_or_restricted",
+      "open_question": "Whose category is spirit, and what is verified or open?",
+      "associated_scholarly_concept_leads": [
+        "SCI-017",
+        "SCI-049"
+      ],
+      "required_tests": [
+        "source and original-claim check",
+        "counter-reading or adverse case",
+        "historically situated evidence appropriate to claim",
+        "reciprocal implication for scholarly theory",
+        "opacity and bearing consequences"
+      ],
+      "review_status": "pending",
+      "not_a_verified_finding": true
+    },
+    {
+      "id": "NR-23",
+      "concept_id": "NC-23",
+      "name": "RITUAL EFFICACY",
+      "october_status": "active-research-object",
+      "provenance_category_to_audit": "extended_or_refined_scholarly_concept",
+      "open_question": "What is a ritual said, experienced or shown to accomplish?",
+      "associated_scholarly_concept_leads": [
+        "SCI-017",
+        "SCI-020"
+      ],
+      "required_tests": [
+        "source and original-claim check",
+        "counter-reading or adverse case",
+        "historically situated evidence appropriate to claim",
+        "reciprocal implication for scholarly theory",
+        "opacity and bearing consequences"
+      ],
+      "review_status": "pending",
+      "not_a_verified_finding": true
+    },
+    {
+      "id": "NR-24",
+      "concept_id": "NC-24",
+      "name": "SEERS OF THE WAY / WORD",
+      "october_status": "exploratory-taxonomy",
+      "provenance_category_to_audit": "unresolved_or_restricted",
+      "open_question": "Is the suggested seer typology historically demonstrable?",
+      "associated_scholarly_concept_leads": [],
+      "required_tests": [
+        "source and original-claim check",
+        "counter-reading or adverse case",
+        "historically situated evidence appropriate to claim",
+        "reciprocal implication for scholarly theory",
+        "opacity and bearing consequences"
+      ],
+      "review_status": "pending",
+      "not_a_verified_finding": true
+    },
+    {
+      "id": "NR-25",
+      "concept_id": "NC-25",
+      "name": "SIGNS, LETTERS AND RELATIONAL CHARGE",
+      "october_status": "exploratory",
+      "provenance_category_to_audit": "unresolved_or_restricted",
+      "open_question": "What is 'charge': habit, affect, authority, sign, or claimed spiritual efficacy?",
+      "associated_scholarly_concept_leads": [
+        "SCI-003"
+      ],
+      "required_tests": [
+        "source and original-claim check",
+        "counter-reading or adverse case",
+        "historically situated evidence appropriate to claim",
+        "reciprocal implication for scholarly theory",
+        "opacity and bearing consequences"
+      ],
+      "review_status": "pending",
+      "not_a_verified_finding": true
+    },
+    {
+      "id": "NR-26",
+      "concept_id": "NC-26",
+      "name": "CENTRALIZATION OF INVISIBLE AUTHORITY",
+      "october_status": "active-question",
+      "provenance_category_to_audit": "unresolved_or_restricted",
+      "open_question": "Can authority transfers be documented without a universal genealogy?",
+      "associated_scholarly_concept_leads": [],
+      "required_tests": [
+        "source and original-claim check",
+        "counter-reading or adverse case",
+        "historically situated evidence appropriate to claim",
+        "reciprocal implication for scholarly theory",
+        "opacity and bearing consequences"
+      ],
+      "review_status": "pending",
+      "not_a_verified_finding": true
+    },
+    {
+      "id": "NR-27",
+      "concept_id": "NC-27",
+      "name": "VISIBLE / INVISIBLE MEDIATION",
+      "october_status": "active-question",
+      "provenance_category_to_audit": "unresolved_or_restricted",
+      "open_question": "Which invisible relation becomes sensible for whom and how?",
+      "associated_scholarly_concept_leads": [],
+      "required_tests": [
+        "source and original-claim check",
+        "counter-reading or adverse case",
+        "historically situated evidence appropriate to claim",
+        "reciprocal implication for scholarly theory",
+        "opacity and bearing consequences"
+      ],
+      "review_status": "pending",
+      "not_a_verified_finding": true
+    },
+    {
+      "id": "NR-28",
+      "concept_id": "NC-28",
+      "name": "HISTORICAL JOURNALISM",
+      "october_status": "active-output-method",
+      "provenance_category_to_audit": "project_coined_or_synthesized",
+      "open_question": "Can historical journalism maintain source limits and rights of reply?",
+      "associated_scholarly_concept_leads": [],
+      "required_tests": [
+        "source and original-claim check",
+        "counter-reading or adverse case",
+        "historically situated evidence appropriate to claim",
+        "reciprocal implication for scholarly theory",
+        "opacity and bearing consequences"
+      ],
+      "review_status": "pending",
+      "not_a_verified_finding": true
+    },
+    {
+      "id": "NR-29",
+      "concept_id": "NC-29",
+      "name": "CASTING AND CAPTURE",
+      "october_status": "active-extension",
+      "provenance_category_to_audit": "project_coined_or_synthesized",
+      "open_question": "Which social or staged roles repeat, constrain or reorganize relation?",
+      "associated_scholarly_concept_leads": [],
+      "required_tests": [
+        "source and original-claim check",
+        "counter-reading or adverse case",
+        "historically situated evidence appropriate to claim",
+        "reciprocal implication for scholarly theory",
+        "opacity and bearing consequences"
+      ],
+      "review_status": "pending",
+      "not_a_verified_finding": true
+    },
+    {
+      "id": "NR-30",
+      "concept_id": "NC-30",
+      "name": "REPERTOIRE AND REHEARSAL",
+      "october_status": "active-practice",
+      "provenance_category_to_audit": "extended_or_refined_scholarly_concept",
+      "open_question": "What knowledge is carried by embodied rehearsal and unavailable in transcription?",
+      "associated_scholarly_concept_leads": [],
+      "required_tests": [
+        "source and original-claim check",
+        "counter-reading or adverse case",
+        "historically situated evidence appropriate to claim",
+        "reciprocal implication for scholarly theory",
+        "opacity and bearing consequences"
+      ],
+      "review_status": "pending",
+      "not_a_verified_finding": true
+    },
+    {
+      "id": "NR-31",
+      "concept_id": "NC-31",
+      "name": "CONVERSION VERSUS REPAIR",
+      "october_status": "active-distinction",
+      "provenance_category_to_audit": "project_coined_or_synthesized",
+      "open_question": "Does the intervention change causes or shift the form of the burden?",
+      "associated_scholarly_concept_leads": [
+        "SCI-014"
+      ],
+      "required_tests": [
+        "source and original-claim check",
+        "counter-reading or adverse case",
+        "historically situated evidence appropriate to claim",
+        "reciprocal implication for scholarly theory",
+        "opacity and bearing consequences"
+      ],
+      "review_status": "pending",
+      "not_a_verified_finding": true
+    }
+  ],
+  "earlier_or_newer_candidates": [
+    {
+      "id": "HC-01",
+      "name": "Subject emergence",
+      "status": "historical_or_new_candidate_not_approved_core",
+      "review_need": "Check concept genealogy and October restrictions before integration."
+    },
+    {
+      "id": "HC-02",
+      "name": "Coherence",
+      "status": "historical_or_new_candidate_not_approved_core",
+      "review_need": "Check concept genealogy and October restrictions before integration."
+    },
+    {
+      "id": "HC-03",
+      "name": "Embodied response",
+      "status": "historical_or_new_candidate_not_approved_core",
+      "review_need": "Check concept genealogy and October restrictions before integration."
+    },
+    {
+      "id": "HC-04",
+      "name": "Affect and attachment",
+      "status": "historical_or_new_candidate_not_approved_core",
+      "review_need": "Check concept genealogy and October restrictions before integration."
+    },
+    {
+      "id": "HC-05",
+      "name": "Detonation and fallout",
+      "status": "historical_or_new_candidate_not_approved_core",
+      "review_need": "Check concept genealogy and October restrictions before integration."
+    },
+    {
+      "id": "HC-06",
+      "name": "Nativity to relations under pressure",
+      "status": "historical_or_new_candidate_not_approved_core",
+      "review_need": "Check concept genealogy and October restrictions before integration."
+    },
+    {
+      "id": "HC-07",
+      "name": "Affordances and capacity",
+      "status": "historical_or_new_candidate_not_approved_core",
+      "review_need": "Check concept genealogy and October restrictions before integration."
+    },
+    {
+      "id": "HC-08",
+      "name": "Disorientation",
+      "status": "historical_or_new_candidate_not_approved_core",
+      "review_need": "Check concept genealogy and October restrictions before integration."
+    },
+    {
+      "id": "HC-09",
+      "name": "Chaos-monde and neoliberalism",
+      "status": "historical_or_new_candidate_not_approved_core",
+      "review_need": "Check concept genealogy and October restrictions before integration."
+    },
+    {
+      "id": "HC-10",
+      "name": "Denial, disavowal and delusion",
+      "status": "historical_or_new_candidate_not_approved_core",
+      "review_need": "Check concept genealogy and October restrictions before integration."
+    }
+  ],
+  "scholarship": "./scholarship-concepts.json",
+  "audit": "./audit-protocol.json",
+  "caution": "Archive-only formulations and backburnered conceptual systems are not restored as contemporary doctrine. Sources are invited to refute, limit or transform the project's proposed concepts.",
+  "completed_independent_assessments": 0
+}
