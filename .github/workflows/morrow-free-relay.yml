@@ -1,4 +1,5 @@
 name: Morrow — Free AI Witness Relay
+# v0.3.1: retry after safe empty-response failure; no paid API fallback.
 on:
   workflow_dispatch:
   push:
