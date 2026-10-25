@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://morrow-crt.github.io/morrow-corpus/sitemap.xml

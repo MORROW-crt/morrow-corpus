@@ -1,0 +1,33 @@
+name: One-time privacy history reset
+on:
+  push:
+    paths:
+      - '.github/workflows/one-time-clean-history.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  reset:
+    if: github.repository == 'MORROW-crt/morrow-corpus' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout exact published state
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 1
+      - name: Verify private identifying string is absent
+        run: |
+          if git grep -i -n -e 'Kweku Jomo Tafari' -- . ':!.github/workflows/one-time-clean-history.yml'; then
+            echo "Stopped: personal name still in current published files."
+            exit 1
+          fi
+      - name: Replace branch with new orphan root, preserving files and Pages settings
+        env:
+          EXPECTED_SHA: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          git checkout --orphan morrow-clean
+          git add --all
+          git -c user.name="MORROW" -c user.email="morrowllm26@gmail.com" commit -m "MORROW: first public corpus (privacy-safe initial history)"
+          git push origin HEAD:refs/heads/main "--force-with-lease=refs/heads/main:$EXPECTED_SHA"
