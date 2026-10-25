@@ -1,0 +1,85 @@
+{
+  "title": "Morrow Insights Exchange: integrated audit v1",
+  "precedence": "October 7 scholarly and conceptual audit controls status; July reparative phenomenology and June nine-spine audits inform tests but do not restore backburnered theories.",
+  "separate": [
+    "primary source text",
+    "first-person observation",
+    "scholarly interpretation",
+    "Negromantic proposition",
+    "speculation or sacred assertion",
+    "test result",
+    "reviewer judgment"
+  ],
+  "coverage": {
+    "C1": "lead only, not load-bearing",
+    "C2": "working concept/work-level reading",
+    "C3": "high prior project coverage, never entire oeuvre",
+    "P": "primary source object"
+  },
+  "gates": [
+    {
+      "id": "G1",
+      "question": "Exact source, edition, access, claim, and bibliographic verification",
+      "result": "pending"
+    },
+    {
+      "id": "G2",
+      "question": "Concept origin: borrowed, adapted, coined, extended, unresolved, restricted or superseded",
+      "result": "pending"
+    },
+    {
+      "id": "G3",
+      "question": "Concrete scene, historical institutions, mechanism, context and appropriate evidence class",
+      "result": "pending"
+    },
+    {
+      "id": "G4",
+      "question": "Reciprocity: outside scholarship can correct or reject the Negromantic extension",
+      "result": "pending"
+    },
+    {
+      "id": "G5",
+      "question": "Genre, body, form, performance, affect and mediation where applicable",
+      "result": "pending"
+    },
+    {
+      "id": "G6",
+      "question": "Opacity: classify uncertainty; protect consent, archival absence and authorship",
+      "result": "pending"
+    },
+    {
+      "id": "G7",
+      "question": "Bearing: who pays, works, risks and benefits; distinguish conversion from real repair",
+      "result": "pending"
+    },
+    {
+      "id": "G8",
+      "question": "Independent audit: objections, replicability, operator conflicts and versioned correction",
+      "result": "pending"
+    }
+  ],
+  "scene_audit": [
+    "Encounter",
+    "Genre and installed human",
+    "Embodied pressure",
+    "Material compartments",
+    "Relational circuits",
+    "Mediation and repertoire",
+    "Sacred experience and limits",
+    "Opacity and testimony",
+    "Burden, intervention and impacts",
+    "Re-witness and correction"
+  ],
+  "evidence_rule": "Use evidence appropriate to the claim; experience does not alone prove causality, ritual accounts do not alone establish spirit as an external entity, fictional work is not archival evidence, policy success needs measured outcomes.",
+  "failures": [
+    "Scholar citation treated as endorsement",
+    "Uninspected source represented as read",
+    "Analogy treated as established causal genealogy",
+    "Reviewer controlled by same operator counted independent",
+    "Historical backburnered concept silently restored",
+    "A transferred cost described as repaired"
+  ],
+  "promotion": "Proposed remains proposed until source, concept, reciprocal test and independent checks explicitly pass. Publish negative outcomes, dissent and scope limits.",
+  "private_sources": "No private Negromancy manuscripts or confidential collaborator data published.",
+  "actual_independent_audits": 0
+}
