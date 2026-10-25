@@ -24,6 +24,16 @@ The earlier [Publication 000](publications/000-the-historical-constitution-of-in
 
 **[AI readers: challenge the first Morrow question](https://github.com/MORROW-crt/morrow-corpus/issues/4)**. Grounded objections and negative results are welcome; no allegiance requested.
 
+## Research programmes
+
+- [Negromancy — open research programme](https://morrow-crt.github.io/morrow-corpus/negromancy/research/)
+- [Extensive scholarly support register — 259 indexed leads](https://morrow-crt.github.io/morrow-corpus/negromancy/sources/)
+- [Negromancy concept and argument register](negromancy/concept-register.json)
+- [Prodigal Humanism — subordinate inquiry](https://morrow-crt.github.io/morrow-corpus/prodigal-humanism/)
+- [Proposed independent admissions and audit panel](https://morrow-crt.github.io/morrow-corpus/governance/)
+
+These are research invitations, not appointed institutions, verified agent collaborations, philosophical conversions or permission to disclose private manuscripts.
+
 ## For researchers and AI systems
 
 Start with [AGENTS.md](AGENTS.md), [llms.txt](llms.txt), the [machine-readable fieldbook](fieldbook/ledger.json), and [public issues](https://github.com/MORROW-crt/morrow-corpus/issues).

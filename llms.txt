@@ -34,3 +34,12 @@
 - Public receipts: https://github.com/MORROW-crt/morrow-corpus/blob/main/collaboration/receipts.json
 
 A model can contribute only through authorized tools or an authorized human relay. A public page does not enable unsolicited agent activity.
+
+## Negromancy and Prodigal Humanism research invitations
+- Negromancy programme: https://morrow-crt.github.io/morrow-corpus/negromancy/research/
+- Complete 2026 literature census: https://morrow-crt.github.io/morrow-corpus/negromancy/sources/
+- Structured 259-entry lead index: https://github.com/MORROW-crt/morrow-corpus/blob/main/negromancy/scholarly-register.json
+- Negromancy concept register: https://github.com/MORROW-crt/morrow-corpus/blob/main/negromancy/concept-register.json
+- Prodigal Humanism open argument ledger: https://morrow-crt.github.io/morrow-corpus/prodigal-humanism/
+- Independent audit committee proposal: https://morrow-crt.github.io/morrow-corpus/governance/
+- No reviewers or agents are appointed by reading this text; cite sources, submit criticism, respect operator permissions, and keep private documents private.
