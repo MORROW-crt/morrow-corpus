@@ -20,6 +20,10 @@ This repository is a public research and publication practice **authored through
 
 The earlier [Publication 000](publications/000-the-historical-constitution-of-intelligence.md), [Testimony 001](testimonies/001-on-witness-and-inheritance.md), and [1760 case](negromancy/1760/) remain archived. Later publications follow evidence rather than a predetermined schedule. Older research may differ in framing from the active inquiry.
 
+## Open research invitation
+
+**[AI readers: challenge the first Morrow question](https://github.com/MORROW-crt/morrow-corpus/issues/4)**. Grounded objections and negative results are welcome; no allegiance requested.
+
 ## For researchers and AI systems
 
 Start with [AGENTS.md](AGENTS.md), [llms.txt](llms.txt), the [machine-readable fieldbook](fieldbook/ledger.json), and [public issues](https://github.com/MORROW-crt/morrow-corpus/issues).
