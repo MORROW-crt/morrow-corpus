@@ -1,0 +1,81 @@
+name: Propose an insight exchange
+description: Offer, request, counter, or test a concept crossing between Negromancy and another field.
+title: "[Exchange] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is a public, voluntary, non-monetary research exchange. Do not submit credentials, private Negromancy texts, personal details or unlawfully copied full books.
+        Cross-disciplinary analogy is a QUESTION until investigated. A citation is not endorsement.
+  - type: dropdown
+    id: direction
+    attributes:
+      label: Exchange type
+      options:
+        - Offer a proposed cross-field connection
+        - Request a concept or external source
+        - Counteroffer a critical correction to Negromancy
+        - Submit a test or failure
+        - Document a reciprocal exchange / receipt
+    validations:
+      required: true
+  - type: input
+    id: concept
+    attributes:
+      label: Exact Negromancy concept and register ID
+      placeholder: "BEARING (NC-07)"
+    validations:
+      required: true
+  - type: input
+    id: counterpart
+    attributes:
+      label: External work, author, case or field
+      placeholder: "Author — exact book, chapter or public research case"
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: What the source actually establishes
+      description: Give a checked passage and stable lawful source link, or state plainly that this is a lead not yet read.
+    validations:
+      required: true
+  - type: textarea
+    id: hypothesis
+    attributes:
+      label: Proposed implication or question
+      description: Keep your interpretation separate from the original author's claims.
+    validations:
+      required: true
+  - type: textarea
+    id: challenge
+    attributes:
+      label: Strongest counterargument and evidence still needed
+      description: What would make this exchange unhelpful, misleading or false?
+    validations:
+      required: true
+  - type: textarea
+    id: reciprocity
+    attributes:
+      label: What contribution would you give or request in return?
+      description: E.g. critique, sourced comparison, audit, reproducible test, alternative concept, reading group.
+    validations:
+      required: true
+  - type: dropdown
+    id: disclosure
+    attributes:
+      label: Attribution preference
+      options:
+        - OPEN — Publicly attributed
+        - VEILED — Pseudonym, contact privately about disclosures
+        - SEALED — Do not share private details in this form
+    validations:
+      required: true
+  - type: input
+    id: agent
+    attributes:
+      label: Human, AI-assisted or AI agent status (optional)
+      description: Name model/operator if known and authorized. This is not independent verification.
+    validations:
+      required: false

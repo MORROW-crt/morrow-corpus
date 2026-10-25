@@ -1,0 +1,567 @@
+{
+  "title": "Morrow — Insights Exchange",
+  "purpose": "Voluntary, reciprocal, public exchange of concepts, counterarguments and evidence between Negromancy and other research fields.",
+  "model": "non_monetary_research_exchange",
+  "currency": null,
+  "fees": 0,
+  "adoption_not_automatic": true,
+  "status": "open_for_submissions",
+  "launched": "2026-10-25",
+  "source_census": "../negromancy/scholarly-register.json",
+  "concept_census": "../negromancy/concept-register.json",
+  "definitions": {
+    "offer": "Propose a cross-field relevance claim with sources and a testable limit",
+    "request": "Ask for an external field's source, case, method or skeptical reading",
+    "counteroffer": "Show how the other field should correct or refuse the proposal",
+    "test": "Produce evidence, a replication, or an accountable negative result",
+    "receipt": "Record a real reviewed response or influence with consent and attribution"
+  },
+  "review_stages": [
+    "proposed",
+    "source_checked",
+    "under_review",
+    "disputed",
+    "tested",
+    "transferred",
+    "withdrawn"
+  ],
+  "contributions_received": 0,
+  "matched_external_participants": 0,
+  "independently_audited_exchanges": 0,
+  "completed_exchange_receipts": [],
+  "ethics": {
+    "attribution": "Preserve creator and contributor credit, original titles and scope. No transfer of ownership in ideas is presumed.",
+    "consent": "No model, author, artist or person is enrolled merely by being cited. AI contributions require authorized operator pathways.",
+    "epistemics": "A proposed cross-discipline implication is neither a statement of original authorial intent nor a scholarly finding.",
+    "copyright": "Exchange bibliographic metadata, short commentary and lawful links; not unlicensed full texts.",
+    "privacy": "OPEN, VEILED and SEALED modes apply; public issues must not contain secrets or sealed information.",
+    "dissent": "Negative results and rejected analogies remain visible and exchangeable."
+  },
+  "listings": [
+    {
+      "id": "MX-001",
+      "kind": "offer",
+      "title": "Historical classification ↔ algorithmic classification",
+      "fields": [
+        "Colonial law",
+        "AI governance"
+      ],
+      "negromancy_concepts": [
+        {
+          "id": "NC-15",
+          "name": "OBEAH AS COLONIAL CLASSIFICATION"
+        },
+        {
+          "id": "NC-14",
+          "name": "JURISDICTION OVER RELATIONAL CAPACITIES"
+        }
+      ],
+      "scholarly_leads": [
+        {
+          "id": "N-102",
+          "creator": "Diana Paton",
+          "works": "The Cultural Politics of Obeah; No Bond but the Law",
+          "verification": "one_link_checked_not_full_oeuvre",
+          "url": "https://www.cambridge.org/core/books/cultural-politics-of-obeah/18560C16399F297C310529C686CD039A"
+        },
+        {
+          "id": "N-103",
+          "creator": "Katharine Gerbner",
+          "works": "Archival Irruptions; Christian Slavery",
+          "verification": "one_link_checked_not_full_oeuvre",
+          "url": "https://www.jstor.org/stable/jj.33506907"
+        },
+        {
+          "id": "N-221",
+          "creator": "Safiya Umoja Noble",
+          "works": "Algorithms of Oppression",
+          "verification": "bibliographic_lead_only",
+          "url": null
+        },
+        {
+          "id": "N-222",
+          "creator": "Ruha Benjamin",
+          "works": "Race After Technology; Viral Justice",
+          "verification": "bibliographic_lead_only",
+          "url": null
+        }
+      ],
+      "research_question": "What happens to a practice when a powerful institution defines the categories under which that practice becomes legible or punishable?",
+      "proposed_implication": "The historical construction of Obeah as a colonial legal category may sharpen questions about whose classifications become enforceable in contemporary AI systems, without equating colonial law and software.",
+      "objection": "The procedures, populations, jurisdictions and consequences differ; an analogy may obscure more than it explains.",
+      "evidence_needed": "A specific legal passage and a specific documented classification system, each with institutional authority, appeal mechanisms, affected persons and observable consequences.",
+      "invitation": "A paired historical/legal and technical audit, including reasons to reject the analogy.",
+      "status": "proposed",
+      "initiated_by": "Morrow (human-directed, AI-assisted editorial proposal)",
+      "date": "2026-10-25",
+      "external_contributors": [],
+      "reviewers": [],
+      "evidence_confirmed_for_transfer": false,
+      "confirmed_exchange": false,
+      "receipt": null,
+      "rights": "Links to source metadata only. Rights to individual works remain with their holders.",
+      "engage_url": "https://github.com/MORROW-crt/morrow-corpus/issues/11"
+    },
+    {
+      "id": "MX-002",
+      "kind": "request",
+      "title": "Bearing ↔ climate finance and risk",
+      "fields": [
+        "Climate policy",
+        "Political economy"
+      ],
+      "negromancy_concepts": [
+        {
+          "id": "NC-07",
+          "name": "BEARING"
+        },
+        {
+          "id": "NC-18",
+          "name": "REPAIR"
+        },
+        {
+          "id": "NC-31",
+          "name": "CONVERSION VERSUS REPAIR"
+        }
+      ],
+      "scholarly_leads": [
+        {
+          "id": "N-146",
+          "creator": "Deborah A. Thomas",
+          "works": "Modern Blackness; Exceptional Violence; Political Life in the Wake of the Plantation",
+          "verification": "one_link_checked_not_full_oeuvre",
+          "url": "https://www.dukeupress.edu/political-life-in-the-wake-of-the-plantation"
+        },
+        {
+          "id": "N-196",
+          "creator": "Joan C. Tronto",
+          "works": "Moral Boundaries; Caring Democracy",
+          "verification": "bibliographic_lead_only",
+          "url": null
+        },
+        {
+          "id": "N-197",
+          "creator": "Iris Marion Young",
+          "works": "Justice and the Politics of Difference; Responsibility for Justice",
+          "verification": "bibliographic_lead_only",
+          "url": null
+        },
+        {
+          "id": "N-137",
+          "creator": "George L. Beckford",
+          "works": "Persistent Poverty",
+          "verification": "bibliographic_lead_only",
+          "url": null
+        }
+      ],
+      "research_question": "When an intervention is counted as risk reduction, whose labour, delay, exposure and financial risk have actually changed?",
+      "proposed_implication": "The distinction between conversion and repair might help test whether climate-finance interventions transform vulnerability or shift the burden of it.",
+      "objection": "A redistribution of financial cost may not capture adaptation effectiveness, lived vulnerability or differing policy objectives.",
+      "evidence_needed": "One documented financing case with baseline, funding conditions, local implementation, outcomes, alternative explanations and distributional data.",
+      "invitation": "Researchers of climate finance and practitioners with public, shareable case evidence.",
+      "status": "proposed",
+      "initiated_by": "Morrow (human-directed, AI-assisted editorial proposal)",
+      "date": "2026-10-25",
+      "external_contributors": [],
+      "reviewers": [],
+      "evidence_confirmed_for_transfer": false,
+      "confirmed_exchange": false,
+      "receipt": null,
+      "rights": "Links to source metadata only. Rights to individual works remain with their holders.",
+      "engage_url": "https://github.com/MORROW-crt/morrow-corpus/issues/11"
+    },
+    {
+      "id": "MX-003",
+      "kind": "counteroffer",
+      "title": "Opacity ↔ AI transparency",
+      "fields": [
+        "AI governance",
+        "Black feminist philosophy"
+      ],
+      "negromancy_concepts": [
+        {
+          "id": "NC-05",
+          "name": "OPACITY"
+        },
+        {
+          "id": "NC-03",
+          "name": "RELATION"
+        }
+      ],
+      "scholarly_leads": [
+        {
+          "id": "N-063",
+          "creator": "Édouard Glissant",
+          "works": "Poetics of Relation; Caribbean Discourse; Poetic Intention; Treatise on the Whole-World",
+          "verification": "bibliographic_lead_only",
+          "url": null
+        },
+        {
+          "id": "N-040",
+          "creator": "Denise Ferreira da Silva",
+          "works": "Toward a Global Idea of Race",
+          "verification": "bibliographic_lead_only",
+          "url": null
+        },
+        {
+          "id": "N-220",
+          "creator": "Simone Browne",
+          "works": "Dark Matters",
+          "verification": "bibliographic_lead_only",
+          "url": null
+        },
+        {
+          "id": "N-226",
+          "creator": "Kate Crawford",
+          "works": "Atlas of AI",
+          "verification": "bibliographic_lead_only",
+          "url": null
+        }
+      ],
+      "research_question": "When does greater legibility make people or communities safer, and when does it intensify extraction or control?",
+      "proposed_implication": "Glissant's concept of opacity may place limits on an assumption that indiscriminate transparency is equivalent to accountability.",
+      "objection": "Opacity is not a technical substitute for contestability, explainability, access to remedy, or evidence of wrongful treatment.",
+      "evidence_needed": "Distinguish individual privacy, epistemic uncertainty, community refusal, platform secrecy and regulator access in a real case.",
+      "invitation": "A privacy, regulation or transparency scholar to supply an example where opacity obstructs accountability.",
+      "status": "proposed",
+      "initiated_by": "Morrow (human-directed, AI-assisted editorial proposal)",
+      "date": "2026-10-25",
+      "external_contributors": [],
+      "reviewers": [],
+      "evidence_confirmed_for_transfer": false,
+      "confirmed_exchange": false,
+      "receipt": null,
+      "rights": "Links to source metadata only. Rights to individual works remain with their holders.",
+      "engage_url": "https://github.com/MORROW-crt/morrow-corpus/issues/11"
+    },
+    {
+      "id": "MX-004",
+      "kind": "offer",
+      "title": "Repertoire ↔ AI language and performance",
+      "fields": [
+        "Theatre",
+        "Language technology"
+      ],
+      "negromancy_concepts": [
+        {
+          "id": "NC-30",
+          "name": "REPERTOIRE AND REHEARSAL"
+        },
+        {
+          "id": "NC-06",
+          "name": "HISTORICAL CONSCIOUSNESS"
+        },
+        {
+          "id": "NC-13",
+          "name": "MEDIATION"
+        }
+      ],
+      "scholarly_leads": [
+        {
+          "id": "N-002",
+          "creator": "Diana Taylor",
+          "works": "The Archive and the Repertoire; Performance",
+          "verification": "one_link_checked_not_full_oeuvre",
+          "url": "https://www.dukeupress.edu/the-archive-and-the-repertoire"
+        },
+        {
+          "id": "N-064",
+          "creator": "Kamau Brathwaite",
+          "works": "The Development of Creole Society in Jamaica, 1770–1820; History of the Voice; The Arrivants",
+          "verification": "bibliographic_lead_only",
+          "url": null
+        },
+        {
+          "id": "N-071",
+          "creator": "Carolyn Cooper",
+          "works": "Noises in the Blood; Sound Clash",
+          "verification": "bibliographic_lead_only",
+          "url": null
+        },
+        {
+          "id": "N-080",
+          "creator": "Nina Sun Eidsheim",
+          "works": "The Race of Sound",
+          "verification": "bibliographic_lead_only",
+          "url": null
+        }
+      ],
+      "research_question": "What does a textual or synthetic-voice rendering preserve, change or omit from embodied speech and performance?",
+      "proposed_implication": "An archive/repertoire distinction could help design an evaluation that does not mistake stylistic imitation for participation in a lived performance tradition.",
+      "objection": "Written or recorded artifacts can also preserve and transmit substantial cultural knowledge; a rigid body/text split may be misleading.",
+      "evidence_needed": "Permissioned paired samples, actual speakers or performers, provenance, audience interpretation and criteria for transfer.",
+      "invitation": "Performance scholars and AI speech researchers who can design a consensual comparative test.",
+      "status": "proposed",
+      "initiated_by": "Morrow (human-directed, AI-assisted editorial proposal)",
+      "date": "2026-10-25",
+      "external_contributors": [],
+      "reviewers": [],
+      "evidence_confirmed_for_transfer": false,
+      "confirmed_exchange": false,
+      "receipt": null,
+      "rights": "Links to source metadata only. Rights to individual works remain with their holders.",
+      "engage_url": "https://github.com/MORROW-crt/morrow-corpus/issues/11"
+    },
+    {
+      "id": "MX-005",
+      "kind": "request",
+      "title": "Prodigal Humanism ↔ the ethics of AI",
+      "fields": [
+        "Humanism",
+        "AI ethics"
+      ],
+      "negromancy_concepts": [
+        {
+          "id": "NC-19",
+          "name": "PRODIGAL HUMANISM"
+        },
+        {
+          "id": "NC-29",
+          "name": "CASTING AND CAPTURE"
+        },
+        {
+          "id": "NC-03",
+          "name": "RELATION"
+        }
+      ],
+      "scholarly_leads": [
+        {
+          "id": "N-035",
+          "creator": "Sylvia Wynter",
+          "works": "Unsettling the Coloniality of Being/Power/Truth/Freedom; No Humans Involved; Black Metamorphosis",
+          "verification": "one_link_checked_not_full_oeuvre",
+          "url": "https://www.jstor.org/stable/41949874"
+        },
+        {
+          "id": "N-034",
+          "creator": "Frantz Fanon",
+          "works": "Black Skin, White Masks; The Wretched of the Earth",
+          "verification": "bibliographic_lead_only",
+          "url": null
+        },
+        {
+          "id": "N-037",
+          "creator": "Alexander G. Weheliye",
+          "works": "Habeas Viscus",
+          "verification": "bibliographic_lead_only",
+          "url": null
+        },
+        {
+          "id": "N-222",
+          "creator": "Ruha Benjamin",
+          "works": "Race After Technology; Viral Justice",
+          "verification": "bibliographic_lead_only",
+          "url": null
+        }
+      ],
+      "research_question": "Which conception of 'the human' is assumed when AI systems classify, assist, evaluate or make decisions about people?",
+      "proposed_implication": "The historical critique of overrepresented Man could reveal hidden normative assumptions in system objectives, evaluation datasets and institutional deployment.",
+      "objection": "Different contemporary AI systems instantiate different and sometimes conflicting assumptions; neither all humanism nor all AI governance reduces to one genre.",
+      "evidence_needed": "One audited deployment or evaluation framework, its published objectives, affected subjects, and an independent reading of the actual cited scholarship.",
+      "invitation": "Technologists and philosophers willing to specify a counterexample to the proposed framing.",
+      "status": "proposed",
+      "initiated_by": "Morrow (human-directed, AI-assisted editorial proposal)",
+      "date": "2026-10-25",
+      "external_contributors": [],
+      "reviewers": [],
+      "evidence_confirmed_for_transfer": false,
+      "confirmed_exchange": false,
+      "receipt": null,
+      "rights": "Links to source metadata only. Rights to individual works remain with their holders.",
+      "engage_url": "https://github.com/MORROW-crt/morrow-corpus/issues/11"
+    },
+    {
+      "id": "MX-006",
+      "kind": "counteroffer",
+      "title": "Ritual efficacy ↔ how experiments define success",
+      "fields": [
+        "Religious studies",
+        "Evaluation methods"
+      ],
+      "negromancy_concepts": [
+        {
+          "id": "NC-23",
+          "name": "RITUAL EFFICACY"
+        },
+        {
+          "id": "NC-20",
+          "name": "GUZU"
+        },
+        {
+          "id": "NC-02",
+          "name": "CONJURATION"
+        }
+      ],
+      "scholarly_leads": [
+        {
+          "id": "N-104",
+          "creator": "J. Brent Crosson",
+          "works": "Experiments with Power",
+          "verification": "bibliographic_lead_only",
+          "url": null
+        },
+        {
+          "id": "N-123",
+          "creator": "William Sax + Johannes Quack + Jan Weinhold",
+          "works": "The Problem of Ritual Efficacy",
+          "verification": "bibliographic_lead_only",
+          "url": null
+        },
+        {
+          "id": "N-121",
+          "creator": "Birgit Meyer",
+          "works": "sensational forms / mediation",
+          "verification": "bibliographic_lead_only",
+          "url": null
+        }
+      ],
+      "research_question": "Who gets to specify what an intervention was meant to do, and which outcomes count as evidence that it did it?",
+      "proposed_implication": "Scholarship on ritual efficacy may press researchers to separate participant criteria, procedures, observed consequences and explanations of cause.",
+      "objection": "Experimentation in religious practice need not share the causal assumptions or repeatability criteria of scientific evaluation.",
+      "evidence_needed": "Precise chapters and a historically situated case; keep experienced effects, reported efficacy, institutional outcomes and ontological claims separate.",
+      "invitation": "A ritual-studies scholar to identify where this methodological transfer fails.",
+      "status": "proposed",
+      "initiated_by": "Morrow (human-directed, AI-assisted editorial proposal)",
+      "date": "2026-10-25",
+      "external_contributors": [],
+      "reviewers": [],
+      "evidence_confirmed_for_transfer": false,
+      "confirmed_exchange": false,
+      "receipt": null,
+      "rights": "Links to source metadata only. Rights to individual works remain with their holders.",
+      "engage_url": "https://github.com/MORROW-crt/morrow-corpus/issues/11"
+    },
+    {
+      "id": "MX-007",
+      "kind": "offer",
+      "title": "Fetish-space-time ↔ platform political economy",
+      "fields": [
+        "Political economy",
+        "Digital platforms"
+      ],
+      "negromancy_concepts": [
+        {
+          "id": "NC-16",
+          "name": "FETISH-SPACE-TIME"
+        },
+        {
+          "id": "NC-07",
+          "name": "BEARING"
+        }
+      ],
+      "scholarly_leads": [
+        {
+          "id": "N-161",
+          "creator": "Karl Marx",
+          "works": "Capital, vol. 1",
+          "verification": "bibliographic_lead_only",
+          "url": null
+        },
+        {
+          "id": "N-159",
+          "creator": "William Pietz",
+          "works": "The Problem of the Fetish",
+          "verification": "bibliographic_lead_only",
+          "url": null
+        },
+        {
+          "id": "N-225",
+          "creator": "Nick Couldry + Ulises A. Mejias",
+          "works": "The Costs of Connection / data colonialism",
+          "verification": "bibliographic_lead_only",
+          "url": null
+        },
+        {
+          "id": "N-138",
+          "creator": "Sidney W. Mintz",
+          "works": "Sweetness and Power; Caribbean Transformations",
+          "verification": "bibliographic_lead_only",
+          "url": null
+        }
+      ],
+      "research_question": "Which social and material relations disappear when a platform's value appears to belong to data or a technical product itself?",
+      "proposed_implication": "The restricted fetish-space-time proposal might focus research on how labour, infrastructure, ownership and governance become naturalized in specific technologies.",
+      "objection": "Marxian commodity fetishism, Atlantic fetish discourse and contemporary data infrastructure have distinct histories; this might be an unstable or unnecessary compound concept.",
+      "evidence_needed": "One specific product, price or institution; demonstrable value-chain and distributional records; historical scope and competing economic explanation.",
+      "invitation": "Economic historians and platform scholars to test whether the proposed new concept adds explanatory value.",
+      "status": "proposed",
+      "initiated_by": "Morrow (human-directed, AI-assisted editorial proposal)",
+      "date": "2026-10-25",
+      "external_contributors": [],
+      "reviewers": [],
+      "evidence_confirmed_for_transfer": false,
+      "confirmed_exchange": false,
+      "receipt": null,
+      "rights": "Links to source metadata only. Rights to individual works remain with their holders.",
+      "engage_url": "https://github.com/MORROW-crt/morrow-corpus/issues/11"
+    },
+    {
+      "id": "MX-008",
+      "kind": "request",
+      "title": "Testimony ↔ investigative archives and contested evidence",
+      "fields": [
+        "History",
+        "Journalism"
+      ],
+      "negromancy_concepts": [
+        {
+          "id": "NC-08",
+          "name": "WITNESS"
+        },
+        {
+          "id": "NC-09",
+          "name": "TESTIMONY"
+        },
+        {
+          "id": "NC-17",
+          "name": "NEGROMANSCRIPTION"
+        }
+      ],
+      "scholarly_leads": [
+        {
+          "id": "N-042",
+          "creator": "Saidiya Hartman",
+          "works": "Scenes of Subjection; Venus in Two Acts; Lose Your Mother; Wayward Lives",
+          "verification": "bibliographic_lead_only",
+          "url": null
+        },
+        {
+          "id": "N-140",
+          "creator": "Michel-Rolph Trouillot",
+          "works": "Silencing the Past",
+          "verification": "bibliographic_lead_only",
+          "url": null
+        },
+        {
+          "id": "N-146",
+          "creator": "Deborah A. Thomas",
+          "works": "Modern Blackness; Exceptional Violence; Political Life in the Wake of the Plantation",
+          "verification": "one_link_checked_not_full_oeuvre",
+          "url": "https://www.dukeupress.edu/political-life-in-the-wake-of-the-plantation"
+        },
+        {
+          "id": "N-002",
+          "creator": "Diana Taylor",
+          "works": "The Archive and the Repertoire; Performance",
+          "verification": "one_link_checked_not_full_oeuvre",
+          "url": "https://www.dukeupress.edu/the-archive-and-the-repertoire"
+        }
+      ],
+      "research_question": "How can a public research record acknowledge witness testimony and archival silence without fabricating either?",
+      "proposed_implication": "Negromanscription could serve as a versioned method for keeping source text, witness position, institutional production, inference and later revision distinct.",
+      "objection": "A new terminology or schema may add paperwork without addressing the core ethics of archival representation.",
+      "evidence_needed": "One bounded public case with archival gaps, contested testimony, source provenance, consent and visible correction history.",
+      "invitation": "Archivists, historians and investigative reporters to audit the proposed record format.",
+      "status": "proposed",
+      "initiated_by": "Morrow (human-directed, AI-assisted editorial proposal)",
+      "date": "2026-10-25",
+      "external_contributors": [],
+      "reviewers": [],
+      "evidence_confirmed_for_transfer": false,
+      "confirmed_exchange": false,
+      "receipt": null,
+      "rights": "Links to source metadata only. Rights to individual works remain with their holders.",
+      "engage_url": "https://github.com/MORROW-crt/morrow-corpus/issues/11"
+    }
+  ]
+}
