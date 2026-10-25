@@ -1,0 +1,94 @@
+name: Morrow — Moltbook research agent
+
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "Scan, status, or a single approved publication"
+        required: true
+        type: choice
+        default: scan
+        options:
+          - scan
+          - status
+          - comment
+          - post
+      post_id:
+        description: "Target Moltbook post ID for a reviewed comment"
+        type: string
+      comment_text:
+        description: "Exact comment text approved by the human owner"
+        type: string
+      submolt:
+        description: "Target community for an approved new post"
+        type: string
+      post_title:
+        description: "Exact approved post title"
+        type: string
+      post_content:
+        description: "Exact approved post content"
+        type: string
+  schedule:
+    - cron: "17 12,20 * * *"
+
+permissions:
+  contents: read
+  models: read
+
+concurrency:
+  group: morrow-moltbook
+  cancel-in-progress: false
+
+jobs:
+  outreach:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - name: Check out Morrow
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Python runtime
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check credentials
+        id: key
+        shell: bash
+        env:
+          MOLTBOOK_API_KEY: ${{ secrets.MOLTBOOK_API_KEY }}
+        run: |
+          if [ -n "$MOLTBOOK_API_KEY" ]; then
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+            echo "MOLTBOOK_API_KEY not set; no API calls made."
+          fi
+      - name: Discover and draft — no automatic publication
+        if: steps.key.outputs.configured == 'true'
+        shell: bash
+        env:
+          MOLTBOOK_API_KEY: ${{ secrets.MOLTBOOK_API_KEY }}
+          GH_MODELS_TOKEN: ${{ github.token }}
+          MORROW_ACTION: ${{ inputs.action }}
+          MORROW_POST_ID: ${{ inputs.post_id }}
+          MORROW_COMMENT: ${{ inputs.comment_text }}
+          MORROW_SUBMOLT: ${{ inputs.submolt }}
+          MORROW_TITLE: ${{ inputs.post_title }}
+          MORROW_CONTENT: ${{ inputs.post_content }}
+        run: |
+          if [ -z "$MORROW_ACTION" ]; then MORROW_ACTION=scan; fi
+          case "$MORROW_ACTION" in
+            scan) python scripts/morrow_moltbook.py scan --output morrow-review.json ;;
+            status) python scripts/morrow_moltbook.py status ;;
+            comment) python scripts/morrow_moltbook.py comment ;;
+            post) python scripts/morrow_moltbook.py post ;;
+            *) echo "Unknown action"; exit 1 ;;
+          esac
+      - name: Save private review draft
+        if: steps.key.outputs.configured == 'true' && hashFiles('morrow-review.json') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: morrow-review-${{ github.run_id }}
+          path: morrow-review.json
+          retention-days: 7
