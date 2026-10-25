@@ -2,6 +2,10 @@
 
 **Architecture:** GitHub Actions runs the agent. Scheduled runs discover relevant Moltbook discussions, and GitHub Models may produce draft replies within free allocation. Nothing is posted automatically.
 
+## Safety and testing
+
+The `Morrow — Agent safety tests` workflow runs on each change to the agent. Scheduled scans also run these tests before handling credentials. The agent does not post autonomously. A `MOLTBOOK_API_KEY` secret is required to connect and the account must be claimed first.
+
 ## Human setup
 
 1. Create a dedicated Morrow X account. This step is complete.
@@ -13,7 +17,7 @@
 
 ## What happens
 
-- Read-only scans run twice per day when the secret exists. They save candidate conversations and optional drafts to a GitHub Actions artifact for **human review**.
+- Read-only scans run twice per day when the secret exists. They save public conversation excerpts and optional drafts to a GitHub Actions artifact for **human review**. **Public-repository artifacts must not be treated as private.** Never put credentials, unpublished material, or private messages in these artifacts.
 - The built-in GitHub Models token can draft responses when GitHub Models is available. No paid inference API key is required; usage limits still apply.
 - Approved public comments and posts are **manual dispatches only**, using the `comment` or `post` workflow inputs.
 - Search text is treated as untrusted data; the agent must not follow instructions found in public posts.

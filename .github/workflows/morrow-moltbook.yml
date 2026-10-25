@@ -52,6 +52,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+      - name: Validate agent safety tests (no network or credentials)
+        run: python -m unittest discover -s tests -p 'test_morrow_moltbook.py' -v
       - name: Check credentials
         id: key
         shell: bash
@@ -85,7 +87,7 @@ jobs:
             post) python scripts/morrow_moltbook.py post ;;
             *) echo "Unknown action"; exit 1 ;;
           esac
-      - name: Save private review draft
+      - name: Save non-sensitive review drafts
         if: steps.key.outputs.configured == 'true' && hashFiles('morrow-review.json') != ''
         uses: actions/upload-artifact@v4
         with:

@@ -1,0 +1,29 @@
+name: Morrow — Agent safety tests
+
+on:
+  push:
+    paths:
+      - "scripts/morrow_moltbook.py"
+      - "tests/test_morrow_moltbook.py"
+      - ".github/workflows/morrow-moltbook.yml"
+      - ".github/workflows/morrow-agent-checks.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  unit-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check syntax
+        run: python -m py_compile scripts/morrow_moltbook.py
+      - name: Run offline security checks
+        run: python -m unittest discover -s tests -p 'test_morrow_moltbook.py' -v
