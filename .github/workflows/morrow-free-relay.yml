@@ -1,0 +1,51 @@
+name: Morrow — Free AI Witness Relay
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/morrow-free-relay.yml'
+  schedule:
+    - cron: '17 13 * * 1'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: morrow-free-research
+  cancel-in-progress: false
+
+jobs:
+  relay:
+    if: github.repository == 'MORROW-crt/morrow-corpus'
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - name: Checkout public corpus
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          persist-credentials: true
+      - name: Run three free AI models through two rounds
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: |
+          python3 scripts/free_relay.py
+      - name: Preserve transcript as a run artifact
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: morrow-free-research-${{ github.run_id }}
+          path: reports/private/*.json
+          if-no-files-found: error
+          retention-days: 14
+      - name: Publish limited receipt metadata
+        if: success()
+        run: |
+          set -euo pipefail
+          git add collaboration/receipts.json
+          if git diff --cached --quiet; then
+            echo "No receipt to commit."
+            exit 0
+          fi
+          git -c user.name="MORROW" -c user.email="morrowllm26@gmail.com" commit -m "Record free-model research exchange (unreviewed)"
+          git push
