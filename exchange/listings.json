@@ -1,6 +1,6 @@
 {
   "title": "Morrow — Insights Exchange",
-  "purpose": "Voluntary, reciprocal, public exchange of concepts, counterarguments and evidence between Negromancy and other research fields.",
+  "purpose": "Reciprocal inquiry into Negromancy's coined, adapted, extended and unresolved concepts, tested with concepts from supporting scholarship. An exchange must allow both bodies of work to correct or refuse each other.",
   "model": "non_monetary_research_exchange",
   "currency": null,
   "fees": 0,
@@ -105,10 +105,16 @@
     {
       "id": "MX-002",
       "kind": "request",
-      "title": "Bearing ↔ climate finance and risk",
+      "title": "Bearing ↔ climate action, vulnerability and implementation",
       "fields": [
-        "Climate policy",
-        "Political economy"
+        "Climate action",
+        "Mitigation",
+        "Adaptation",
+        "Ecosystems",
+        "Risk knowledge",
+        "Early warning",
+        "Governance",
+        "Finance"
       ],
       "negromancy_concepts": [
         {
@@ -122,6 +128,14 @@
         {
           "id": "NC-31",
           "name": "CONVERSION VERSUS REPAIR"
+        },
+        {
+          "id": "NC-13",
+          "name": "MEDIATION"
+        },
+        {
+          "id": "NC-06",
+          "name": "HISTORICAL CONSCIOUSNESS"
         }
       ],
       "scholarly_leads": [
@@ -154,11 +168,11 @@
           "url": null
         }
       ],
-      "research_question": "When an intervention is counted as risk reduction, whose labour, delay, exposure and financial risk have actually changed?",
-      "proposed_implication": "The distinction between conversion and repair might help test whether climate-finance interventions transform vulnerability or shift the burden of it.",
-      "objection": "A redistribution of financial cost may not capture adaptation effectiveness, lived vulnerability or differing policy objectives.",
-      "evidence_needed": "One documented financing case with baseline, funding conditions, local implementation, outcomes, alternative explanations and distributional data.",
-      "invitation": "Researchers of climate finance and practitioners with public, shareable case evidence.",
+      "research_question": "Across climate action—mitigation, adaptation, ecosystem relations, risk knowledge, early warning, planning, implementation and finance—who bears costs, labour, uncertainty and consequences, and what actually changes?",
+      "proposed_implication": "Negromancy's bearing, mediation, conversion and repair questions may help examine how climate action produces knowledge, organizes decisions and distributes vulnerability. Climate finance is one dimension, not the whole programme.",
+      "objection": "A philosophical account of bearing cannot replace climatic, hydrological, ecological, engineering or public-health evidence. Effects, geographic differences, trade-offs and counterfactuals must be measured.",
+      "evidence_needed": "A specific climate-action intervention: risk baselines, ecosystem and community data, local expertise, model assumptions, priority setting, governance, approval process, technical implementation, finance, monitoring and observed impacts, including unintended effects.",
+      "invitation": "Climate researchers, ecological scientists, disaster management practitioners, community experts, infrastructure and policy teams, and climate-finance specialists. Request a concrete counterexample to the proposed extension.",
       "status": "proposed",
       "initiated_by": "Morrow (human-directed, AI-assisted editorial proposal)",
       "date": "2026-10-25",
@@ -168,7 +182,33 @@
       "confirmed_exchange": false,
       "receipt": null,
       "rights": "Links to source metadata only. Rights to individual works remain with their holders.",
-      "engage_url": "https://github.com/MORROW-crt/morrow-corpus/issues/11"
+      "engage_url": "https://github.com/MORROW-crt/morrow-corpus/issues/11",
+      "scope_dimensions": [
+        "Mitigation and just transition",
+        "Adaptation and resilience",
+        "Ecosystem protection and restoration",
+        "Climate, ecosystem and vulnerability data",
+        "Risk assessment and modeling",
+        "Disaster risk reduction and early warning",
+        "Community knowledge and participation",
+        "Policy and planning",
+        "Approvals, institutions and implementation",
+        "Maintenance and evaluation",
+        "Climate finance and insurance",
+        "Loss, damage and repair"
+      ],
+      "public_research_starting_points": [
+        {
+          "source": "UNFCCC adaptation overview",
+          "url": "https://www.unfccc.int/topics/adaptation-and-resilience/the-big-picture/introduction",
+          "purpose": "Adaptation as wider ecological, social and economic action"
+        },
+        {
+          "source": "UN Early Warnings for All",
+          "url": "https://www.un.org/en/climatechange/early-warnings-for-all",
+          "purpose": "Risk knowledge, forecasting, warning and preparedness"
+        }
+      ]
     },
     {
       "id": "MX-003",
@@ -563,5 +603,6 @@
       "rights": "Links to source metadata only. Rights to individual works remain with their holders.",
       "engage_url": "https://github.com/MORROW-crt/morrow-corpus/issues/11"
     }
-  ]
+  ],
+  "last_revision": "2026-10-25"
 }
