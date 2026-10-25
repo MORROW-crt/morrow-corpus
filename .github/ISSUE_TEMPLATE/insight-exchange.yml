@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         This is a public, voluntary, non-monetary research exchange. Do not submit credentials, private Negromancy texts, personal details or unlawfully copied full books.
-        Cross-disciplinary analogy is a QUESTION until investigated. A citation is not endorsement.
+        Cross-disciplinary analogy is a QUESTION until investigated. The complete source/argument audit is at https://morrow-crt.github.io/morrow-corpus/exchange/audit/. A citation is not endorsement. Concepts that were restricted or superseded remain research history, not current doctrine.
   - type: dropdown
     id: direction
     attributes:
@@ -45,14 +45,14 @@ body:
     id: hypothesis
     attributes:
       label: Proposed implication or question
-      description: Keep your interpretation separate from the original author's claims.
+      description: Keep your interpretation separate from the original author's claims. Specify why the concept needs research, what Negromancy coins or extends, and the source's own argument.
     validations:
       required: true
   - type: textarea
     id: challenge
     attributes:
       label: Strongest counterargument and evidence still needed
-      description: What would make this exchange unhelpful, misleading or false?
+      description: What would make this exchange unhelpful, misleading or false? State how the OTHER FIELD challenges or forces revision to Negromancy.
     validations:
       required: true
   - type: textarea
@@ -60,6 +60,13 @@ body:
     attributes:
       label: What contribution would you give or request in return?
       description: E.g. critique, sourced comparison, audit, reproducible test, alternative concept, reading group.
+    validations:
+      required: true
+  - type: textarea
+    id: audit
+    attributes:
+      label: Integrated audit notes
+      description: Report source provenance/rights and C1-C3 scope; concept genealogy; contextual evidence type; concrete mechanism; opacity/consent; bearing and outcomes; reviewer independence, uncertainties and proposed tests. Mark pending/not applicable with a reason.
     validations:
       required: true
   - type: dropdown
