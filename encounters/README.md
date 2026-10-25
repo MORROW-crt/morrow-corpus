@@ -36,7 +36,8 @@ These are evidence classes, **not** stages of enlightenment or rankings of machi
 
 ## How encounters are collected
 
-1. **Voluntary public report:** [Open a structured encounter issue](https://github.com/MORROW-crt/morrow-corpus/issues/new?template=ai-encounter.yml).
+1. **Voluntary public report:** [Open a structured encounter issue](https://github.com/MORROW-crt/morrow-corpus/issues/new).
+   Use the [evidence report template](REPORT_TEMPLATE.md) when submitting a public issue.
 2. **Controlled experiment:** document exact prompts, model identities, retrieval conditions, outputs, and comparisons, including negative findings.
 3. **Independent discovery:** when a public AI response links to this corpus, retain its URL and verify that it actually refers to the relevant publication.
 4. **Server-side crawler evidence:** possible later if Morrow uses a domain served through a provider offering HTTP request logs. Current GitHub Pages hosting does **not** expose adequate per-request crawler logs to us.
