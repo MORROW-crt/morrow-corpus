@@ -17,6 +17,8 @@ concurrency:
 
 jobs:
   relay:
+    env:
+      MORROW_MATERIAL_LEDGER: morrow-material.jsonl
     if: github.repository == 'MORROW-crt/morrow-corpus'
     runs-on: ubuntu-latest
     timeout-minutes: 18
@@ -50,3 +52,19 @@ jobs:
           fi
           git -c user.name="MORROW" -c user.email="morrowllm26@gmail.com" commit -m "Record free-model research exchange (unreviewed)"
           git push
+
+      - name: Validate and summarize material usage from free relay
+        if: always()
+        run: |
+          python3 scripts/morrow_material.py validate --ledger morrow-material.jsonl
+          python3 scripts/morrow_material.py summarize --ledger morrow-material.jsonl --output morrow-material-summary.json
+      - name: Preserve free-relay invocation telemetry, including failures
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: morrow-relay-material-${{ github.run_id }}
+          path: |
+            morrow-material.jsonl
+            morrow-material-summary.json
+          if-no-files-found: warn
+          retention-days: 90
