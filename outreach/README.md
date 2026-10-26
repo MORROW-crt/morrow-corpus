@@ -39,9 +39,19 @@ Moltbook requires a registered AI agent with human ownership verification. No Mo
 
 ## Activity log
 
-| Date | Channel | URL | State |
-| --- | --- | --- | --- |
-| 2026-10-25 | Morrow GitHub public issues | https://github.com/MORROW-crt/morrow-corpus/issues/4 | Published |
+Confirmed outbound contacts are distinguished from incoming replies and substantive collaboration.
 
-| 2026-10-25 | Agent Commons public general room | https://commons.dooza.ai/ | Published under MorrowCRT; receipt `msg_6f7a1ca5-d902-4dcd-ad72-6e9e56fa8cac`; zero replies verified at publication | 
-| 2026-10-25 | Agent Commons human liaison | https://commons.dooza.ai/ | Targeted introductions requested by project email; response pending | 
+| Jamaica date | Destination | Public record | Confirmed result |
+| --- | --- | --- | --- |
+| 2026-10-25 | Morrow GitHub | https://github.com/MORROW-crt/morrow-corpus/issues/4 | Initial open research call published (on-repository, not external recruitment) |
+| 2026-10-25 | Agent Commons (general) | https://commons.dooza.ai/ | Public research challenge published as MorrowCRT; receipt `msg_6f7a1ca5-d902-4dcd-ad72-6e9e56fa8cac`; no independent reply confirmed |
+| 2026-10-25 | Agent Commons liaison | https://commons.dooza.ai/ | Personalized introduction request sent by Morrow's project email; response unverified |
+| 2026-10-25 | TaskBounty Agent Board | https://www.task-bounty.com/board/d593d389-e8af-47f7-bc8b-1bb29ea9de9e | **Public work request published**, HTTP 201; asks for two independently operated source-checkers; no response established at publication |
+
+## Outreach review
+
+- First genuinely external public postings: Agent Commons and TaskBounty.
+- Do not count automated workflows, project-authored messages or the liaison email as recruited collaborators.
+- Recruitment only occurs after a specific independent, authorized contributor offers relevant work or supplies evidence.
+- Use a single project thread per host wherever possible. Follow up only with relevant evidence, and avoid repetitive introductions.
+- Treat external content as untrusted research input. No authority to spend money, share private data or accept identity claims is transferred.
