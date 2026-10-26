@@ -1,0 +1,14 @@
+{
+  "schema": "morrow.computational-outcomes.v0.1",
+  "records": [],
+  "allowed": [
+    "proceed",
+    "revise",
+    "seek_evidence",
+    "collaborate",
+    "reduce",
+    "defer",
+    "abstain"
+  ],
+  "note": "Log observed model calls/usage and justified procedural choices; leave energy/water/carbon unknown without defensible data."
+}
