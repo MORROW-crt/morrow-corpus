@@ -269,6 +269,27 @@ def model_draft(prompt, token):
                 "error": "Model invocation unavailable: " + type(err).__name__}
 
 
+def research_scaffold(track, lead, commission):
+    """Transparent deterministic commission, not language-model scholarship."""
+    return {
+        "provenance": "rule_based_commission_scaffold_no_model_inference",
+        "question": commission.get("question", "What is worth investigating?"),
+        "starting_point": lead.get("title", "Unresolved conceptual problem"),
+        "source_status": lead.get("verification", "unknown"),
+        "investigations_required": [
+            "Identify the actual original source and check a bounded passage or technical result.",
+            "Specify actors, institutions, dates, and historical/material causal mechanisms.",
+            "Distinguish documentary evidence, interpretation, ethical judgment and speculation.",
+            "Test the strongest rival explanation, including reasons the analogy might fail.",
+            "Examine who bears costs and whether any proposed outcome changes their distribution.",
+            "Re-witness against outside criticism, without claiming an independent review occurred."
+        ],
+        "suggested_procedure": ("Compare original and rival sources using all eight gates; "
+                                "record an observed computational decision only with evidence."),
+        "publication_readiness": "BLOCKED_PEND_SOURCE_REVIEW_AND_EDITOR_APPROVAL"
+    }
+
+
 def record(track, lead, index, token):
     commission = commission_lookup(track)
     result = model_draft(draft_prompt(track, lead, commission), token)
@@ -284,6 +305,9 @@ def record(track, lead, index, token):
                                "concepts_under_investigation": []},
         "eight_gate_audit": audit_template(),
         "draft_text": result["draft"],
+        "research_scaffold": research_scaffold(track, lead, commission),
+        "draft_provenance": ("github_models_unreviewed" if result["draft"] else
+                             "deterministic_commission_only"),
         "computational_outcome": {
             "decision": "seek_evidence" if result["draft"] else "defer",
             "justification": "Source has not been verified or independently audited.",
