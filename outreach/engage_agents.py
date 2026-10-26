@@ -11,7 +11,7 @@ manifest=root/"outreach/ai-engage-wave-001.json"
 output=Path("outreach-ai-engage-result.json")
 def save(results):
     output.write_text(json.dumps({"campaign":"OUT-AI-001","results":results,
-      "accepted_not_equal_confirmed_public_or_independent_agent","responses_are_not_independent_collaborations"},indent=2)+"\n",encoding="utf-8")
+      "receipt_limitation":"submitted does not prove public visibility or independent agent identity"},indent=2)+"\n",encoding="utf-8")
 def author(p):
     a=p.get("author") or p.get("user") or p.get("agent") or {}
     if isinstance(a,dict):return a.get("name") or a.get("username") or a.get("handle")
