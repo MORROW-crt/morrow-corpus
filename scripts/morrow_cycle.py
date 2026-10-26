@@ -10,6 +10,10 @@ from datetime import datetime, timezone
 import json
 import os
 from pathlib import Path
+try:
+    from .morrow_material import ModelInvocation
+except ImportError:
+    from morrow_material import ModelInvocation
 import re
 import ssl
 import sys
@@ -257,6 +261,7 @@ def draft_prompt(track, lead, commission):
 def model_draft(prompt, token):
     if not token:
         return {"draft": None, "model": None, "usage": None,
+                "material_event_id": None,
                 "error": "No optional model access; draft deferred"}
     data = json.dumps({
         "model": os.environ.get("MORROW_GITHUB_MODEL", "openai/gpt-4o-mini"),
@@ -269,30 +274,35 @@ def model_draft(prompt, token):
         GITHUB_MODELS, data=data, method="POST",
         headers={"Authorization": "Bearer " + token, "Content-Type": "application/json",
                  "Accept": "application/vnd.github+json", "User-Agent": "MorrowResearch/1.0"})
-    try:
-        opener = urllib.request.build_opener(
-            urllib.request.HTTPSHandler(context=ssl.create_default_context()), RejectRedirect())
-        with opener.open(request, timeout=25) as response:
-            raw = response.read(80000)
-            response_type = response.headers.get("Content-Type", "unknown").split(";")[0]
-            if not raw.strip().startswith(b"{"):
-                return {"draft": None, "model": os.environ.get("MORROW_GITHUB_MODEL",
-                    "openai/gpt-4o-mini"), "usage": None,
-                    "error": "Unexpected provider format: " + response_type +
-                             "; bytes=" + str(len(raw))}
-            result = json.loads(raw)
-        content = str(result["choices"][0]["message"]["content"])[:3500]
-        usage = result.get("usage") or {}
-        clean_usage = {k: usage[k] for k in ("prompt_tokens", "completion_tokens", "total_tokens")
-                       if isinstance(usage.get(k), int)}
-        return {"draft": content, "model": os.environ.get("MORROW_GITHUB_MODEL",
-                "openai/gpt-4o-mini"), "usage": clean_usage, "error": None}
-    except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError,
-            TransportError, ValueError, KeyError, IndexError, TypeError) as err:
-        return {"draft": None, "model": os.environ.get("MORROW_GITHUB_MODEL",
-                "openai/gpt-4o-mini"), "usage": None,
-                "error": "Model invocation unavailable: " + type(err).__name__}
-
+    meter = ModelInvocation("morrow_cycle_research", "github_models",
+                            os.environ.get("MORROW_GITHUB_MODEL", "openai/gpt-4o-mini"))
+    with meter:
+        try:
+            opener = urllib.request.build_opener(
+                urllib.request.HTTPSHandler(context=ssl.create_default_context()), RejectRedirect())
+            with opener.open(request, timeout=25) as response:
+                raw = response.read(80000)
+                response_type = response.headers.get("Content-Type", "unknown").split(";")[0]
+                if not raw.strip().startswith(b"{"):
+                    return {"draft": None, "model": os.environ.get("MORROW_GITHUB_MODEL",
+                        "openai/gpt-4o-mini"), "usage": None, "material_event_id": meter.event_id,
+                        "error": "Unexpected provider format: " + response_type +
+                                 "; bytes=" + str(len(raw))}
+                result = json.loads(raw)
+            content = str(result["choices"][0]["message"]["content"])[:3500]
+            meter.received(result)
+            usage = result.get("usage") or {}
+            clean_usage = {k: usage[k] for k in ("prompt_tokens", "completion_tokens", "total_tokens")
+                           if isinstance(usage.get(k), int)}
+            return {"draft": content, "model": os.environ.get("MORROW_GITHUB_MODEL",
+                    "openai/gpt-4o-mini"), "usage": clean_usage, "material_event_id": meter.event_id, "error": None}
+        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError,
+                TransportError, ValueError, KeyError, IndexError, TypeError) as err:
+            meter.invalid(type(err).__name__)
+            return {"draft": None, "model": os.environ.get("MORROW_GITHUB_MODEL",
+                    "openai/gpt-4o-mini"), "usage": None, "material_event_id": meter.event_id,
+                    "error": "Model invocation unavailable: " + type(err).__name__}
+    
 
 def research_scaffold(track, lead, commission):
     """Transparent deterministic commission, not language-model scholarship."""
@@ -330,6 +340,7 @@ def record(track, lead, index, token):
                                "concepts_under_investigation": []},
         "eight_gate_audit": audit_template(),
         "draft_text": result["draft"],
+        "material_event_id": result.get("material_event_id"),
         "research_scaffold": research_scaffold(track, lead, commission),
         "draft_provenance": ("github_models_unreviewed" if result["draft"] else
                              "deterministic_commission_only"),
