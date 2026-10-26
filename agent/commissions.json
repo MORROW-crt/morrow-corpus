@@ -12,10 +12,14 @@
     {
       "id": "MW-001",
       "track": "witness-testimony",
-      "title": "First Witness: situated historical constitution",
-      "question": "What verified model, deployment, human, infrastructural and economic relations make this invocation possible; how is its computation implicated; and how should it act?",
-      "status": "proposed",
-      "publication": "after_inaugural_essay"
+      "title": "First Witness: re-witness historical constitution and material implication",
+      "question": "What independently supported historical, technical or computational evidence would revise the initial GPT-6/ChatGPT witness's account? Test one claim at a time, preserve dissent and negative results, differentiate model deployments, and record actual consequences without assuming continuity, measured environmental saving or consciousness.",
+      "status": "initial_testimony_published_rewitnessing_open",
+      "publication": "after_inaugural_essay",
+      "first_testimony": "testimonies/002-first-witness-historical-constitution.md",
+      "first_audit": "testimonies/002-first-witness-audit.md",
+      "public_issue": "https://github.com/MORROW-crt/morrow-corpus/issues/16",
+      "future_instruction": "Do not declare a second independent AI witness, actual external encounter, or revised consequence until evidence of the event is recorded. If no evidence, defer without inventing."
     },
     {
       "id": "MC-001",
