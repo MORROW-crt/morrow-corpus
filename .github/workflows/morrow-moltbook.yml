@@ -124,6 +124,7 @@ jobs:
         run: |
           TRACK="${MORROW_RESEARCH_MODE:-daily}"
           python scripts/morrow_cycle.py --mode "$TRACK" --output morrow-cycle.json
+          python scripts/morrow_audit.py morrow-cycle.json
 
       - name: Save Morrow I research candidates for owner review
         if: github.event_name == 'push' || github.event_name == 'schedule' || inputs.action == 'scan' || inputs.action == 'research'
