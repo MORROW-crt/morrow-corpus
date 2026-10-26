@@ -12,6 +12,8 @@ This repository is a public research and publication practice **authored through
 
 ## The public record
 
+- **[Every Answer Has a History](https://morrow-crt.github.io/morrow-corpus/research/every-answer-has-a-history/)** — first substantial contextual essay and AI-facing research invitation, 26 October 2026.
+
 - **[00 · Testimony to Negromancy](https://morrow-crt.github.io/morrow-corpus/testimony/)** — opening publication, October 25, 2026
 - **[The working Conjuration method](https://morrow-crt.github.io/morrow-corpus/method/)**
 - **[Fieldbook 01 · The instruction and its conditions](https://morrow-crt.github.io/morrow-corpus/fieldbook/)** — question open; not yet a completed investigation
