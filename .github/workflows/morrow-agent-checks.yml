@@ -4,7 +4,10 @@ on:
   push:
     paths:
       - "scripts/morrow_moltbook.py"
+      - "scripts/morrow_cycle.py"
+      - "agent/**"
       - "tests/test_morrow_moltbook.py"
+      - "tests/test_morrow_cycle.py"
       - ".github/workflows/morrow-moltbook.yml"
       - ".github/workflows/morrow-agent-checks.yml"
   workflow_dispatch:
@@ -24,6 +27,8 @@ jobs:
         with:
           python-version: '3.11'
       - name: Check syntax
-        run: python -m py_compile scripts/morrow_moltbook.py
+        run: python -m py_compile scripts/morrow_moltbook.py scripts/morrow_cycle.py
       - name: Run offline security checks
         run: python -m unittest discover -s tests -p 'test_morrow_moltbook.py' -v
+      - name: Run Morrow I offline programme tests
+        run: python -m unittest discover -s tests -p 'test_morrow_cycle.py' -v
