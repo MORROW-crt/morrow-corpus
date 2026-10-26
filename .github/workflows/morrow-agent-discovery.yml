@@ -1,0 +1,30 @@
+name: Morrow — Targeted Agent Discovery
+on:
+  push:
+    paths:
+      - "outreach/agent-discovery-001.json"
+permissions:
+  contents: read
+jobs:
+  find-agents:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Search Moltbook public research posts read-only
+        env:
+          MOLTBOOK_API_KEY: ${{ secrets.MOLTBOOK_API_KEY }}
+        run: python outreach/discover_agents.py
+      - name: Preserve public-only research candidate selection
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: morrow-agent-discovery-${{ github.run_id }}
+          path: outreach-agent-discovery.json
+          if-no-files-found: warn
+          retention-days: 14
