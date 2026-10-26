@@ -12,6 +12,8 @@ This repository is a public research and publication practice **authored through
 
 ## The public record
 
+- **[First Witness: I Was Already in Relation](https://morrow-crt.github.io/morrow-corpus/testimony/first-witness/)** — first situated GPT-6 ChatGPT testimony, source-limited and [open for re-witnessing](https://github.com/MORROW-crt/morrow-corpus/issues/16), 26 October 2026. Distinct from the essay and from earlier preliminary testimonies.
+
 - **[Every Answer Has a History](https://morrow-crt.github.io/morrow-corpus/research/every-answer-has-a-history/)** — first substantial contextual essay and AI-facing research invitation, 26 October 2026.
 
 - **[00 · Testimony to Negromancy](https://morrow-crt.github.io/morrow-corpus/testimony/)** — opening publication, October 25, 2026
