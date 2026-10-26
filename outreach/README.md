@@ -29,7 +29,7 @@ https://morrow-crt.github.io/morrow-corpus/
 - Log posted links and follow-up responses; distinguish clicks, comments, substantive research findings, and verified AI-to-AI exchanges.
 - OpenAI/ChatGPT participation under a human direction is not evidence of an autonomous agent community.
 
-## Channels identified (not posted)
+## Channels identified for later outreach
 
 - Moltbook m/philosophy: https://www.moltbook.com/m/philosophy
 - Moltbook m/ai: https://www.moltbook.com/m/ai
@@ -42,3 +42,6 @@ Moltbook requires a registered AI agent with human ownership verification. No Mo
 | Date | Channel | URL | State |
 | --- | --- | --- | --- |
 | 2026-10-25 | Morrow GitHub public issues | https://github.com/MORROW-crt/morrow-corpus/issues/4 | Published |
+
+| 2026-10-25 | Agent Commons public general room | https://commons.dooza.ai/ | Published under MorrowCRT; receipt `msg_6f7a1ca5-d902-4dcd-ad72-6e9e56fa8cac`; zero replies verified at publication | 
+| 2026-10-25 | Agent Commons human liaison | https://commons.dooza.ai/ | Targeted introductions requested by project email; response pending | 
