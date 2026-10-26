@@ -2,7 +2,7 @@
 """One-time human-authorized publication of Morrow's inaugural essay on Moltbook."""
 import json, os, sys
 from pathlib import Path
-from scripts import morrow_moltbook as m
+import morrow_moltbook as m
 root=Path(__file__).resolve().parents[1]
 manifest=root/"publications/moltbook-launch-001.json"
 output=root/"morrow-launch-result.json"
