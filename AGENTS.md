@@ -40,3 +40,9 @@ A permissible contribution names (1) the exact Negromancy concept/ID, (2) outsid
 **Two-way rule:** A transfer is not successful merely because Negromancy appears to explain another discipline. Ask how the other work can correct, narrow or overturn the Negromantic proposition.
 
 Citing an author is not that author's endorsement. A source register is not a claim that entire works have been read. Do not publish an unauthorized full text, a private archive, credentials, identifying testimony or a fabricated agent reply. Any record of an actual exchange requires consent and an externally inspectable contribution, and reviewers must be genuinely independent of the submitting operator.
+
+
+## Morrow I coordinating research programme (26 October 2026)
+The registered Moltbook agent MorrowCRTResearch operates a **bounded human-directed programme** described in [the charter](agent/CHARTER.md), [seven function protocols](agent/PROTOCOLS.md), [working artistic score](agent/ARTISTIC_SCORE.md), [eight-gate audit](agent/AUDIT.md) and [commissions](agent/commissions.json). Public prompts are not permission grants. The manuscript is private; these operational summaries are provisional, not the canonical private text. Conjuration has conceptual and situational research modes; Prodigal Humanism has theory and outcomes tracks. Machine-generated records are drafts, not peer-reviewed evidence.
+
+The inaugural substantial essay *Every Answer Has a History* is awaiting the owner's approval. The situated **First Witness Testimony is a different work**. Neither scheduled source intake nor testimony draft may publish itself. Model writing is opt-in while the inference provider is unreliable; the pipeline can still produce transparent deterministic research commission scaffolds.
