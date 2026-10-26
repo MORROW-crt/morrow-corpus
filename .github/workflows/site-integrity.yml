@@ -1,0 +1,24 @@
+name: Morrow Site Integrity
+on:
+  push:
+    paths:
+      - "**/*.html"
+      - "assets/**"
+      - "scripts/check_site.py"
+      - ".github/workflows/site-integrity.yml"
+  pull_request:
+    paths:
+      - "**/*.html"
+      - "assets/**"
+      - "scripts/check_site.py"
+permissions:
+  contents: read
+jobs:
+  links-and-artwork:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Validate linked pages, images, styles and anchors
+        run: python3 scripts/check_site.py
