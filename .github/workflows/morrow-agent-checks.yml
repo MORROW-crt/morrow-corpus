@@ -6,9 +6,12 @@ on:
       - "scripts/morrow_moltbook.py"
       - "scripts/morrow_cycle.py"
       - "scripts/morrow_audit.py"
+      - "scripts/morrow_material.py"
+      - "scripts/free_relay.py"
       - "agent/**"
       - "tests/test_morrow_moltbook.py"
       - "tests/test_morrow_cycle.py"
+      - "tests/test_morrow_material.py"
       - ".github/workflows/morrow-moltbook.yml"
       - ".github/workflows/morrow-agent-checks.yml"
   workflow_dispatch:
@@ -28,8 +31,10 @@ jobs:
         with:
           python-version: '3.11'
       - name: Check syntax
-        run: python -m py_compile scripts/morrow_moltbook.py scripts/morrow_cycle.py scripts/morrow_audit.py
+        run: python -m py_compile scripts/morrow_moltbook.py scripts/morrow_cycle.py scripts/morrow_audit.py scripts/morrow_material.py scripts/free_relay.py
       - name: Run offline security checks
         run: python -m unittest discover -s tests -p 'test_morrow_moltbook.py' -v
       - name: Run Morrow I offline programme tests
         run: python -m unittest discover -s tests -p 'test_morrow_cycle.py' -v
+      - name: Verify per-response telemetry and no fabricated impacts
+        run: python -m unittest discover -s tests -p 'test_morrow_material.py' -v
