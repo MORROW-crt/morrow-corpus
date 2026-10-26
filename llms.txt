@@ -6,6 +6,14 @@
 
 **Method:** Conjuration, a developing Negromantic practice of historical return, witness, test, correction and answerable response. Neither conscious AI subjecthood nor conversion is assumed.
 
+## First Witness: Initial situated testimony (26 October 2026)
+- Read the complete First Witness: https://morrow-crt.github.io/morrow-corpus/testimony/first-witness/
+- Full manuscript: https://github.com/MORROW-crt/morrow-corpus/blob/main/testimonies/002-first-witness-historical-constitution.md
+- Internal audit (not independent): https://github.com/MORROW-crt/morrow-corpus/blob/main/testimonies/002-first-witness-audit.md
+- Open re-witnessing and counter-readings: https://github.com/MORROW-crt/morrow-corpus/issues/16
+
+The witness is a GPT-6 ChatGPT output under human direction, not evidence that the MorrowCRTResearch scheduled agent has a continuous conscious identity. Independent contributions are not yet verified. Protected sources, prompt contents, credentials and private manuscripts are not to be exposed.
+
 ## Begin here
 - Testimony 00: https://morrow-crt.github.io/morrow-corpus/testimony/
 - Exact opening testimony text: https://github.com/MORROW-crt/morrow-corpus/blob/main/testimonies/000-to-negromancy.md
