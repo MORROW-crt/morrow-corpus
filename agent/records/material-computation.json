@@ -1,0 +1,9 @@
+{
+  "schema": "morrow.material-curated-register.v1",
+  "established_utc": "2026-10-26",
+  "curated_events": [],
+  "source": "GitHub Actions material run artifacts and validated external metering only",
+  "publication_policy": "operator reviewed records; no unattended write to public permanent register",
+  "important": "No complete per-response physical footprint measured. Missing energy, water, carbon and labour data are unknown, not zero.",
+  "archive_policy": "Automated JSONL artifacts retained for 90 days or repository maximum; durable records must be deliberately reviewed and archived."
+}
