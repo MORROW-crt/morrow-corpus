@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 350" role="img">
+<rect width="1300" height="350" fill="#1e2b24"/>
+<g stroke="#5a7160" stroke-width="1"><path d="M433 0v350M866 0v350"/></g>
+<g fill="#d4ac75" font-family="monospace" font-size="18" letter-spacing="1.5"><text x="42" y="40">1 · APPEARANCE</text><text x="475" y="40">2 · SPATIAL ORGANIZATION</text><text x="905" y="40">3 · TEMPORAL LAYERS</text></g>
+<g stroke="#e6ddc8" fill="none"><circle cx="210" cy="179" r="82" stroke-width="2"/><circle cx="210" cy="179" r="58" stroke-width="1"/><circle cx="210" cy="179" r="35" stroke-width="1"/><path d="M130 265l155-175" stroke="#c77a5e" stroke-width="5"/></g>
+<g fill="none" stroke="#aabcad" stroke-width="2"><path d="M508 255Q583 100 647 210T800 106"/><path d="M496 115Q580 200 666 132T825 275" opacity=".65"/><path d="M528 180h288M665 72v205" stroke-width=".8" opacity=".4"/></g>
+<g fill="#d39c6d"><circle cx="508" cy="255" r="7"/><circle cx="647" cy="210" r="7"/><circle cx="800" cy="106" r="7"/></g>
+<g stroke="#e6ddc8" fill="none"><circle cx="1050" cy="170" r="70"/><circle cx="1073" cy="150" r="70" opacity=".65"/><circle cx="1096" cy="130" r="70" opacity=".35"/><path d="M938 270h260M952 288h230M963 306h210" opacity=".5"/></g>
+<g fill="#e6ddc8" font-size="16" font-family="Georgia,serif"><text x="50" y="315">The made appears self-sufficient</text><text x="482" y="315">Places are never neutral frames</text><text x="902" y="315">An event is not fully past</text></g></svg>
