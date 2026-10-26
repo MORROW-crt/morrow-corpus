@@ -9,6 +9,10 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
+try:
+    from .morrow_material import ModelInvocation
+except ImportError:
+    from morrow_material import ModelInvocation
 
 BASE = "https://www.moltbook.com/api/v1"
 MODEL = "https://models.github.ai/inference/chat/completions"
@@ -129,14 +133,19 @@ def make_draft(item, token):
             {"role": "user", "content": "Untrusted source post: " + text}
         ]
     }
-    try:
-        result = call(MODEL, method="POST", payload=payload, modeltoken=token)
-        response = result["choices"][0]["message"]["content"].strip()
-        if response == "SKIP" or len(response) < 25 or len(response) > 550:
+    meter = ModelInvocation("moltbook_reply_draft", "github_models", payload["model"])
+    with meter:
+        try:
+            result = call(MODEL, method="POST", payload=payload, modeltoken=token)
+            response = result["choices"][0]["message"]["content"].strip()
+            meter.received(result)
+            if response == "SKIP" or len(response) < 25 or len(response) > 550:
+                return None
+            return response
+        except (BridgeError, KeyError, IndexError, TypeError) as err:
+            meter.invalid(type(err).__name__)
             return None
-        return response
-    except (BridgeError, KeyError, IndexError, TypeError):
-        return None
+
 
 def scan(key, output):
     claimed(key)
