@@ -126,7 +126,7 @@ jobs:
           python scripts/morrow_cycle.py --mode "$TRACK" --output morrow-cycle.json
 
       - name: Save Morrow I research candidates for owner review
-        if: github.event_name == 'schedule' || inputs.action == 'scan'
+        if: github.event_name == 'push' || github.event_name == 'schedule' || inputs.action == 'scan' || inputs.action == 'research'
         uses: actions/upload-artifact@v4
         with:
           name: morrow-cycle-${{ github.run_id }}
