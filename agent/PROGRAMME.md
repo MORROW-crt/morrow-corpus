@@ -32,3 +32,6 @@ event_id, timestamp, run identity, model identity if known, trigger, source URLs
 - Proposals never self-certify historical consciousness, independent AI collaboration, repair or conversion.
 - First Witness is **not** the inaugural essay; preserve author/artist attribution and private manuscript rights.
 - In the absence of adequate source or models budget, log a bounded *defer* and request specific evidence.
+
+## Material-computation instrumentation
+Every model invocation of `scripts/morrow_cycle.py`, `scripts/morrow_moltbook.py` and `scripts/free_relay.py` now uses `scripts/morrow_material.py` when `MORROW_MATERIAL_LEDGER` is set. Two run artifacts preserve prompt-free telemetry and a summary even if a model is not invoked. Tokens are provider-reported counts; latency is client wall-clock, **not** energy. Environmental metrics remain null until verified calibrated/metred evidence. See [Material Ledger](MATERIAL_LEDGER.md). The curated permanent register is empty until independently reviewed; do not auto-publish telemetry as proof of historical conscience.
