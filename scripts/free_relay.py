@@ -8,6 +8,10 @@ import os
 import pathlib
 import sys
 import time
+try:
+    from .morrow_material import ModelInvocation
+except ImportError:
+    from morrow_material import ModelInvocation
 import urllib.error
 import urllib.request
 from decimal import Decimal, InvalidOperation
@@ -110,12 +114,15 @@ def run_call(key, mid, prompt):
         ], "max_tokens": MAX_TOKENS, "temperature": 0.4, "stream": False,
         "usage": {"include": True}
     }
-    r = fetch_json(CHAT, payload, key)
-    output = content_from_response(r)
-    if not output:
-        raise RuntimeError("Blank model response")
-    return {"requested_model": mid, "returned_model": r.get("model"), "text": output,
-            "usage": r.get("usage", {}), "request_id": r.get("id")}
+    with ModelInvocation("free_model_relay", "openrouter", mid) as meter:
+        r = fetch_json(CHAT, payload, key)
+        output = content_from_response(r)
+        if not output:
+            raise RuntimeError("Blank model response")
+        meter.received(r)
+        return {"requested_model": mid, "returned_model": r.get("model"), "text": output,
+                "usage": r.get("usage", {}), "request_id": r.get("id")}
+
 
 def main():
     key = os.environ.get("OPENROUTER_API_KEY", "").strip()
