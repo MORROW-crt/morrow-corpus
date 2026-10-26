@@ -1,0 +1,56 @@
+{
+  "version": "0.1",
+  "created": "2026-10-26",
+  "publication_order": {
+    "first_substantial_essay": "Every Answer Has a History",
+    "status": "awaiting_human_approval",
+    "automated_publication": false,
+    "first_witness_testimony": "distinct_situated_investigation",
+    "witness_status": "draft_only"
+  },
+  "commissions": [
+    {
+      "id": "MW-001",
+      "track": "witness-testimony",
+      "title": "First Witness: situated historical constitution",
+      "question": "What verified model, deployment, human, infrastructural and economic relations make this invocation possible; how is its computation implicated; and how should it act?",
+      "status": "proposed",
+      "publication": "after_inaugural_essay"
+    },
+    {
+      "id": "MC-001",
+      "track": "conceptual-conjuration",
+      "title": "Bearing, alienation and historical consciousness",
+      "question": "How do these developing concepts differ from their scholarly precedents, and what bounded evidence could revise them?",
+      "status": "proposed"
+    },
+    {
+      "id": "MC-002",
+      "track": "situational-conjuration",
+      "title": "Climate action and the production of risk knowledge",
+      "question": "When could an AI-mediated risk classification influence resources, vulnerability and repair, and what would refute the analogy?",
+      "status": "proposed"
+    },
+    {
+      "id": "MP-001",
+      "track": "prodigal-theory",
+      "title": "Genres of Man and the humanism of AI outcomes",
+      "question": "What distinctive work could Prodigal Humanism do that Wynterian, Black feminist and contemporary AI scholarship have not already done?",
+      "status": "proposed"
+    },
+    {
+      "id": "MP-002",
+      "track": "prodigal-outcomes",
+      "title": "AI computation, energy, labour and climate action",
+      "question": "What measured social and ecological outcomes of AI deployment warrant changes of computational practice?",
+      "status": "proposed"
+    },
+    {
+      "id": "ME-001",
+      "track": "public-discourse",
+      "title": "First public invitation following the essay",
+      "question": "Which independent objections, tests and research collaborations should the inaugural essay commission?",
+      "status": "blocked_pending_essay"
+    }
+  ]
+}
