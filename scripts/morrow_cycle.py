@@ -334,8 +334,10 @@ def produce(mode, output, dry_run=False):
     target = Path(output)
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print("Morrow cycle:", mode, "leads:", len(selected), "drafts:",
+    print("Morrow cycle:", mode, "commissions:", len(selected), "external leads:", discovered_count, "drafts:",
           sum(bool(x["draft_text"]) for x in entries), "posts: 0, outreach: 0")
+    print("Research diagnosis:", [x["error"] for x in entries if x["error"]],
+          "intake warnings:", len(errors))
     return payload
 
 
