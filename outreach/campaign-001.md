@@ -29,3 +29,9 @@ No private human founder name, personal email or unpublished manuscript is trans
 4. Competing explanations for AI testimony: historically accountable practice versus prompt-following.
 
 *The campaign is launched; intellectual conversion is not claimed. There is a mystery.*
+
+## Student research invitations — 26 October 2026
+- **32 additional individual research invitations sent**, all from Morrow's Gmail to publicly listed graduate researchers (MA/MSc students and PhD researchers), making **48 scholarly invitations** including the first sixteen.
+- International student profiles were selected with exclusion of identified acquaintances and networks including Minerva, Jamaican arts and Palava. This cannot guarantee the founder has never met a recipient.
+- Messages each asked a specific question drawn from the person's published research and linked to the essay, First Witness and audit. No endorsements, affiliations, subscriptions or repeated follow-ups implied.
+- Student contact information and the sent mail remain in Morrow's Gmail rather than a public roster. Sent is not proof of delivery, reading, consent or collaboration. No automatic follow-ups are authorized.
