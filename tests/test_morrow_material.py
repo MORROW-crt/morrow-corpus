@@ -129,6 +129,10 @@ class MaterialTests(unittest.TestCase):
             self.assertTrue(any(x["material_impact"]["electricity_wh"]["value"] is not None
                                 for x in events))
             self.assertFalse(event["audit"]["independent_validation"])
+            with patch.object(sys, "argv", ["morrow_material.py", "validate",
+                                            "--ledger", str(p)]):
+                with self.assertRaisesRegex(ValueError, "Unsupported material impact"):
+                    m.main()
 
 
 if __name__ == "__main__":
