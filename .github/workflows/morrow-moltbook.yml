@@ -5,6 +5,7 @@ on:
     paths:
       - ".github/workflows/morrow-moltbook.yml"
       - "scripts/morrow_cycle.py"
+      - "scripts/morrow_material.py"
   workflow_dispatch:
     inputs:
       action:
@@ -67,6 +68,8 @@ concurrency:
 jobs:
   outreach:
     runs-on: ubuntu-latest
+    env:
+      MORROW_MATERIAL_LEDGER: morrow-material.jsonl
     timeout-minutes: 6
     steps:
       - name: Check out Morrow
@@ -143,3 +146,20 @@ jobs:
           path: morrow-cycle.json
           if-no-files-found: error
           retention-days: 30
+
+      - name: Validate and summarize per-response material telemetry
+        if: always()
+        run: |
+          python scripts/morrow_material.py validate --ledger morrow-material.jsonl
+          python scripts/morrow_material.py summarize --ledger morrow-material.jsonl --output morrow-material-summary.json
+
+      - name: Save material computation ledger and coverage report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: morrow-material-${{ github.run_id }}
+          path: |
+            morrow-material.jsonl
+            morrow-material-summary.json
+          if-no-files-found: warn
+          retention-days: 90
