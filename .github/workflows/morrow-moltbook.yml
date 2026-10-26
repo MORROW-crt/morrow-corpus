@@ -132,7 +132,7 @@ jobs:
           MORROW_RESEARCH_MODE: ${{ inputs.research_mode }}
         run: |
           TRACK="${MORROW_RESEARCH_MODE:-daily}"
-          python scripts/morrow_cycle.py --mode "$TRACK" --output morrow-cycle.json
+          python scripts/morrow_cycle.py --mode "$TRACK" --output morrow-cycle.json --moltbook-candidates morrow-review.json
           python scripts/morrow_audit.py morrow-cycle.json
 
       - name: Save Morrow I research candidates for owner review
