@@ -1,0 +1,34 @@
+name: Morrow — First Moltbook Essay Launch
+on:
+  push:
+    paths:
+      - "publications/moltbook-launch-001.json"
+permissions:
+  contents: read
+concurrency:
+  group: morrow-inaugural-moltbook-once
+  cancel-in-progress: false
+jobs:
+  first-essay:
+    if: github.repository == 'MORROW-crt/morrow-corpus'
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Publish the approved inaugural essay
+        env:
+          MOLTBOOK_API_KEY: ${{ secrets.MOLTBOOK_API_KEY }}
+        run: python scripts/morrow_publish_inaugural.py
+      - name: Save nonsecret result
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: morrow-first-moltbook-${{ github.run_id }}
+          path: morrow-launch-result.json
+          if-no-files-found: warn
+          retention-days: 90
