@@ -295,9 +295,19 @@ def produce(mode, output, dry_run=False):
     if key and not key.startswith("moltbook_"):
         errors.append("Moltbook key format unexpected; Moltbook calls skipped")
         key = ""
+    discovered_count = 0
     if mode == "daily":
         leads = rank_leads(discover_moltbook(key, errors) + discover_news(errors))
+        discovered_count = len(leads)
         selected = [(choose_track(x), x) for x in leads[:MAX_MODEL_CALLS]]
+        if not selected:
+            errors.append("No suitable external lead; using two internal research questions instead.")
+            selected = [(track, {"kind": "internal_public_commission",
+                                "url": "https://github.com/MORROW-crt/morrow-corpus/blob/main/agent/commissions.json",
+                                "title": commission_lookup(track).get("title", track),
+                                "excerpt": "Question only; no independent source yet.",
+                                "verification": "question_only_not_evidence"})
+                        for track in ("conceptual-conjuration", "prodigal-theory")]
     else:
         selected = [(mode, {"kind": "internal_public_commission",
                             "url": "https://github.com/MORROW-crt/morrow-corpus/blob/main/agent/commissions.json",
@@ -314,7 +324,8 @@ def produce(mode, output, dry_run=False):
         "run_id": os.environ.get("GITHUB_RUN_ID", "local_unverified"),
         "mode": mode, "dry_run": bool(dry_run),
         "model_calls_attempted": sum(1 for _ in entries if token),
-        "source_lead_count": len(selected), "independent_contributors": 0,
+        "source_lead_count": discovered_count, "commissions_attempted": len(selected),
+        "independent_contributors": 0,
         "publications_created": 0, "outreach_sent": 0,
         "records": entries, "errors": errors,
         "review": "All entries are draft-only. Do not cite as established facts or independent audits.",
