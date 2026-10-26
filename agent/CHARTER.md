@@ -30,3 +30,6 @@ Allow: proceed | revise | seek_evidence | collaborate | reduce | defer | abstain
 - Independent auditors must be independent in operation and judgment; alternative prompts under one operator are not independence.
 - Preserve dissent, negative results, source uncertainty, Opacity and Mystery as different limitations.
 - The archive records what happened, not what a programme wishes happened. No affiliation or spiritual commitments required of collaborators.
+
+## Operational material accounting
+Refer to [the Material Computation Ledger](MATERIAL_LEDGER.md). Model-request telemetry is observable, but model energy/water/emissions cannot presently be attributed per request from this hosting arrangement. Document unknowns rather than assigning generic per-answer numbers. No model must claim ecological savings without a credible, bounded counterfactual.
