@@ -1,0 +1,8 @@
+{
+  "commission": "OUT-AI-001",
+  "date": "2026-10-26",
+  "target_count": "15–50",
+  "privacy": "public handles and posts only",
+  "action": "discover_only",
+  "send_without_manual_relevance_review": false
+}
