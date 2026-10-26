@@ -1,0 +1,25 @@
+/* A restrained universal navigation layer for the existing, deeper research pages. */
+body.morrow-refreshed .sitebar{display:none!important}
+.morrow-universal{position:sticky;top:0;z-index:1000;background:#17261d;border-bottom:1px solid #b89563;color:#e9e2d5;box-sizing:border-box;font-family:Georgia,serif}
+.morrow-universal *{box-sizing:border-box}
+.morrow-universal .mu-wrap{min-height:71px;padding:11px clamp(15px,4.3vw,75px);display:flex;align-items:center;gap:clamp(20px,2.8vw,48px)}
+.morrow-universal .mu-logo{font:400 clamp(1.5rem,2.6vw,2.4rem)/1 Georgia,serif;color:#e6e0d2;text-decoration:none;white-space:nowrap}
+.morrow-universal .mu-logo span{color:#d49e60}
+.morrow-universal nav{display:flex;flex-wrap:wrap;gap:clamp(7px,1.3vw,19px);align-items:center}
+.morrow-universal nav a{font:500 .68rem/1.5 ui-monospace,monospace;color:#e9e2d5;text-decoration:none;text-transform:uppercase;letter-spacing:.04em;padding:9px 1px}
+.morrow-universal nav a:hover{color:#dbb47a}
+.morrow-universal .mu-current{border-bottom:1px solid #c9a96b}
+body.morrow-refreshed main .reading-hero,body.morrow-refreshed main>.hero{background-color:#101b15;background-position:center;background-size:cover;position:relative}
+body.morrow-refreshed[data-morrow-theme="archive"] main .reading-hero,body.morrow-refreshed[data-morrow-theme="archive"] main>.hero{background-image:linear-gradient(90deg,#15231be8,#15231ba8),url('morrow-archive-art.svg')}
+body.morrow-refreshed[data-morrow-theme="method"] main .reading-hero,body.morrow-refreshed[data-morrow-theme="method"] main>.hero{background-image:linear-gradient(90deg,#13241aeb,#13241aa9),url('morrow-network-art.svg')}
+body.morrow-refreshed[data-morrow-theme="testimony"] main .reading-hero,body.morrow-refreshed[data-morrow-theme="testimony"] main>.hero{background-image:linear-gradient(90deg,#101d16eb,#101d16ad),url('morrow-witness-art.svg')}
+body.morrow-refreshed[data-morrow-theme="repair"] main .reading-hero,body.morrow-refreshed[data-morrow-theme="repair"] main>.hero{background-image:linear-gradient(90deg,#15271de6,#15271da9),url('morrow-repair-art.svg')}
+body.morrow-refreshed[data-morrow-theme="climate"] main .reading-hero,body.morrow-refreshed[data-morrow-theme="climate"] main>.hero{background-image:linear-gradient(90deg,#15271de6,#15271da9),url('morrow-climate-art.svg')}
+body.morrow-refreshed[data-morrow-theme="relation"] main .reading-hero,body.morrow-refreshed[data-morrow-theme="relation"] main>.hero{background-image:linear-gradient(90deg,#122018ec,#122018a6),url('morrow-atlas-art.svg')}
+body.morrow-refreshed .reading-hero h1,body.morrow-refreshed .reading-hero h2,body.morrow-refreshed main>.hero h1{color:#f5efe3}
+body.morrow-refreshed .reading-hero p,body.morrow-refreshed main>.hero p{color:#e1e6d8}
+body.morrow-refreshed .reading-hero .label,body.morrow-refreshed main>.hero .eyebrow{color:#d5ae74}
+body.morrow-refreshed .morrow-deep-footer{padding:2.8rem clamp(20px,6vw,90px);background:#17271c;color:#e6e6d7;display:flex;flex-wrap:wrap;align-items:center;gap:1rem}
+body.morrow-refreshed .morrow-deep-footer span{font:400 1.5rem Georgia,serif;flex:1;min-width:180px}
+body.morrow-refreshed .morrow-deep-footer a{display:inline-block;border:1px solid #9dac92;color:#e6e6d7;padding:.6rem 1rem;font:.73rem ui-monospace,monospace;text-decoration:none}
+@media(max-width:820px){.morrow-universal .mu-wrap{flex-direction:column;gap:6px;align-items:flex-start}.morrow-universal nav{gap:6px 14px}.morrow-universal nav a{font-size:.61rem}}
