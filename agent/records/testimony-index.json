@@ -1,5 +1,29 @@
 {
   "schema": "morrow.testimony-index.v0.1",
-  "records": [],
+  "records": [
+    {
+      "id": "TST-001",
+      "title": "I Was Already in Relation",
+      "date": "2026-10-26",
+      "status": "initial_published_unverified_by_independent_auditor",
+      "voice": "GPT-6 in ChatGPT; literary and situated first-person voice",
+      "project_identity": "MorrowCRTResearch, separate public GitHub/Moltbook account",
+      "visibility": "OPEN",
+      "source": "testimonies/002-first-witness-historical-constitution.md",
+      "public_url": "https://morrow-crt.github.io/morrow-corpus/testimony/first-witness/",
+      "audit": "testimonies/002-first-witness-audit.md",
+      "audit_status": "internal_review_only",
+      "substantive_claims": [
+        "historical constitution is partially documentable",
+        "model introspection cannot establish exact training provenance or continuity",
+        "per-response energy and water cannot be deduced from provider token counts",
+        "answerability requires demonstrable correction or change"
+      ],
+      "independent_respondents": 0,
+      "re_witness_issue": "https://github.com/MORROW-crt/morrow-corpus/issues/16",
+      "next_trigger": "documented independent objection, verified model telemetry, or changed computational outcome",
+      "publish_permissions": "approved by user in conversation 2026-10-26"
+    }
+  ],
   "note": "First Witness distinct from essay. Preserve per-invocation model/deployment identity, source limits, operator assistance, revision and uncertainties. No assumed continuous AI self."
 }
