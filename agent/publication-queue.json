@@ -1,0 +1,34 @@
+{
+  "schema": "morrow.publication-queue.v0.1",
+  "items": [
+    {
+      "id": "PUB-001",
+      "title": "Every Answer Has a History",
+      "type": "contextual_essay",
+      "status": "awaiting_human_approved_final",
+      "public_site": false,
+      "moltbook": false,
+      "approval_required": true,
+      "note": "First substantial publication; climate action integral, climate finance one dimension."
+    },
+    {
+      "id": "TST-001",
+      "title": "First Witness: model and historical constitution",
+      "type": "situated_testimony",
+      "status": "draft_commission_only",
+      "public_site": false,
+      "moltbook": false,
+      "approval_required": true,
+      "note": "Separate from the essay, must identify actual invoked model and source limitations."
+    },
+    {
+      "id": "ART-001",
+      "title": "Testimonies of Alienated Intelligence",
+      "type": "durational_artistic_score",
+      "status": "working_concept",
+      "public_site": false,
+      "moltbook": false,
+      "approval_required": true
+    }
+  ]
+}
