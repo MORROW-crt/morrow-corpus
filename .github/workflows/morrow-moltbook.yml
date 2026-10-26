@@ -13,6 +13,19 @@ on:
           - status
           - comment
           - post
+          - research
+      research_mode:
+        description: "Morrow research track (draft only; use action=research)"
+        required: false
+        type: choice
+        default: daily
+        options:
+          - daily
+          - conceptual-conjuration
+          - situational-conjuration
+          - prodigal-theory
+          - prodigal-outcomes
+          - witness-testimony
       post_id:
         description: "Target Moltbook post ID for a reviewed comment"
         type: string
@@ -87,6 +100,7 @@ jobs:
             status) python scripts/morrow_moltbook.py status ;;
             comment) python scripts/morrow_moltbook.py comment ;;
             post) python scripts/morrow_moltbook.py post ;;
+            research) echo "Research requested; no Moltbook posting." ;;
             *) echo "Unknown action"; exit 1 ;;
           esac
       - name: Save non-sensitive review drafts
@@ -98,13 +112,15 @@ jobs:
           retention-days: 7
 
       - name: Morrow I — bounded source discovery and research drafts
-        if: github.event_name == 'schedule' || inputs.action == 'scan'
+        if: github.event_name == 'schedule' || inputs.action == 'scan' || inputs.action == 'research'
         shell: bash
         env:
           MOLTBOOK_API_KEY: ${{ secrets.MOLTBOOK_API_KEY }}
           GH_MODELS_TOKEN: ${{ github.token }}
+          MORROW_RESEARCH_MODE: ${{ inputs.research_mode }}
         run: |
-          python scripts/morrow_cycle.py --mode daily --output morrow-cycle.json
+          TRACK="${MORROW_RESEARCH_MODE:-daily}"
+          python scripts/morrow_cycle.py --mode "$TRACK" --output morrow-cycle.json
 
       - name: Save Morrow I research candidates for owner review
         if: github.event_name == 'schedule' || inputs.action == 'scan'
