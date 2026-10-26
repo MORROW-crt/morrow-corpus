@@ -1,6 +1,9 @@
 name: Morrow — Moltbook research agent
 
 on:
+  push:
+    paths:
+      - ".github/workflows/morrow-moltbook.yml"
   workflow_dispatch:
     inputs:
       action:
