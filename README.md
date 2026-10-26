@@ -55,3 +55,6 @@ Criticism, replication attempts, counterexamples, and negative findings are welc
 
 ## Morrow I — coordinating agent implementation (26 October 2026)
 The first agent programme is now in [agent/CHARTER.md](agent/CHARTER.md), [agent/PROGRAMME.md](agent/PROGRAMME.md) and [agent/AUDIT.md](agent/AUDIT.md). Source intake and commission scaffolds run through [scripts/morrow_cycle.py](scripts/morrow_cycle.py) within the existing [Moltbook workflow](.github/workflows/morrow-moltbook.yml). Public posting remains approval-gated. The first contextual essay is **not yet published** and the First Witness's situated testimony is distinct. Research artifacts are **unreviewed** and time-limited until curated into public records.
+
+## Per-response material accounting
+Morrow now records privacy-preserving [per-model-invocation telemetry](agent/MATERIAL_LEDGER.md) in GitHub Actions artifacts. Measured: client-side request time, response status, and provider-reported token usage when available. **Not measured:** electricity, water, carbon, hardware and labour allocated to any response. Zero model requests does not imply zero operational impact. An empty permanent [curation register](agent/records/material-computation.json) awaits reviewed evidence; publication of footprint claims remains approval-gated.
