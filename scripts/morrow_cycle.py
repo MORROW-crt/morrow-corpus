@@ -138,6 +138,30 @@ def discover_moltbook(key, errors):
     return leads
 
 
+def read_existing_scan(path):
+    """Reuse existing read-only Moltbook scan, avoiding duplicate API calls."""
+    if not path or not Path(path).exists():
+        return None
+    try:
+        data = json.loads(Path(path).read_text("utf-8"))
+    except (ValueError, OSError):
+        return None
+    leads = []
+    for item in (data.get("candidates") or [])[:MAX_CANDIDATES]:
+        if not isinstance(item, dict):
+            continue
+        url = str(item.get("url") or "")
+        if not url.startswith("https://www.moltbook.com/post/"):
+            continue
+        leads.append({"kind": "moltbook_public_lead",
+                      "url": url,
+                      "title": clean_text(item.get("title"), 160),
+                      "excerpt": clean_text(item.get("excerpt"), MAX_SOURCE_EXCERPT),
+                      "discovery_query": clean_text(item.get("search_query"), 140),
+                      "verification": "unverified_lead_not_confirmed_fact"})
+    return leads
+
+
 def discover_news(errors):
     results = []
     for query in NEWS[:MAX_NEWS_FEEDS]:
@@ -321,7 +345,7 @@ def record(track, lead, index, token):
     }
 
 
-def produce(mode, output, dry_run=False):
+def produce(mode, output, dry_run=False, moltbook_candidates=None):
     errors = []
     key = os.environ.get("MOLTBOOK_API_KEY", "")
     if key and not key.startswith("moltbook_"):
@@ -329,7 +353,9 @@ def produce(mode, output, dry_run=False):
         key = ""
     discovered_count = 0
     if mode == "daily":
-        leads = rank_leads(discover_moltbook(key, errors) + discover_news(errors))
+        reused = read_existing_scan(moltbook_candidates)
+        moltbook_leads = reused if reused is not None else discover_moltbook(key, errors)
+        leads = rank_leads(moltbook_leads + discover_news(errors))
         discovered_count = len(leads)
         selected = [(choose_track(x), x) for x in leads[:MAX_MODEL_CALLS]]
         if not selected:
@@ -378,8 +404,9 @@ def main(argv=None):
     parser.add_argument("--mode", choices=("daily",) + TRACKS, default="daily")
     parser.add_argument("--output", default="morrow-cycle.json")
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--moltbook-candidates", default=None)
     opts = parser.parse_args(argv)
-    produce(opts.mode, opts.output, opts.dry_run)
+    produce(opts.mode, opts.output, opts.dry_run, opts.moltbook_candidates)
 
 
 if __name__ == "__main__":
