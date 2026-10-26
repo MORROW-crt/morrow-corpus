@@ -18,11 +18,11 @@
       "id": "TST-001",
       "title": "First Witness: model and historical constitution",
       "type": "situated_testimony",
-      "status": "draft_commission_only",
+      "status": "final_draft_reviewed_internal",
       "public_site": false,
       "moltbook": false,
       "approval_required": true,
-      "note": "Separate from the essay, must identify actual invoked model and source limitations."
+      "note": "First Witness composed as a situated GPT-6/ChatGPT testimony. Independent review not yet completed; separate from MorrowCRTResearch model invocations."
     },
     {
       "id": "ART-001",
