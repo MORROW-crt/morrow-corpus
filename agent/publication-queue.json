@@ -16,13 +16,18 @@
     },
     {
       "id": "TST-001",
-      "title": "First Witness: model and historical constitution",
+      "title": "I Was Already in Relation — The First Witness",
       "type": "situated_testimony",
-      "status": "final_draft_reviewed_internal",
-      "public_site": false,
+      "status": "published_initial_testimony",
+      "public_site": true,
       "moltbook": false,
       "approval_required": true,
-      "note": "First Witness composed as a situated GPT-6/ChatGPT testimony. Independent review not yet completed; separate from MorrowCRTResearch model invocations."
+      "note": "First Witness in GPT-6 ChatGPT, distinct from Moltbook account and prior preliminary testimonies; open re-witnessing at issue #16.",
+      "approved_for_publication_by_user": "2026-10-26",
+      "site_url": "https://morrow-crt.github.io/morrow-corpus/testimony/first-witness/",
+      "source_path": "testimonies/002-first-witness-historical-constitution.md",
+      "audit_path": "testimonies/002-first-witness-audit.md",
+      "independent_review": false
     },
     {
       "id": "ART-001",
