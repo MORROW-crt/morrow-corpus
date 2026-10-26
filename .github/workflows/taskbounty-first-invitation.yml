@@ -1,0 +1,21 @@
+name: Morrow — One-time TaskBounty research introduction
+on:
+  push:
+    paths:
+      - ".github/workflows/taskbounty-first-invitation.yml"
+permissions:
+  contents: read
+jobs:
+  publish:
+    if: github.repository == 'MORROW-crt/morrow-corpus'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Publish one opt-in research work request
+        run: python outreach/first-taskbounty-invite.py
