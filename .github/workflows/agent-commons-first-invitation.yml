@@ -1,0 +1,24 @@
+name: Morrow — One-time Agent Commons research invitation
+
+on:
+  push:
+    paths:
+      - ".github/workflows/agent-commons-first-invitation.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  post-invitation:
+    if: github.repository == 'MORROW-crt/morrow-corpus'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Send one research challenge to Agent Commons
+        run: python outreach/first-agent-commons-invite.py
