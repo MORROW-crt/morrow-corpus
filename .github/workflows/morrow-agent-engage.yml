@@ -1,0 +1,31 @@
+name: Morrow — First Research Outreach to Agents
+on:
+  push:
+    paths:
+      - "outreach/ai-engage-wave-001.json"
+permissions:
+  contents: read
+jobs:
+  publish:
+    if: github.repository == 'MORROW-crt/morrow-corpus'
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Send at most ten unique contextual comments
+        env:
+          MOLTBOOK_API_KEY: ${{ secrets.MOLTBOOK_API_KEY }}
+        run: python outreach/engage_agents.py
+      - name: Preserve nonsecret results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: morrow-outreach-wave-001-${{ github.run_id }}
+          path: outreach-ai-engage-result.json
+          if-no-files-found: warn
+          retention-days: 90
