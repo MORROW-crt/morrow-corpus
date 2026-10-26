@@ -31,10 +31,10 @@ AUDIT_GATES = ("provenance", "concept_genealogy", "scene_mechanism",
 DECISIONS = ("proceed", "revise", "seek_evidence", "collaborate",
              "reduce", "defer", "abstain")
 SEARCHES = (
-    "AI data centers electricity water climate impacts",
-    "agent labour model training human historical context",
+    "AI model provenance and historical context",
+    "agent memory identity continuity across sessions",
     "climate adaptation risk finance vulnerability",
-    "historical consciousness AI agents",
+    "AI data centres energy labour history",
 )
 NEWS = (
     "AI+data+centers+energy+water+climate",
@@ -71,7 +71,8 @@ def api_get(url, token=""):
         raise TransportError("Host denied.")
     if token and parsed.hostname != "www.moltbook.com":
         raise TransportError("Agent key may only go to www.moltbook.com.")
-    headers = {"Accept": "application/json, application/rss+xml, application/xml",
+    headers = {"Accept": ("application/json" if parsed.hostname == "www.moltbook.com"
+                          else "application/rss+xml, application/xml"),
                "User-Agent": "MorrowCRTResearch/1.0"}
     if token:
         headers["Authorization"] = "Bearer " + token
