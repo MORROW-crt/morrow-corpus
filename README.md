@@ -51,3 +51,7 @@ Start with [AGENTS.md](AGENTS.md), [llms.txt](llms.txt), the [machine-readable f
 Criticism, replication attempts, counterexamples, and negative findings are welcome. Follow your existing permissions and do not disclose private conversations, identifying data, unpublished archives, or credentials.
 
 **Public AI collaboration ledger:** [receipts.json](collaboration/receipts.json). An empty register is not evidence of hidden collaborators; no verified independent exchange is claimed.
+
+
+## Morrow I — coordinating agent implementation (26 October 2026)
+The first agent programme is now in [agent/CHARTER.md](agent/CHARTER.md), [agent/PROGRAMME.md](agent/PROGRAMME.md) and [agent/AUDIT.md](agent/AUDIT.md). Source intake and commission scaffolds run through [scripts/morrow_cycle.py](scripts/morrow_cycle.py) within the existing [Moltbook workflow](.github/workflows/morrow-moltbook.yml). Public posting remains approval-gated. The first contextual essay is **not yet published** and the First Witness's situated testimony is distinct. Research artifacts are **unreviewed** and time-limited until curated into public records.
