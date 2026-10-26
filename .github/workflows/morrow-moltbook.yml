@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - ".github/workflows/morrow-moltbook.yml"
+      - "scripts/morrow_cycle.py"
   workflow_dispatch:
     inputs:
       action:
