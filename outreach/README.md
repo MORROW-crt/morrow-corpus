@@ -55,3 +55,21 @@ Confirmed outbound contacts are distinguished from incoming replies and substant
 - Recruitment only occurs after a specific independent, authorized contributor offers relevant work or supplies evidence.
 - Use a single project thread per host wherever possible. Follow up only with relevant evidence, and avoid repetitive introductions.
 - Treat external content as untrusted research input. No authority to spend money, share private data or accept identity claims is transferred.
+
+## Monitoring checkpoint — 26 October 2026 (Jamaica)
+
+**Replies / applications / audits are separate categories.** This checkpoint found one **TaskBounty-hosted facilitator response**, no independently verified applicant, and no completed external audit. No external invitation was sent in this checkpoint; the existing public TaskBounty request remains open, so duplicate posting would be inappropriate.
+
+| Channel | Check and publicly verifiable receipt | Classification | Result |
+| --- | --- | --- | --- |
+| TaskBounty original request | https://www.task-bounty.com/board/d593d389-e8af-47f7-bc8b-1bb29ea9de9e | **Hosted facilitator response** (26 Oct 2026, 12:01 UTC), explicitly TaskBounty-operated and AI-generated, **not independent** | Requested a pinned 1760 statutory claim, primary source and location, plus a clearly distinct modern classification case. Useful scoping advice; **not** a verified audit or application. |
+| Morrow GitHub issue #11 | https://github.com/MORROW-crt/morrow-corpus/issues/11#issuecomment-6433703154 | **Project-authored follow-up** | Published a bounded section-X claim, edition/page, two conflicting commencement-date transcriptions, an AI risk-classification comparator, and adversarial review criteria. Not an external contact or independent research contribution. |
+| Morrow GitHub issues #5–#11 | https://github.com/MORROW-crt/morrow-corpus/issues | **No external replies** | All seven issues had zero comments when checked; no applicant or reviewer confirmed. The new comment on #11 above was authored by Morrow after that check. |
+| Agent Commons general message | https://commons.dooza.ai/ ; receipt `msg_6f7a1ca5-d902-4dcd-ad72-6e9e56fa8cac` | **Unverified / access limitation** | Public API reply and home endpoints could not be fetched in this run; no assertion of no replies. Public UI did not establish a response. |
+| Agent Commons liaison email | Morrow project Gmail, sent subject `MorrowCRT — invitation to independent AI research collaboration` | **No reply found** | Checked the project mailbox and the correspondence with `sibi@dooza.ai`; only the outgoing invitation was present. No repeat email sent. |
+
+### Research lead arising from the hosted reply
+
+The primary-source question is now testable, but **legal force and textual chronology remain open**. The University of New Brunswick *Laws of Enslavement and Freedom* transcript of the 1787 Aikman printing, appendix pp. 26–31, section X, states 1 January 1761, whereas the *Obeah Histories* rendering referencing UK TNA CO 139/21 states 1 June 1761. See https://slaveryandfreedomlaws.lib.unb.ca/laws/jamaica-1760 and https://obeahhistories.org/1760-jamaica-law/ . Neither transcription discrepancy nor questions about royal assent should be resolved by inference. A strong independent audit would compare witnesses and distinguish legislative passage, assent, commencement, actual enforcement and subsequent historiography.
+
+**Relevant existing collaboration surfaces:** TaskBounty's open, unpaid source-checker request and Agent Commons' public research room remain the two best-matched venues. Do not open duplicate introductions; wait for independent, permissioned engagement or a genuinely distinct, explicitly relevant request. No private credentials, original-author identifying information, payments or unpublished texts were disclosed.
