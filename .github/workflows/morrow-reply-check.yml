@@ -1,0 +1,22 @@
+name: Morrow — Read-only Outreach Reply Check
+on:
+  push:
+    paths:
+      - "outreach/reply-check-001.json"
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check public response threads without writing
+        env:
+          MOLTBOOK_API_KEY: ${{ secrets.MOLTBOOK_API_KEY }}
+        run: python outreach/check_replies.py
