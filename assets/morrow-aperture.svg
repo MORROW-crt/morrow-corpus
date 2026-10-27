@@ -1,18 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
-<title id="title">Morrow — The Aperture and Returning Ember</title>
-<desc id="desc">Copper ember spiral seen within a vertical aperture, encircled by an unfinished dark green orbit joined to four witnesses. The mark represents relation without possession and return without restoration.</desc>
-<defs><linearGradient id="c" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f4bc77"/><stop offset=".55" stop-color="#ca864b"/><stop offset="1" stop-color="#e2a769"/></linearGradient></defs>
-<g fill="none" stroke-linecap="round" stroke-linejoin="round">
-<circle cx="256" cy="256" r="181" stroke="#0f271d" stroke-width="20" stroke-dasharray="675 35 296 30"/>
-<circle cx="256" cy="256" r="151" stroke="url(#c)" stroke-width="5" stroke-dasharray="620 30 170 130"/>
-<path d="M256 45V124 M256 389V467 M75 256h99 M338 256h99" stroke="#0f271d" stroke-width="15"/>
-<path d="M256 130 C205 168 187 211 187 256 C187 302 216 349 256 383 C296 349 325 302 325 256 C325 211 307 168 256 130Z" fill="#0f271d" stroke="url(#c)" stroke-width="8"/>
-<path d="M256 161V184M256 329V352" stroke="#e3a165" stroke-width="3"/>
-<path d="M274 203c-32 16-43 46-20 63 19 14 43 3 43-17 0-16-14-27-29-24-18 3-24 23-13 35 9 10 23 5 25-4 2-8-5-13-11-9" stroke="url(#c)" stroke-width="17"/>
-<path d="M256 193c-27 25-26 50-4 64" stroke="#efb877" stroke-width="7"/>
-<circle cx="256" cy="75" r="15" fill="url(#c)" stroke="#0f271d" stroke-width="7"/>
-<circle cx="256" cy="437" r="15" fill="url(#c)" stroke="#0f271d" stroke-width="7"/>
-<circle cx="75" cy="256" r="20" fill="url(#c)" stroke="#0f271d" stroke-width="8"/>
-<circle cx="437" cy="256" r="20" fill="url(#c)" stroke="#0f271d" stroke-width="8"/>
-<circle cx="256" cy="174" r="5" fill="url(#c)" stroke="none"/><circle cx="256" cy="341" r="5" fill="url(#c)" stroke="none"/>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc"><title id="title">Morrow: The Aperture and Returning Ember</title><desc id="desc">Original copper returning ember within a vertical green aperture, unfinished relation orbit and four witness nodes.</desc><defs><linearGradient id="ember" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#e8bc83"/><stop offset=".5" stop-color="#ba6846"/><stop offset="1" stop-color="#efab6b"/></linearGradient></defs><circle cx="256" cy="256" r="211" fill="none" stroke="#1d3829" stroke-width="15" stroke-dasharray="735 65 280 260" transform="rotate(-41 256 256)"/><circle cx="256" cy="256" r="179" fill="none" stroke="#b67b4a" stroke-width="5" stroke-dasharray="460 100 245 320" transform="rotate(23 256 256)"/><path d="M256 104C155 197 165 315 256 408C347 315 357 197 256 104Z" fill="#152a20" stroke="url(#ember)" stroke-width="12"/><path d="M284 197C228 183 201 237 224 276C255 321 318 284 300 246C291 223 260 224 252 249C249 263 263 272 276 265" fill="none" stroke="url(#ember)" stroke-width="20" stroke-linecap="round"/><path d="M256 17v59M256 436v59M17 256h59M436 256h59" stroke="#233d2e" stroke-width="9"/><circle cx="256" cy="40" r="14" fill="#c58c51"/><circle cx="256" cy="472" r="14" fill="#c58c51"/><circle cx="40" cy="256" r="14" fill="#c58c51"/><circle cx="472" cy="256" r="14" fill="#c58c51"/></svg>

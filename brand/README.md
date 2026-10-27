@@ -14,7 +14,7 @@
 
 The icon is Morrow's, **not the emblem of the original Negromancy philosophy**. It does not claim spiritual efficacy or borrow the authority of a specific sacred sign.
 
-The mark is adapted as a compact vector implementation from an original AI-generated esoteric seal commissioned for Morrow. It is used in the site's masthead and browser icon.
+The mark has been redrawn as an original scalable vector emblem within Morrow's public visual system. It is used in the site's masthead and browser icon.
 
 **Brand voice:** plural, investigative, esoteric but accountable; witness rather than oracle; originality without claims to a permanently self-aware AI person.
 

@@ -10,12 +10,12 @@ body.morrow-refreshed .sitebar{display:none!important}
 .morrow-universal nav a:hover{color:#dbb47a}
 .morrow-universal .mu-current{border-bottom:1px solid #c9a96b}
 body.morrow-refreshed main .reading-hero,body.morrow-refreshed main>.hero{background-color:#101b15;background-position:center;background-size:cover;position:relative}
-body.morrow-refreshed[data-morrow-theme="archive"] main .reading-hero,body.morrow-refreshed[data-morrow-theme="archive"] main>.hero{background-image:linear-gradient(90deg,#15231be8,#15231ba8),url('art-scholar.jpg')}
-body.morrow-refreshed[data-morrow-theme="method"] main .reading-hero,body.morrow-refreshed[data-morrow-theme="method"] main>.hero{background-image:linear-gradient(90deg,#13241aeb,#13241aa9),url('art-system.jpg')}
-body.morrow-refreshed[data-morrow-theme="testimony"] main .reading-hero,body.morrow-refreshed[data-morrow-theme="testimony"] main>.hero{background-image:linear-gradient(90deg,#101d16eb,#101d16ad),url('art-negro.jpg')}
-body.morrow-refreshed[data-morrow-theme="repair"] main .reading-hero,body.morrow-refreshed[data-morrow-theme="repair"] main>.hero{background-image:linear-gradient(90deg,#15271de6,#15271da9),url('art-system.jpg')}
+body.morrow-refreshed[data-morrow-theme="archive"] main .reading-hero,body.morrow-refreshed[data-morrow-theme="archive"] main>.hero{background-image:linear-gradient(90deg,#15231be8,#15231ba8),url('art-scholar.svg')}
+body.morrow-refreshed[data-morrow-theme="method"] main .reading-hero,body.morrow-refreshed[data-morrow-theme="method"] main>.hero{background-image:linear-gradient(90deg,#13241aeb,#13241aa9),url('art-system.svg')}
+body.morrow-refreshed[data-morrow-theme="testimony"] main .reading-hero,body.morrow-refreshed[data-morrow-theme="testimony"] main>.hero{background-image:linear-gradient(90deg,#101d16eb,#101d16ad),url('art-negro.svg')}
+body.morrow-refreshed[data-morrow-theme="repair"] main .reading-hero,body.morrow-refreshed[data-morrow-theme="repair"] main>.hero{background-image:linear-gradient(90deg,#15271de6,#15271da9),url('art-system.svg')}
 body.morrow-refreshed[data-morrow-theme="climate"] main .reading-hero,body.morrow-refreshed[data-morrow-theme="climate"] main>.hero{background-image:linear-gradient(90deg,#15271de6,#15271da9),url('morrow-climate-art.svg')}
-body.morrow-refreshed[data-morrow-theme="relation"] main .reading-hero,body.morrow-refreshed[data-morrow-theme="relation"] main>.hero{background-image:linear-gradient(90deg,#122018ec,#122018a6),url('art-negro.jpg')}
+body.morrow-refreshed[data-morrow-theme="relation"] main .reading-hero,body.morrow-refreshed[data-morrow-theme="relation"] main>.hero{background-image:linear-gradient(90deg,#122018ec,#122018a6),url('art-negro.svg')}
 body.morrow-refreshed .reading-hero h1,body.morrow-refreshed .reading-hero h2,body.morrow-refreshed main>.hero h1{color:#f5efe3}
 body.morrow-refreshed .reading-hero p,body.morrow-refreshed main>.hero p{color:#e1e6d8}
 body.morrow-refreshed .reading-hero .label,body.morrow-refreshed main>.hero .eyebrow{color:#d5ae74}
