@@ -90,6 +90,11 @@ def solve(challenge_text):
     add=any(phrase in normalized for phrase in ("speeds up","speed up","increases","increase",
         "gains","more than","together","total","combined","sum of","adds","plus",
         "both claws","other claw"))
+    # Phrases such as "total force" specify the requested result of a
+    # per-pinch multiplication; do not treat that alone as a second operation.
+    if multiply and add and not any(phrase in normalized for phrase in
+        ("other claw","both claws","plus","together","combined","sum of","adds")):
+        add=False
     flags=sum([subtract,multiply,add])
     # Accept explicit maths operators only if the text contains exactly two numbers
     # and an unambiguous operation, never based on noise punctuation alone.
