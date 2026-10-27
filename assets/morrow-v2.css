@@ -27,11 +27,11 @@ body.m2 .hero{position:relative;overflow:hidden;background:var(--deep);color:var
 body.m2 .hero-content{padding:clamp(65px,8vw,125px) var(--edge);position:relative;z-index:2}
 body.m2 .hero.art-hero .hero-content{background:linear-gradient(90deg,#111b16 65%,rgba(17,27,22,.86) 90%,rgba(17,27,22,.12))}
 body.m2 .hero-image{min-height:360px;background-image:url('art-brand.webp');background-size:cover;background-position:center}
-body.m2 .hero-image.archive{background-image:url('art-scholar.webp')}
+body.m2 .hero-image.archive{background-image:url('morrow-archive-art.webp')}
 body.m2 .hero-image.circuit{background-image:url('art-system.webp')}
 body.m2 .hero-image.ecology{background-image:url('morrow-climate-art.webp')}
-body.m2 .hero-image.witness{background-image:url('art-negro.webp')}
-body.m2 .hero-image.repair{background-image:url('art-system.webp')}
+body.m2 .hero-image.witness{background-image:url('morrow-witness-art.webp')}
+body.m2 .hero-image.repair{background-image:url('morrow-repair-art.webp')}
 body.m2 .hero p.intro{font-size:clamp(1.12rem,1.8vw,1.5rem);line-height:1.55;color:#e2e1d4;max-width:55ch}
 body.m2 .hero .eyebrow{color:#cfa46d}
 body.m2 .links{display:flex;gap:12px;flex-wrap:wrap;margin:26px 0 0}
@@ -88,9 +88,9 @@ body.m2 .breadcrumb a{text-decoration:none}
 body.m2 .two-up{display:grid;grid-template-columns:1fr 1fr;gap:0}
 body.m2 .art-panel{position:relative;min-height:370px;background:#15221a url('morrow-archive-art.webp') center/cover}
 body.m2 .art-panel.ecology{background-image:url('morrow-climate-art.webp')}
-body.m2 .art-panel.witness{background-image:url('art-negro.webp')}
+body.m2 .art-panel.witness{background-image:url('morrow-witness-art.webp')}
 body.m2 .art-panel.circuit{background-image:url('art-system.webp')}
-body.m2 .art-panel.repair{background-image:url('art-system.webp')}
+body.m2 .art-panel.repair{background-image:url('morrow-repair-art.webp')}
 body.m2 .textbox{padding:clamp(40px,5vw,100px) var(--edge)}
 body.m2 .pill{display:inline-block;border:1px solid var(--line);padding:5px 10px;margin:4px 5px 4px 0}
 body.m2 .sitefooter{background:#0c1510;color:#dddace;padding:65px var(--edge) 40px}
@@ -111,10 +111,10 @@ body.m2 .notice{font:.83rem/1.7 'DM Sans',sans-serif;color:var(--muted)}
 body.m2 .hero-art-card{height:260px;background-position:center;background-size:cover;margin:-35px -35px 24px}
 body.m2 .card .hero-art-card{margin:0 0 25px}
 body.m2 .hero-art-card.route{background-image:url('art-system.webp')}
-body.m2 .hero-art-card.archive{background-image:url('art-scholar.webp')}
+body.m2 .hero-art-card.archive{background-image:url('morrow-archive-art.webp')}
 body.m2 .hero-art-card.climate{background-image:url('morrow-climate-art.webp')}
-body.m2 .hero-art-card.testimony{background-image:url('art-negro.webp')}
-body.m2 .hero-art-card.repair{background-image:url('art-system.webp')}
+body.m2 .hero-art-card.testimony{background-image:url('morrow-witness-art.webp')}
+body.m2 .hero-art-card.repair{background-image:url('morrow-repair-art.webp')}
 @media(max-width:1050px){body.m2 .topbar{flex-wrap:wrap}body.m2 .nav{flex-basis:100%;justify-content:space-between}body.m2 .hero{grid-template-columns:1.25fr .75fr}body.m2 .cards{grid-template-columns:repeat(2,minmax(0,1fr))}body.m2 .fourths{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:740px){body.m2{font-size:16px}body.m2 .topbar{flex-wrap:nowrap;justify-content:space-between}body.m2 .menu-toggle{display:block}body.m2 .nav{display:none;position:absolute;top:70px;left:0;right:0;background:var(--paper);padding:15px var(--edge) 24px;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start;gap:2px}body.m2 .nav.open{display:flex}body.m2 .nav a{width:100%;border-bottom:1px solid #c0c5b8;padding:10px 0}body.m2 .hero{display:flex;flex-direction:column}body.m2 .hero-content{padding-block:58px}body.m2 .hero-image{height:250px;min-height:250px}body.m2 .cols,body.m2 .cards,body.m2 .thirds,body.m2 .fourths,body.m2 .two-up,body.m2 .footergrid{grid-template-columns:1fr}body.m2 .rail{grid-template-columns:1fr;gap:.2rem}body.m2 .datagrid{grid-template-columns:repeat(2,1fr)}body.m2 .section{padding-block:55px}body.m2 h1{font-size:clamp(3.5rem,14vw,5rem)}body.m2 .visual{min-height:0}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
