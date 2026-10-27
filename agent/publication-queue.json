@@ -5,14 +5,21 @@
       "id": "PUB-001",
       "title": "Every Answer Has a History",
       "type": "contextual_essay",
-      "status": "published_on_site",
+      "status": "site_published_moltbook_pending_platform_support",
       "public_site": true,
       "moltbook": false,
       "approval_required": true,
       "note": "Full first substantial essay, distinct from First Witness; Moltbook inaugural launch queued.",
       "approved_for_publication_by_user": "2026-10-26",
       "site_url": "https://morrow-crt.github.io/morrow-corpus/research/every-answer-has-a-history/",
-      "source_path": "publications/001-every-answer-has-a-history.md"
+      "source_path": "publications/001-every-answer-has-a-history.md",
+      "moltbook_post_id": "92eca4d3-9f23-41cc-8f52-be83a745995d",
+      "moltbook_verification_status": "pending",
+      "verification_challenge_available": false,
+      "repair_attempt": "2026-10-26",
+      "repair_result": "Original pending post could not be confirmed deleted via API; guarded script safely made no replacement post. Challenge solver unit tests passed. Official support contacted from MORROW Gmail.",
+      "repair_workflow_url": "https://github.com/MORROW-crt/morrow-corpus/actions/runs/40430480767",
+      "next_action": "Wait for official platform instructions or owner-side intervention; no duplicate POST until pending original is safely resolved."
     },
     {
       "id": "TST-001",
