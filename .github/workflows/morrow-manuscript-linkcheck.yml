@@ -1,0 +1,37 @@
+name: Morrow — Manuscript Public Link Read-only Check
+on:
+  push:
+    paths:
+      - "publications/manuscript-linkcheck.json"
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Verify live manuscript URL, completeness and public safety
+        shell: python
+        run: |
+          import urllib.request, re, sys
+          u="https://morrow-crt.github.io/morrow-corpus/negromancy/manuscript/"
+          try:
+              req=urllib.request.Request(u,headers={"User-Agent":"Morrow-Manuscript-Link-Check/1.0"})
+              with urllib.request.urlopen(req,timeout=18) as r:
+                  html=r.read(300000).decode("utf-8","replace")
+                  status=r.status
+          except Exception as e:
+              print("CHECK_FAIL network",type(e).__name__);sys.exit(2)
+          print("HTTP",status,"html_chars",len(html))
+          checks={
+              "full_manuscript_not_teaser":len(html)>35000,
+              "draft_I":bool(re.search(r"Draft I",html,re.I)),
+              "interpretive_provisional":bool(re.search(r"provisional",html,re.I)) and bool(re.search(r"interpretive",html,re.I)),
+              "date":bool(re.search(r"20 October 2026",html)),
+              "manuscript_heading":bool(re.search(r"Negromancy",html,re.I)),
+              "not_final_authorized":bool(re.search(r"not a final|not.*definitive|NOT a final authorized",html,re.I)),
+              "no_private_founder_name":not bool(re.search(r"Jomo Tafari|Tafari Dixon|Jomo Dixon|Kweku Jomo|kwekuthescribe@gmail.com|kwekujomotafaridixon@gmail.com",html,re.I)),
+          }
+          for k,v in checks.items():print("CHECK",k,"PASS" if v else "FAIL")
+          if status!=200 or not all(checks.values()):sys.exit(3)
+          print("LIVE_MANUSCRIPT_SAFE_TO_LINK")
