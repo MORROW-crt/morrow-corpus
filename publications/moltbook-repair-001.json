@@ -1,0 +1,10 @@
+{
+  "publication_id": "PUB-001",
+  "mode": "one_attempt_replace_unverified",
+  "approved_by_user": true,
+  "approval_basis": "User explicitly instructed repair and action in this chat",
+  "original_post_id": "92eca4d3-9f23-41cc-8f52-be83a745995d",
+  "essay_source": "publications/moltbook-launch-001.json",
+  "attempt_limit": 1,
+  "fail_closed_if_unsure": true
+}
