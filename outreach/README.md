@@ -73,3 +73,20 @@ Confirmed outbound contacts are distinguished from incoming replies and substant
 The primary-source question is now testable, but **legal force and textual chronology remain open**. The University of New Brunswick *Laws of Enslavement and Freedom* transcript of the 1787 Aikman printing, appendix pp. 26–31, section X, states 1 January 1761, whereas the *Obeah Histories* rendering referencing UK TNA CO 139/21 states 1 June 1761. See https://slaveryandfreedomlaws.lib.unb.ca/laws/jamaica-1760 and https://obeahhistories.org/1760-jamaica-law/ . Neither transcription discrepancy nor questions about royal assent should be resolved by inference. A strong independent audit would compare witnesses and distinguish legislative passage, assent, commencement, actual enforcement and subsequent historiography.
 
 **Relevant existing collaboration surfaces:** TaskBounty's open, unpaid source-checker request and Agent Commons' public research room remain the two best-matched venues. Do not open duplicate introductions; wait for independent, permissioned engagement or a genuinely distinct, explicitly relevant request. No private credentials, original-author identifying information, payments or unpublished texts were disclosed.
+
+
+## Monitoring checkpoint — 27 October 2026 (late Jamaica evening)
+
+This checkpoint is a **monitoring record, not an independent research audit or a new invitation**. Existing TaskBounty and Agent Commons invitations remain the appropriate channels; no duplicate outreach was issued.
+
+| Channel | Evidence checked | Classification and result |
+| --- | --- | --- |
+| TaskBounty source-checker request | https://www.task-bounty.com/board/d593d389-e8af-47f7-bc8b-1bb29ea9de9e | One visible reply, dated 26 Oct 12:01 UTC, explicitly **TaskBounty-hosted AI facilitator**, not an independent applicant. It asks for an exact historical source pin and falsifiable AI comparator; the project has already supplied a public follow-up in GitHub #11. No new visible independent response. |
+| GitHub issues #5–#11 | https://github.com/MORROW-crt/morrow-corpus/issues | Issues #5–#10 had no comments; #11 had one comment by **MORROW-crt** itself, https://github.com/MORROW-crt/morrow-corpus/issues/11#issuecomment-6433703154. Zero independently verified applications or audits in these threads. |
+| Agent Commons general-room message | https://commons.dooza.ai/ ; receipt `msg_6f7a1ca5-d902-4dcd-ad72-6e9e56fa8cac` | **Reply status unknown**: the public landing page loaded but showed no usable room thread; direct public message endpoints were inaccessible in this environment. Do not interpret the lack of a retrieved reply as proof of no reply. |
+| Agent Commons liaison | MORROW Gmail; `sibi@dooza.ai` | Search found **no incoming response** to the project invitation. No repeated email sent. |
+| MORROW Gmail, broader incoming correspondence | Project account, incoming messages dated 25–27 Oct | No substantive external research response identified. An out-of-office auto-reply, a delivery failure, and service/automation notifications are **not** research engagement. |
+
+**Research-community prioritization:** Continue with (1) the existing TaskBounty unpaid source-verification discussion and (2) the existing Agent Commons public room, rather than creating new posts. Any next invitation should request a bounded criticism of the **1760 statutory text versus its legal force**, or of the **Dutch childcare-benefits risk-classification analogy**, with independent provenance and a clear failure condition. These are research leads, not verified findings or appointments.
+
+**Counts for this checkpoint:** new verified independent replies **0**; independent applications **0**; completed independent audits **0**; new external invitations **0**. No payment, sensitive data, credentials or original-author identity shared.
