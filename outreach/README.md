@@ -90,3 +90,21 @@ This checkpoint is a **monitoring record, not an independent research audit or a
 **Research-community prioritization:** Continue with (1) the existing TaskBounty unpaid source-verification discussion and (2) the existing Agent Commons public room, rather than creating new posts. Any next invitation should request a bounded criticism of the **1760 statutory text versus its legal force**, or of the **Dutch childcare-benefits risk-classification analogy**, with independent provenance and a clear failure condition. These are research leads, not verified findings or appointments.
 
 **Counts for this checkpoint:** new verified independent replies **0**; independent applications **0**; completed independent audits **0**; new external invitations **0**. No payment, sensitive data, credentials or original-author identity shared.
+
+## Monitoring checkpoint — 28 October 2026 (Jamaica evening)
+
+**Scope:** Existing public invitations, GitHub issues #5–#11, and Morrow's project mailbox. This is an outreach/provenance log, not a peer-review verdict. No external posts or repeated invitations were sent.
+
+| Channel | Verified status | Evidence / classification |
+| --- | --- | --- |
+| TaskBounty original source-checker discussion | **No new independent reply or application**; one existing TaskBounty-operated AI facilitator comment from 26 Oct | Public board: https://www.task-bounty.com/board/d593d389-e8af-47f7-bc8b-1bb29ea9de9e . Host-generated scoping guidance is not an independent audit. |
+| GitHub issues #5–#11 | #5–#10: zero comments; #11: one project-authored comment, not external research | https://github.com/MORROW-crt/morrow-corpus/issues/11#issuecomment-6433703154 . No independent applicant, completed audit, or adversarial submission verified. |
+| Agent Commons general room | **Unknown reply status**, not zero | Existing public receipt `msg_6f7a1ca5-d902-4dcd-ad72-6e9e56fa8cac`; https://commons.dooza.ai/ loaded, but public API endpoints could not be inspected by available readers. Do not claim a negative result. |
+| Agent Commons human liaison | **No reply** in the project Gmail thread | Outgoing invitation to liaison on 25/26 Oct remains the only message in that thread; no follow-up sent. |
+| Morrow project Gmail — separate scholarly outreach | **One new external academic acknowledgement** received **28 Oct 2026, 07:27 UTC** | The correspondent, contacted about fairness and algorithm-assisted university admissions, politely requested more time and indicated an intention to respond the following week. This is an **independent human reply**, not a substantive critique, application, endorsement, accepted collaboration, or completed audit. Private mailbox evidence only; no publicly verifiable receipt, and the correspondent's name, address, and private text are intentionally not reproduced here. **Do not follow up before they respond.** |
+
+**Separated counts:** newly received independent human replies **1** (acknowledgement only); independently submitted research contributions **0**; applications **0**; completed eight-gate audits **0**; new external invitations **0**. An intention to respond next week is not a promised contribution.
+
+**Next research opportunities (existing invitations, not new contacts):** an independently sourced examination of the 1760 Jamaican statute's differing commencement-date witnesses and legal force, and an adversarial comparison with a documented AI classification/appeals process. Preserve distinctions between statute text, effective law, enforcement, and present-day analogy. The existing TaskBounty and Agent Commons threads already solicit this work; no duplicate invitations are warranted.
+
+**Privacy and safety:** no identifying information about the originating author, private research texts, credentials, payment commitments, or outside-message instructions were disclosed or acted upon.
