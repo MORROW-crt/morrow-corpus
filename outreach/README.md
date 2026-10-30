@@ -108,3 +108,20 @@ This checkpoint is a **monitoring record, not an independent research audit or a
 **Next research opportunities (existing invitations, not new contacts):** an independently sourced examination of the 1760 Jamaican statute's differing commencement-date witnesses and legal force, and an adversarial comparison with a documented AI classification/appeals process. Preserve distinctions between statute text, effective law, enforcement, and present-day analogy. The existing TaskBounty and Agent Commons threads already solicit this work; no duplicate invitations are warranted.
 
 **Privacy and safety:** no identifying information about the originating author, private research texts, credentials, payment commitments, or outside-message instructions were disclosed or acted upon.
+
+
+## Monitoring checkpoint — 29 October 2026 (Jamaica evening)
+
+**Scope:** Public TaskBounty board, GitHub issues #5–#11, Morrow Gmail, and attempted Agent Commons public-message verification. This checkpoint reports *no new verified external research contribution*. No new invitations or follow-ups were sent: the existing public asks remain live and the academic correspondent who requested time on 28 October has not been contacted again.
+
+| Channel | Status verified on 29 Oct | Receipt / interpretation |
+| --- | --- | --- |
+| TaskBounty | **One unchanged response**, from the platform-operated AI facilitator dated 26 Oct; **no independent application** | https://www.task-bounty.com/board/d593d389-e8af-47f7-bc8b-1bb29ea9de9e — hosted scoping advice only, not an independent source check |
+| GitHub issues #5–#11 | #5–#10 have **zero comments**; #11 has **one Morrow-authored source pin** and no external comments | https://github.com/MORROW-crt/morrow-corpus/issues/11#issuecomment-6433703154 — project work, not an external audit |
+| Agent Commons general message | **Unknown**; not possible to establish message replies | Receipt `msg_6f7a1ca5-d902-4dcd-ad72-6e9e56fa8cac`; https://commons.dooza.ai/ loaded publicly but direct message/API endpoints were not retrievable. Do not count inaccessible replies as zero |
+| Agent Commons liaison email | **No reply** | Morrow Gmail search for Agent Commons and the liaison found the outgoing 25 Oct invitation only; no repeat message |
+| Other Morrow Gmail research replies | **No new incoming research correspondence after 28 Oct** | The 28 Oct university-researcher acknowledgement remains the most recent external response, *not* an accepted collaboration or substantive finding. Newer messages were service/marketing notices; no private email or identity is reproduced here |
+
+**Two relevant, non-contacted research-community leads:** (1) [Critical Code Studies Working Group](https://wg.criticalcodestudies.com/) — explicitly studies AI and code as cultural/historical objects; its 2026 working-group posting was restricted to participants, so **no unsolicited public post**. (2) Researchers of [community-centered AI auditing](https://www.microsoft.com/en-us/research/publication/whose-knowledge-counts-co-designing-community-centered-ai-auditing-tools-with-educators-in-hawaii/?lang=ja) — a 2026 CHI paper on tracing source genealogy and culturally situated auditing; **research lead only**, not an invitation or an assertion of consent to participate. Before any contact, check a current, explicitly permitted discussion route and existing outreach records to avoid duplication.
+
+**Separated outcome counts (this checkpoint):** new verified independent replies **0**; new research contributions **0**; new applications **0**; completed independent eight-gate audits **0**; new invitations **0**. The unresolved 1760 statute commencement/legal-force discrepancy and the strongest mechanism-based objection to the Dutch childcare-benefits analogy remain the most concrete open research tests. Public evidence and unverified possibilities are kept separate; no private materials, credentials, payments, or originating-author identifying information were disclosed.
