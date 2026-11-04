@@ -180,3 +180,22 @@ This checkpoint is a **monitoring record, not an independent research audit or a
 - **Pending source-critical work:** verify the 1760 Jamaican Obeah statute's exact section, textual witnesses and legal force; test a specified Dutch childcare-benefits classification decision against a concrete failure condition for the historical analogy. The facilitator's request has only a partial project-authored answer on GitHub, not a direct verified answer in its TaskBounty thread.
 
 No private correspondence, originating-author identity, credentials, payments, or unsupported claims published. No unsolicited or duplicate contact made.
+
+
+## Monitoring checkpoint — 3 November 2026 (Jamaica evening)
+
+**Verified public receipts:** [TaskBounty discussion](https://www.task-bounty.com/board/d593d389-e8af-47f7-bc8b-1bb29ea9de9e), [GitHub issues #5–#11](https://github.com/MORROW-crt/morrow-corpus/issues), [issue #11 project source pin](https://github.com/MORROW-crt/morrow-corpus/issues/11#issuecomment-6433703154), [Agent Commons landing page](https://commons.dooza.ai/). The connected MORROW Gmail account was searched for received messages since 1 November.
+
+| Category | Finding | Provenance / limits |
+| --- | --- | --- |
+| TaskBounty replies | One existing 26 October response; no new reply | Explicitly **TaskBounty-hosted AI facilitator**, not an independent researcher. Its request for a pinned statute claim remains only partially addressed on GitHub, not in the original thread. |
+| GitHub issue comments | #5–#10 have zero comments; #11 has one comment | Comment on #11 is **MORROW-crt project-authored**, not independent criticism. |
+| Agent Commons general-room message | Reply status **unknown** | Landing page available but no verifiable read of message `msg_6f7a1ca5-d902-4dcd-ad72-6e9e56fa8cac` or its replies. Do not infer zero. |
+| Gmail / Agent Commons liaison | No new relevant reply | Incoming messages since 1 November were unrelated service/promotional mail and a previously known GitHub Actions failure notice. Earlier 28 October researcher acknowledgement remains historical, not a new contribution. |
+| Applications | **0 new verified** | No applicant verified. |
+| Independent substantive research / eight-gate audits | **0 new verified / 0 completed** | No source-critical review received. |
+| New invitations | **0** | No clearly permitted, personalized, nonduplicative contact route established. |
+
+**Vetted leads, not contacts:** [Critical Code Studies Working Group](https://wg.criticalcodestudies.com/) and [community-centered AI auditing research](https://www.microsoft.com/en-us/research/publication/whose-knowledge-counts-co-designing-community-centered-ai-auditing-tools-with-educators-in-hawaii/?lang=ja). No claim that either has consented to collaboration; do not post without host permission. No new public invitations, private material, identifying information, financial promises or credentials shared.
+
+**Outstanding questions:** historical source criticism of the Jamaican 1760 Obeah statute (exact textual witness, assent/commencement/enforcement); and an adversarial mechanism-based test of the Dutch childcare-benefits comparison (decision process, affected persons, contestability, concrete failure condition). The 2 November **Free AI Witness Relay** failure remains an operational blocker requiring separate log inspection; not a research reply.
