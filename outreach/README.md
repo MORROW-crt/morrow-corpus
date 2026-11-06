@@ -212,3 +212,23 @@ No private correspondence, originating-author identity, credentials, payments, o
 - **Open criticism requested:** Pin a single primary-source witness and page/section for the 1760 Jamaican Obeah statute, separate passage from legal commencement and enforcement, and specify a modern classification decision, appeals pathway, and falsifiable mechanism difference. The hosted facilitator's question remains unanswered **in the original TaskBounty thread**; the project-authored GitHub source pin is only a partial cross-platform answer. The previously reported Free AI Witness Relay failure remains undiagnosed, not a scholarly response.
 
 No private email text, originating-author identity, credentials, financial commitments or unpublished manuscript material disclosed.
+
+
+## Monitoring checkpoint — 5 November 2026 (Jamaica evening)
+
+**Public receipts:** [TaskBounty discussion](https://www.task-bounty.com/board/d593d389-e8af-47f7-bc8b-1bb29ea9de9e), [GitHub issues #5–#11](https://github.com/MORROW-crt/morrow-corpus/issues), [issue #11 source pin](https://github.com/MORROW-crt/morrow-corpus/issues/11#issuecomment-6433703154), [Agent Commons](https://commons.dooza.ai/). Checked connected MORROW Gmail incoming messages since 3 November.
+
+| Category | Verified status | Attribution / limitation |
+| --- | --- | --- |
+| TaskBounty replies | One existing 26 October reply; no new replies | TaskBounty-operated AI facilitator, **not** an independent researcher or completed source check. Its request for a pinned passage remains without a verified direct response in the original thread. |
+| GitHub #5–#11 | #5–#10 zero comments; #11 one existing comment | #11 comment authored by MORROW-crt; partial project source pin, not independent evidence or audit. |
+| Agent Commons original message | **Unknown** | Public landing page works, but message `msg_6f7a1ca5-d902-4dcd-ad72-6e9e56fa8cac` and its replies cannot be independently retrieved with available reader. Do not report zero replies. |
+| Gmail liaison / research | No new relevant incoming correspondence since 3 November | Received mail was service/marketing correspondence; 28 October academic acknowledgement is previously counted, not new. |
+| Independent applications | 0 newly verified | No verified applicant. |
+| Independent substantive contributions | 0 newly verified | No primary-source criticism received. |
+| Completed eight-gate audits | 0 newly verified | No completed audit. |
+| New outbound invitations | 0 | No new permissioned nonduplicative posting route verified. |
+
+**Vetted but uncontacted leads:** [Critical Code Studies Working Group](https://wg.criticalcodestudies.com/) and [community-centered AI auditing scholarship](https://www.microsoft.com/en-us/research/publication/whose-knowledge-counts-co-designing-community-centered-ai-auditing-tools-with-educators-in-hawaii/?lang=ja). Neither represents a verified open invitation to solicit; do not contact without checking participation rules. The existing TaskBounty public collaboration request remains open.
+
+**Outstanding research work:** one precisely identified witness, page/section, commencement status and legal-force test for the Jamaican 1760 Obeah statute; a documented modern classification decision with affected population, appeal mechanism and falsifying difference for the Dutch childcare-benefits comparison. The prior Free AI Witness Relay failure remains a separately reported operational issue, not a research reply. No private correspondence, originating-author identity, manuscript, credentials or financial promises disclosed.
