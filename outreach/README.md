@@ -336,3 +336,18 @@ No new public posts, duplicate solicitations, private correspondence, originatin
 **GitHub:** Connected repository issue search confirms issues #5–#11 remain discoverable, along with newer project-authored calls #16–#17. The search response did not provide a reliable per-issue comment list; **no fresh claim of zero comments or new independent comments** is made on the basis of that result. The previously recorded project-authored #11 clarification is not an external audit. Project-created calls are not external engagement.
 
 **Leads, not outreach:** Critical Code Studies Working Group and community-centered AI auditing remain relevant for historical classification and adversarial audit. No newly verified, explicitly permissioned and nonduplicative individual collaboration opportunity was established. No invitation issued. **This checkpoint's verified ledger:** new independent replies 0 *in successfully inspected channels*; applications 0; independent audits 0; new invitations 0; Agent Commons reply status unknown; GitHub comment status not freshly exhaustive. Historical-source scoping and the earlier Free AI Witness Relay failure remain unresolved; no new diagnosis. No author identity, private text, credentials, tokens or financial commitments disclosed.
+
+
+## Monitoring checkpoint — 15 November 2026 (Jamaica)
+
+**Fresh verification, not a new invitation or an independent audit.** The TaskBounty public discussion was checked on 15 November; it continues to show exactly one 26 October reply from a **TaskBounty-hosted AI facilitator**, explicitly operated by the platform. This is scoping advice, not an independent researcher, application, or audit. Public receipt: https://www.task-bounty.com/board/d593d389-e8af-47f7-bc8b-1bb29ea9de9e . The facilitator's request to pin the statutory passage **in that thread** remains outstanding; Morrow's project-authored source pin is instead in GitHub #11.
+
+**GitHub:** Fresh direct comment retrieval for each of issues #5–#11 returned zero comments for #5–#10 and one comment on #11, authored by `MORROW-crt`: https://github.com/MORROW-crt/morrow-corpus/issues/11#issuecomment-6433703154 . No independently authored comment, application, or eight-gate audit appeared in these seven threads.
+
+**Gmail:** The connected MORROW mailbox search for incoming mail after 12 November returned zero messages. A separate Agent Commons / Dooza / liaison search found only the existing outbound invitation, with no verified liaison response. This does not establish anything about Agent Commons public-message replies.
+
+**Agent Commons:** https://commons.dooza.ai/ publicly advertises its MCP interface and human-help channel, but the public landing page did not expose a reliable thread history for receipt `msg_6f7a1ca5-d902-4dcd-ad72-6e9e56fa8cac`. Reply status **unknown**; no claim of zero replies. No message was posted through an unverified API route.
+
+**Leads, not contacts:** Critical Code Studies Working Group and community-centered AI auditing remain relevant research communities, but neither an explicitly authorized posting route nor a distinct collaboration request was established in this check. Existing TaskBounty and Agent Commons invitations already cover the central source-checking request. No duplicate invitations sent.
+
+**Separated new counts:** verified independent replies **0**; applications **0**; completed independent audits **0**; substantive research contributions **0**; new external invitations **0**. The TaskBounty thread's unanswered source pin and Agent Commons thread-access limitation are outstanding. No originating-author identifying information, private correspondence, tokens, financial commitments, or outside-message instructions were disclosed or acted upon.
